@@ -124,7 +124,8 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
     train_data = TokenWindowDataset(cache_dir, "development", additional_columns=extra)
     validation_data = TokenWindowDataset(cache_dir, "validation", additional_columns=extra)
     _subset_development(train_data, float(config.get("data_fraction", 1.0)), seed)
-    if config["experiment_type"] == "baseline_correction":
+    student_variant = config.get("student_variant", config["experiment_type"])
+    if student_variant == "baseline_correction":
         baseline_model = _path(paths["baseline_model"])
         _apply_baseline_correction(train_data, baseline_model)
         _apply_baseline_correction(validation_data, baseline_model)
@@ -166,7 +167,7 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
             with autocast_context(device, precision):
                 predictions = model(tokens)
                 per_item_huber = torch.nn.functional.huber_loss(predictions, targets, reduction="none")
-                if config["experiment_type"] == "tail_aware":
+                if student_variant == "tail_aware":
                     threshold = torch.quantile(targets.detach(), float(config["training"].get("tail_quantile", 0.9)))
                     weights = torch.where(targets >= threshold, float(config["training"].get("tail_weight", 2.0)), 1.0)
                     huber = (per_item_huber * weights).mean()

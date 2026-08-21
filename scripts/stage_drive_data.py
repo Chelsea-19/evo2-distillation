@@ -12,7 +12,7 @@ from evo2_distill.utils.io import atomic_copy
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--drive-root", type=Path, required=True)
-    parser.add_argument("--local-root", type=Path, default=Path("/content/evo2_dissertation_data"))
+    parser.add_argument("--local-root", type=Path, default=Path("/content/evo2-distillation-data"))
     parser.add_argument("--include-fasta", action="store_true", help="Required only when a valid complete token cache is absent")
     args = parser.parse_args()
     started = time.perf_counter()

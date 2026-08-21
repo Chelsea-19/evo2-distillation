@@ -5,7 +5,7 @@ notebooks. Google Drive contains the 296 FASTAs, frozen target and canonical
 feature Parquets, split/runtime manifests, frozen baseline artifact, selected
 legacy checkpoints, token-cache destination, and persistent run outputs.
 
-Colab stages required files from Drive into `/content/evo2_dissertation_data/`.
+Colab stages required files from Drive into `/content/evo2-distillation-data/`.
 The complete cache consists of:
 
 ```text

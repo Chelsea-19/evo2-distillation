@@ -40,7 +40,7 @@ def main() -> None:
         if args.resume:
             raise SystemExit("Resume one ensemble member with scripts/resume_experiment.py and its seeded run config")
         outputs = []
-        temporary_root = Path(os.environ.get("EVO2_LOCAL_RUN_ROOT", "/content/evo2_runs"))
+        temporary_root = Path(os.environ.get("EVO2_LOCAL_RUN_ROOT", "/content/evo2-distillation-runs"))
         temporary_root.mkdir(parents=True, exist_ok=True)
         for seed in seeds:
             member = copy.deepcopy(config)

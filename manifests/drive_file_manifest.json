@@ -1,21 +1,21 @@
 {
-  "manifest_version": "colab_migration_v1",
-  "generated_utc": "2026-08-20T10:55:06.643Z",
-  "drive_root_name": "evo2_dissertation",
+  "manifest_version": "colab_migration_v2",
+  "generated_utc": "2026-08-21T09:14:02.8649472Z",
+  "drive_root_name": "evo2-distillation",
   "file_count": 321,
-  "total_bytes": 1298190274,
+  "total_bytes": 1298190264,
   "files": [
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/caches/tokens/BUILD_REQUIRED.json",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/caches/tokens/BUILD_REQUIRED.json",
       "drive_relative_path": "caches/tokens/BUILD_REQUIRED.json",
       "category": "token_cache",
-      "size_bytes": 581,
-      "sha256": "ad1a1eaa00475e6bfe6f57f6d73028fc2e9ff67d4b38548f91c8ba5f6c72d3ba",
+      "size_bytes": 546,
+      "sha256": "d83d98f8e5bcbd9004e7dad8e6aa1002769d24545025351765eb38d1d2e3d162",
       "required_for_phase4_5": true,
-      "notes": "Complete cache is deterministically buildable; BUILD_REQUIRED marker is transferred until built."
+      "notes": "Complete cache is deterministically buildable from frozen inputs; marker is replaced after the first verified build."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/checkpoints/phase4_5/README.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/checkpoints/phase4_5/README.md",
       "drive_relative_path": "checkpoints/phase4_5/README.md",
       "category": "persistent_output_scaffold",
       "size_bytes": 68,
@@ -24,7 +24,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/environments/SOURCE_ENVIRONMENT.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/environments/SOURCE_ENVIRONMENT.md",
       "drive_relative_path": "environments/SOURCE_ENVIRONMENT.md",
       "category": "persistent_output_scaffold",
       "size_bytes": 300,
@@ -33,7 +33,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_014880215.2/GCA_014880215.2_ASM1488021v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_014880215.2/GCA_014880215.2_ASM1488021v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_014880215.2/GCA_014880215.2_ASM1488021v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4072214,
@@ -42,7 +42,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_014881055.2/GCA_014881055.2_ASM1488105v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_014881055.2/GCA_014881055.2_ASM1488105v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_014881055.2/GCA_014881055.2_ASM1488105v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4074366,
@@ -51,7 +51,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_014882805.2/GCA_014882805.2_ASM1488280v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_014882805.2/GCA_014882805.2_ASM1488280v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_014882805.2/GCA_014882805.2_ASM1488280v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4085219,
@@ -60,7 +60,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_021387855.2/GCA_021387855.2_ASM2138785v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_021387855.2/GCA_021387855.2_ASM2138785v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_021387855.2/GCA_021387855.2_ASM2138785v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4059790,
@@ -69,7 +69,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_022107375.2/GCA_022107375.2_ASM2210737v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_022107375.2/GCA_022107375.2_ASM2210737v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_022107375.2/GCA_022107375.2_ASM2210737v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4047292,
@@ -78,7 +78,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_023273785.1/GCA_023273785.1_ASM2327378v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_023273785.1/GCA_023273785.1_ASM2327378v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_023273785.1/GCA_023273785.1_ASM2327378v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3956740,
@@ -87,7 +87,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_023615745.2/GCA_023615745.2_ASM2361574v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_023615745.2/GCA_023615745.2_ASM2361574v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_023615745.2/GCA_023615745.2_ASM2361574v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4098948,
@@ -96,7 +96,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_024106315.2/GCA_024106315.2_ASM2410631v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_024106315.2/GCA_024106315.2_ASM2410631v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_024106315.2/GCA_024106315.2_ASM2410631v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4075475,
@@ -105,7 +105,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_028634015.3/GCA_028634015.3_ASM2863401v3_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_028634015.3/GCA_028634015.3_ASM2863401v3_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_028634015.3/GCA_028634015.3_ASM2863401v3_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4099241,
@@ -114,7 +114,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_034331205.2/GCA_034331205.2_ASM3433120v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_034331205.2/GCA_034331205.2_ASM3433120v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_034331205.2/GCA_034331205.2_ASM3433120v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4292094,
@@ -123,7 +123,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_036718155.2/GCA_036718155.2_ASM3671815v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_036718155.2/GCA_036718155.2_ASM3671815v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_036718155.2/GCA_036718155.2_ASM3671815v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4084137,
@@ -132,7 +132,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_038069235.2/GCA_038069235.2_ASM3806923v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_038069235.2/GCA_038069235.2_ASM3806923v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_038069235.2/GCA_038069235.2_ASM3806923v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4077602,
@@ -141,7 +141,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_038627255.2/GCA_038627255.2_ASM3862725v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_038627255.2/GCA_038627255.2_ASM3862725v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_038627255.2/GCA_038627255.2_ASM3862725v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4042272,
@@ -150,7 +150,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_038627335.2/GCA_038627335.2_ASM3862733v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_038627335.2/GCA_038627335.2_ASM3862733v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_038627335.2/GCA_038627335.2_ASM3862733v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4315083,
@@ -159,7 +159,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_040273435.2/GCA_040273435.2_ASM4027343v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_040273435.2/GCA_040273435.2_ASM4027343v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_040273435.2/GCA_040273435.2_ASM4027343v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4078273,
@@ -168,7 +168,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_040801815.1/GCA_040801815.1_ASM4080181v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_040801815.1/GCA_040801815.1_ASM4080181v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_040801815.1/GCA_040801815.1_ASM4080181v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3932825,
@@ -177,7 +177,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_041292065.2/GCA_041292065.2_2024CK-01224_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_041292065.2/GCA_041292065.2_2024CK-01224_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_041292065.2/GCA_041292065.2_2024CK-01224_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4077459,
@@ -186,7 +186,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_042165515.2/GCA_042165515.2_2024CK-01391_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_042165515.2/GCA_042165515.2_2024CK-01391_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_042165515.2/GCA_042165515.2_2024CK-01391_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4008661,
@@ -195,7 +195,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_042209675.2/GCA_042209675.2_ASM4220967v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_042209675.2/GCA_042209675.2_ASM4220967v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_042209675.2/GCA_042209675.2_ASM4220967v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4041150,
@@ -204,7 +204,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_043647235.2/GCA_043647235.2_ASM4364723v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_043647235.2/GCA_043647235.2_ASM4364723v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_043647235.2/GCA_043647235.2_ASM4364723v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3989158,
@@ -213,7 +213,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_051641645.2/GCA_051641645.2_ASM5164164v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_051641645.2/GCA_051641645.2_ASM5164164v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_051641645.2/GCA_051641645.2_ASM5164164v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4074160,
@@ -222,7 +222,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052390855.1/GCA_052390855.1_ASM5239085v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052390855.1/GCA_052390855.1_ASM5239085v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052390855.1/GCA_052390855.1_ASM5239085v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3969826,
@@ -231,7 +231,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052390975.1/GCA_052390975.1_ASM5239097v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052390975.1/GCA_052390975.1_ASM5239097v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052390975.1/GCA_052390975.1_ASM5239097v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4001786,
@@ -240,7 +240,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052391035.1/GCA_052391035.1_ASM5239103v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052391035.1/GCA_052391035.1_ASM5239103v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052391035.1/GCA_052391035.1_ASM5239103v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4302134,
@@ -249,7 +249,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052391215.1/GCA_052391215.1_ASM5239121v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052391215.1/GCA_052391215.1_ASM5239121v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052391215.1/GCA_052391215.1_ASM5239121v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3909957,
@@ -258,7 +258,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052393145.1/GCA_052393145.1_ASM5239314v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052393145.1/GCA_052393145.1_ASM5239314v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052393145.1/GCA_052393145.1_ASM5239314v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3861046,
@@ -267,7 +267,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052393535.1/GCA_052393535.1_ASM5239353v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052393535.1/GCA_052393535.1_ASM5239353v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052393535.1/GCA_052393535.1_ASM5239353v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3904933,
@@ -276,7 +276,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395045.1/GCA_052395045.1_ASM5239504v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052395045.1/GCA_052395045.1_ASM5239504v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052395045.1/GCA_052395045.1_ASM5239504v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4115744,
@@ -285,7 +285,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395065.1/GCA_052395065.1_ASM5239506v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052395065.1/GCA_052395065.1_ASM5239506v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052395065.1/GCA_052395065.1_ASM5239506v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4005824,
@@ -294,7 +294,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395305.1/GCA_052395305.1_ASM5239530v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052395305.1/GCA_052395305.1_ASM5239530v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052395305.1/GCA_052395305.1_ASM5239530v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4343173,
@@ -303,7 +303,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395415.1/GCA_052395415.1_ASM5239541v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052395415.1/GCA_052395415.1_ASM5239541v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052395415.1/GCA_052395415.1_ASM5239541v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4050655,
@@ -312,7 +312,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395845.1/GCA_052395845.1_ASM5239584v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052395845.1/GCA_052395845.1_ASM5239584v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052395845.1/GCA_052395845.1_ASM5239584v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3996956,
@@ -321,7 +321,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396005.1/GCA_052396005.1_ASM5239600v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052396005.1/GCA_052396005.1_ASM5239600v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052396005.1/GCA_052396005.1_ASM5239600v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3909773,
@@ -330,7 +330,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396085.1/GCA_052396085.1_ASM5239608v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052396085.1/GCA_052396085.1_ASM5239608v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052396085.1/GCA_052396085.1_ASM5239608v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4042043,
@@ -339,7 +339,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396345.1/GCA_052396345.1_ASM5239634v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052396345.1/GCA_052396345.1_ASM5239634v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052396345.1/GCA_052396345.1_ASM5239634v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4121270,
@@ -348,7 +348,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396545.1/GCA_052396545.1_ASM5239654v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052396545.1/GCA_052396545.1_ASM5239654v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052396545.1/GCA_052396545.1_ASM5239654v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4033273,
@@ -357,7 +357,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396815.1/GCA_052396815.1_ASM5239681v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052396815.1/GCA_052396815.1_ASM5239681v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052396815.1/GCA_052396815.1_ASM5239681v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4264263,
@@ -366,7 +366,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396885.1/GCA_052396885.1_ASM5239688v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052396885.1/GCA_052396885.1_ASM5239688v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052396885.1/GCA_052396885.1_ASM5239688v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4105314,
@@ -375,7 +375,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052397265.1/GCA_052397265.1_ASM5239726v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052397265.1/GCA_052397265.1_ASM5239726v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052397265.1/GCA_052397265.1_ASM5239726v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4235076,
@@ -384,7 +384,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052397405.1/GCA_052397405.1_ASM5239740v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052397405.1/GCA_052397405.1_ASM5239740v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052397405.1/GCA_052397405.1_ASM5239740v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4385657,
@@ -393,7 +393,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398255.1/GCA_052398255.1_ASM5239825v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052398255.1/GCA_052398255.1_ASM5239825v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052398255.1/GCA_052398255.1_ASM5239825v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3885048,
@@ -402,7 +402,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398745.1/GCA_052398745.1_ASM5239874v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052398745.1/GCA_052398745.1_ASM5239874v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052398745.1/GCA_052398745.1_ASM5239874v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3996756,
@@ -411,7 +411,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398755.1/GCA_052398755.1_ASM5239875v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052398755.1/GCA_052398755.1_ASM5239875v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052398755.1/GCA_052398755.1_ASM5239875v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3932185,
@@ -420,7 +420,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398945.1/GCA_052398945.1_ASM5239894v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052398945.1/GCA_052398945.1_ASM5239894v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052398945.1/GCA_052398945.1_ASM5239894v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4090907,
@@ -429,7 +429,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052399425.1/GCA_052399425.1_ASM5239942v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052399425.1/GCA_052399425.1_ASM5239942v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052399425.1/GCA_052399425.1_ASM5239942v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3896161,
@@ -438,7 +438,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052399625.1/GCA_052399625.1_ASM5239962v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052399625.1/GCA_052399625.1_ASM5239962v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052399625.1/GCA_052399625.1_ASM5239962v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4129339,
@@ -447,7 +447,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052399745.1/GCA_052399745.1_ASM5239974v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052399745.1/GCA_052399745.1_ASM5239974v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052399745.1/GCA_052399745.1_ASM5239974v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4064244,
@@ -456,7 +456,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052427735.1/GCA_052427735.1_ASM5242773v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052427735.1/GCA_052427735.1_ASM5242773v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052427735.1/GCA_052427735.1_ASM5242773v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4027790,
@@ -465,7 +465,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052428965.1/GCA_052428965.1_ASM5242896v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052428965.1/GCA_052428965.1_ASM5242896v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052428965.1/GCA_052428965.1_ASM5242896v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3994806,
@@ -474,7 +474,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052429135.1/GCA_052429135.1_ASM5242913v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052429135.1/GCA_052429135.1_ASM5242913v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052429135.1/GCA_052429135.1_ASM5242913v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4005241,
@@ -483,7 +483,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052430155.1/GCA_052430155.1_ASM5243015v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052430155.1/GCA_052430155.1_ASM5243015v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052430155.1/GCA_052430155.1_ASM5243015v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4056883,
@@ -492,7 +492,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052437165.1/GCA_052437165.1_ASM5243716v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052437165.1/GCA_052437165.1_ASM5243716v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052437165.1/GCA_052437165.1_ASM5243716v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3979865,
@@ -501,7 +501,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052438345.1/GCA_052438345.1_ASM5243834v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052438345.1/GCA_052438345.1_ASM5243834v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052438345.1/GCA_052438345.1_ASM5243834v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4044022,
@@ -510,7 +510,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052439725.1/GCA_052439725.1_ASM5243972v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052439725.1/GCA_052439725.1_ASM5243972v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052439725.1/GCA_052439725.1_ASM5243972v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4040940,
@@ -519,7 +519,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052440925.1/GCA_052440925.1_ASM5244092v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052440925.1/GCA_052440925.1_ASM5244092v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052440925.1/GCA_052440925.1_ASM5244092v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3768633,
@@ -528,7 +528,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052681735.1/GCA_052681735.1_MRSN7088-complete-genome_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_052681735.1/GCA_052681735.1_MRSN7088-complete-genome_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_052681735.1/GCA_052681735.1_MRSN7088-complete-genome_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4194642,
@@ -537,7 +537,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_056504615.1/GCA_056504615.1_ASM5650461v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCA_056504615.1/GCA_056504615.1_ASM5650461v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCA_056504615.1/GCA_056504615.1_ASM5650461v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4227465,
@@ -546,7 +546,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_000069245.1/GCF_000069245.1_ASM6924v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_000069245.1/GCF_000069245.1_ASM6924v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_000069245.1/GCF_000069245.1_ASM6924v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4099711,
@@ -555,7 +555,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_000828795.1/GCF_000828795.1_ASM82879v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_000828795.1/GCF_000828795.1_ASM82879v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_000828795.1/GCF_000828795.1_ASM82879v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4072270,
@@ -564,7 +564,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001399655.1/GCF_001399655.1_ASM139965v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001399655.1/GCF_001399655.1_ASM139965v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001399655.1/GCF_001399655.1_ASM139965v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4183264,
@@ -573,7 +573,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001517645.1/GCF_001517645.1_R2091_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001517645.1/GCF_001517645.1_R2091_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001517645.1/GCF_001517645.1_R2091_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3997000,
@@ -582,7 +582,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001578145.1/GCF_001578145.1_ASM157814v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001578145.1/GCF_001578145.1_ASM157814v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001578145.1/GCF_001578145.1_ASM157814v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4224847,
@@ -591,7 +591,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001668465.2/GCF_001668465.2_ASM166846v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001668465.2/GCF_001668465.2_ASM166846v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001668465.2/GCF_001668465.2_ASM166846v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3934454,
@@ -600,7 +600,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001669145.2/GCF_001669145.2_ASM166914v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001669145.2/GCF_001669145.2_ASM166914v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001669145.2/GCF_001669145.2_ASM166914v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4159572,
@@ -609,7 +609,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001908295.1/GCF_001908295.1_ASM190829v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001908295.1/GCF_001908295.1_ASM190829v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001908295.1/GCF_001908295.1_ASM190829v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4038803,
@@ -618,7 +618,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001922245.1/GCF_001922245.1_ASM192224v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_001922245.1/GCF_001922245.1_ASM192224v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_001922245.1/GCF_001922245.1_ASM192224v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4226635,
@@ -627,7 +627,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_002082745.1/GCF_002082745.1_ASM208274v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_002082745.1/GCF_002082745.1_ASM208274v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_002082745.1/GCF_002082745.1_ASM208274v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3933049,
@@ -636,7 +636,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_002082805.1/GCF_002082805.1_ASM208280v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_002082805.1/GCF_002082805.1_ASM208280v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_002082805.1/GCF_002082805.1_ASM208280v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3919412,
@@ -645,7 +645,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_002210065.1/GCF_002210065.1_ASM221006v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_002210065.1/GCF_002210065.1_ASM221006v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_002210065.1/GCF_002210065.1_ASM221006v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4196927,
@@ -654,7 +654,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003006035.1/GCF_003006035.1_ASM300603v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003006035.1/GCF_003006035.1_ASM300603v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003006035.1/GCF_003006035.1_ASM300603v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4281417,
@@ -663,7 +663,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003029495.1/GCF_003029495.1_ASM302949v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003029495.1/GCF_003029495.1_ASM302949v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003029495.1/GCF_003029495.1_ASM302949v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4241089,
@@ -672,7 +672,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003296225.1/GCF_003296225.1_ASM329622v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003296225.1/GCF_003296225.1_ASM329622v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003296225.1/GCF_003296225.1_ASM329622v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4087639,
@@ -681,7 +681,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003522665.1/GCF_003522665.1_ASM352266v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003522665.1/GCF_003522665.1_ASM352266v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003522665.1/GCF_003522665.1_ASM352266v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4179922,
@@ -690,7 +690,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003547115.1/GCF_003547115.1_ASM354711v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003547115.1/GCF_003547115.1_ASM354711v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003547115.1/GCF_003547115.1_ASM354711v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4342954,
@@ -699,7 +699,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003931775.1/GCF_003931775.1_ASM393177v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003931775.1/GCF_003931775.1_ASM393177v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003931775.1/GCF_003931775.1_ASM393177v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3992483,
@@ -708,7 +708,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003949725.2/GCF_003949725.2_ASM394972v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_003949725.2/GCF_003949725.2_ASM394972v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_003949725.2/GCF_003949725.2_ASM394972v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4165224,
@@ -717,7 +717,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_004768705.1/GCF_004768705.1_ASM476870v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_004768705.1/GCF_004768705.1_ASM476870v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_004768705.1/GCF_004768705.1_ASM476870v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4096908,
@@ -726,7 +726,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005280435.1/GCF_005280435.1_ASM528043v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_005280435.1/GCF_005280435.1_ASM528043v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_005280435.1/GCF_005280435.1_ASM528043v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4331724,
@@ -735,7 +735,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005280695.1/GCF_005280695.1_ASM528069v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_005280695.1/GCF_005280695.1_ASM528069v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_005280695.1/GCF_005280695.1_ASM528069v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4062533,
@@ -744,7 +744,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005518095.1/GCF_005518095.1_ASM551809v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_005518095.1/GCF_005518095.1_ASM551809v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_005518095.1/GCF_005518095.1_ASM551809v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4421517,
@@ -753,7 +753,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005519135.2/GCF_005519135.2_ASM551913v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_005519135.2/GCF_005519135.2_ASM551913v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_005519135.2/GCF_005519135.2_ASM551913v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4064049,
@@ -762,7 +762,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005671375.1/GCF_005671375.1_ASM567137v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_005671375.1/GCF_005671375.1_ASM567137v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_005671375.1/GCF_005671375.1_ASM567137v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4188431,
@@ -771,7 +771,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_007107525.1/GCF_007107525.1_ASM710752v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_007107525.1/GCF_007107525.1_ASM710752v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_007107525.1/GCF_007107525.1_ASM710752v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4010595,
@@ -780,7 +780,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_007221455.1/GCF_007221455.1_ASM722145v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_007221455.1/GCF_007221455.1_ASM722145v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_007221455.1/GCF_007221455.1_ASM722145v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3945336,
@@ -789,7 +789,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_009497995.1/GCF_009497995.1_ASM949799v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_009497995.1/GCF_009497995.1_ASM949799v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_009497995.1/GCF_009497995.1_ASM949799v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4147202,
@@ -798,7 +798,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_011067065.1/GCF_011067065.1_ASM1106706v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_011067065.1/GCF_011067065.1_ASM1106706v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_011067065.1/GCF_011067065.1_ASM1106706v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3933611,
@@ -807,7 +807,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012272735.1/GCF_012272735.1_ASM1227273v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012272735.1/GCF_012272735.1_ASM1227273v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012272735.1/GCF_012272735.1_ASM1227273v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4282735,
@@ -816,7 +816,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012931625.1/GCF_012931625.1_ASM1293162v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012931625.1/GCF_012931625.1_ASM1293162v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012931625.1/GCF_012931625.1_ASM1293162v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4227484,
@@ -825,7 +825,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012934905.1/GCF_012934905.1_ASM1293490v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012934905.1/GCF_012934905.1_ASM1293490v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012934905.1/GCF_012934905.1_ASM1293490v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4489398,
@@ -834,7 +834,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012934965.1/GCF_012934965.1_ASM1293496v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012934965.1/GCF_012934965.1_ASM1293496v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012934965.1/GCF_012934965.1_ASM1293496v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4123561,
@@ -843,7 +843,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935005.1/GCF_012935005.1_ASM1293500v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012935005.1/GCF_012935005.1_ASM1293500v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012935005.1/GCF_012935005.1_ASM1293500v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4331966,
@@ -852,7 +852,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935065.1/GCF_012935065.1_ASM1293506v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012935065.1/GCF_012935065.1_ASM1293506v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012935065.1/GCF_012935065.1_ASM1293506v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4096387,
@@ -861,7 +861,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935105.1/GCF_012935105.1_ASM1293510v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012935105.1/GCF_012935105.1_ASM1293510v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012935105.1/GCF_012935105.1_ASM1293510v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4245437,
@@ -870,7 +870,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935125.1/GCF_012935125.1_ASM1293512v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012935125.1/GCF_012935125.1_ASM1293512v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012935125.1/GCF_012935125.1_ASM1293512v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4185433,
@@ -879,7 +879,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935145.1/GCF_012935145.1_ASM1293514v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012935145.1/GCF_012935145.1_ASM1293514v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012935145.1/GCF_012935145.1_ASM1293514v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4114024,
@@ -888,7 +888,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935185.1/GCF_012935185.1_ASM1293518v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012935185.1/GCF_012935185.1_ASM1293518v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012935185.1/GCF_012935185.1_ASM1293518v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4071149,
@@ -897,7 +897,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012974845.1/GCF_012974845.1_ASM1297484v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_012974845.1/GCF_012974845.1_ASM1297484v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_012974845.1/GCF_012974845.1_ASM1297484v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4131604,
@@ -906,7 +906,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_013305465.1/GCF_013305465.1_ASM1330546v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_013305465.1/GCF_013305465.1_ASM1330546v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_013305465.1/GCF_013305465.1_ASM1330546v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4133612,
@@ -915,7 +915,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_013377175.1/GCF_013377175.1_ASM1337717v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_013377175.1/GCF_013377175.1_ASM1337717v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_013377175.1/GCF_013377175.1_ASM1337717v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4214254,
@@ -924,7 +924,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_013416255.1/GCF_013416255.1_ASM1341625v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_013416255.1/GCF_013416255.1_ASM1341625v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_013416255.1/GCF_013416255.1_ASM1341625v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4021618,
@@ -933,7 +933,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_014719435.1/GCF_014719435.1_ASM1471943v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_014719435.1/GCF_014719435.1_ASM1471943v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_014719435.1/GCF_014719435.1_ASM1471943v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4554278,
@@ -942,7 +942,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_015571935.1/GCF_015571935.1_ASM1557193v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_015571935.1/GCF_015571935.1_ASM1557193v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_015571935.1/GCF_015571935.1_ASM1557193v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4003040,
@@ -951,7 +951,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_015602685.1/GCF_015602685.1_ASM1560268v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_015602685.1/GCF_015602685.1_ASM1560268v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_015602685.1/GCF_015602685.1_ASM1560268v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4077698,
@@ -960,7 +960,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_015910475.1/GCF_015910475.1_ASM1591047v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_015910475.1/GCF_015910475.1_ASM1591047v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_015910475.1/GCF_015910475.1_ASM1591047v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4083130,
@@ -969,7 +969,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016127515.1/GCF_016127515.1_ASM1612751v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016127515.1/GCF_016127515.1_ASM1612751v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016127515.1/GCF_016127515.1_ASM1612751v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4101187,
@@ -978,7 +978,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016506985.2/GCF_016506985.2_ASM1650698v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016506985.2/GCF_016506985.2_ASM1650698v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016506985.2/GCF_016506985.2_ASM1650698v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3849073,
@@ -987,7 +987,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016864915.1/GCF_016864915.1_ASM1686491v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016864915.1/GCF_016864915.1_ASM1686491v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016864915.1/GCF_016864915.1_ASM1686491v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4144307,
@@ -996,7 +996,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016865465.1/GCF_016865465.1_ASM1686546v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016865465.1/GCF_016865465.1_ASM1686546v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016865465.1/GCF_016865465.1_ASM1686546v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4062022,
@@ -1005,7 +1005,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016903135.1/GCF_016903135.1_ASM1690313v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016903135.1/GCF_016903135.1_ASM1690313v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016903135.1/GCF_016903135.1_ASM1690313v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4121278,
@@ -1014,7 +1014,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016903215.1/GCF_016903215.1_ASM1690321v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016903215.1/GCF_016903215.1_ASM1690321v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016903215.1/GCF_016903215.1_ASM1690321v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3947194,
@@ -1023,7 +1023,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016919505.2/GCF_016919505.2_ASM1691950v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_016919505.2/GCF_016919505.2_ASM1691950v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_016919505.2/GCF_016919505.2_ASM1691950v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4147272,
@@ -1032,7 +1032,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_017723975.1/GCF_017723975.1_ASM1772397v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_017723975.1/GCF_017723975.1_ASM1772397v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_017723975.1/GCF_017723975.1_ASM1772397v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4446053,
@@ -1041,7 +1041,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_017726575.1/GCF_017726575.1_ASM1772657v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_017726575.1/GCF_017726575.1_ASM1772657v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_017726575.1/GCF_017726575.1_ASM1772657v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3952176,
@@ -1050,7 +1050,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_018808925.1/GCF_018808925.1_ASM1880892v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_018808925.1/GCF_018808925.1_ASM1880892v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_018808925.1/GCF_018808925.1_ASM1880892v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4362766,
@@ -1059,7 +1059,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_018831125.1/GCF_018831125.1_ASM1883112v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_018831125.1/GCF_018831125.1_ASM1883112v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_018831125.1/GCF_018831125.1_ASM1883112v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4379247,
@@ -1068,7 +1068,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_019331655.1/GCF_019331655.1_ASM1933165v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_019331655.1/GCF_019331655.1_ASM1933165v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_019331655.1/GCF_019331655.1_ASM1933165v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3994598,
@@ -1077,7 +1077,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_019458485.1/GCF_019458485.1_ASM1945848v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_019458485.1/GCF_019458485.1_ASM1945848v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_019458485.1/GCF_019458485.1_ASM1945848v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4104784,
@@ -1086,7 +1086,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_019903195.1/GCF_019903195.1_ASM1990319v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_019903195.1/GCF_019903195.1_ASM1990319v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_019903195.1/GCF_019903195.1_ASM1990319v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3858028,
@@ -1095,7 +1095,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_020132105.1/GCF_020132105.1_ASM2013210v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_020132105.1/GCF_020132105.1_ASM2013210v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_020132105.1/GCF_020132105.1_ASM2013210v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4066959,
@@ -1104,7 +1104,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_020912005.1/GCF_020912005.1_ASM2091200v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_020912005.1/GCF_020912005.1_ASM2091200v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_020912005.1/GCF_020912005.1_ASM2091200v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4227603,
@@ -1113,7 +1113,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_021730415.1/GCF_021730415.1_ASM2173041v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_021730415.1/GCF_021730415.1_ASM2173041v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_021730415.1/GCF_021730415.1_ASM2173041v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4089627,
@@ -1122,7 +1122,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022369355.1/GCF_022369355.1_ASM2236935v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022369355.1/GCF_022369355.1_ASM2236935v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022369355.1/GCF_022369355.1_ASM2236935v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4013689,
@@ -1131,7 +1131,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022459295.1/GCF_022459295.1_ASM2245929v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022459295.1/GCF_022459295.1_ASM2245929v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022459295.1/GCF_022459295.1_ASM2245929v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4024633,
@@ -1140,7 +1140,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022459415.1/GCF_022459415.1_ASM2245941v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022459415.1/GCF_022459415.1_ASM2245941v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022459415.1/GCF_022459415.1_ASM2245941v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4157634,
@@ -1149,7 +1149,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022459875.1/GCF_022459875.1_ASM2245987v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022459875.1/GCF_022459875.1_ASM2245987v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022459875.1/GCF_022459875.1_ASM2245987v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4072272,
@@ -1158,7 +1158,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022460575.1/GCF_022460575.1_ASM2246057v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022460575.1/GCF_022460575.1_ASM2246057v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022460575.1/GCF_022460575.1_ASM2246057v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4046007,
@@ -1167,7 +1167,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022466815.1/GCF_022466815.1_ASM2246681v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022466815.1/GCF_022466815.1_ASM2246681v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022466815.1/GCF_022466815.1_ASM2246681v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4046273,
@@ -1176,7 +1176,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467435.1/GCF_022467435.1_ASM2246743v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022467435.1/GCF_022467435.1_ASM2246743v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022467435.1/GCF_022467435.1_ASM2246743v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4046486,
@@ -1185,7 +1185,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467655.1/GCF_022467655.1_ASM2246765v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022467655.1/GCF_022467655.1_ASM2246765v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022467655.1/GCF_022467655.1_ASM2246765v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3922867,
@@ -1194,7 +1194,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467735.1/GCF_022467735.1_ASM2246773v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022467735.1/GCF_022467735.1_ASM2246773v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022467735.1/GCF_022467735.1_ASM2246773v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4059079,
@@ -1203,7 +1203,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467905.1/GCF_022467905.1_ASM2246790v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022467905.1/GCF_022467905.1_ASM2246790v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022467905.1/GCF_022467905.1_ASM2246790v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3979523,
@@ -1212,7 +1212,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467975.1/GCF_022467975.1_ASM2246797v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022467975.1/GCF_022467975.1_ASM2246797v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022467975.1/GCF_022467975.1_ASM2246797v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4045414,
@@ -1221,7 +1221,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022468295.1/GCF_022468295.1_ASM2246829v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022468295.1/GCF_022468295.1_ASM2246829v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022468295.1/GCF_022468295.1_ASM2246829v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3962939,
@@ -1230,7 +1230,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022468565.1/GCF_022468565.1_ASM2246856v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022468565.1/GCF_022468565.1_ASM2246856v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022468565.1/GCF_022468565.1_ASM2246856v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3971443,
@@ -1239,7 +1239,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022468795.1/GCF_022468795.1_ASM2246879v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022468795.1/GCF_022468795.1_ASM2246879v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022468795.1/GCF_022468795.1_ASM2246879v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4012691,
@@ -1248,7 +1248,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022759565.1/GCF_022759565.1_ASM2275956v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_022759565.1/GCF_022759565.1_ASM2275956v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_022759565.1/GCF_022759565.1_ASM2275956v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4283974,
@@ -1257,7 +1257,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023221535.1/GCF_023221535.1_ASM2322153v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023221535.1/GCF_023221535.1_ASM2322153v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023221535.1/GCF_023221535.1_ASM2322153v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3927540,
@@ -1266,7 +1266,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023361015.1/GCF_023361015.1_ASM2336101v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023361015.1/GCF_023361015.1_ASM2336101v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023361015.1/GCF_023361015.1_ASM2336101v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4187975,
@@ -1275,7 +1275,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023361175.1/GCF_023361175.1_ASM2336117v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023361175.1/GCF_023361175.1_ASM2336117v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023361175.1/GCF_023361175.1_ASM2336117v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4228355,
@@ -1284,7 +1284,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023361915.1/GCF_023361915.1_ASM2336191v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023361915.1/GCF_023361915.1_ASM2336191v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023361915.1/GCF_023361915.1_ASM2336191v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4243604,
@@ -1293,7 +1293,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023362115.1/GCF_023362115.1_ASM2336211v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023362115.1/GCF_023362115.1_ASM2336211v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023362115.1/GCF_023362115.1_ASM2336211v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4138351,
@@ -1302,7 +1302,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023362215.1/GCF_023362215.1_ASM2336221v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023362215.1/GCF_023362215.1_ASM2336221v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023362215.1/GCF_023362215.1_ASM2336221v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4053051,
@@ -1311,7 +1311,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023362275.1/GCF_023362275.1_ASM2336227v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023362275.1/GCF_023362275.1_ASM2336227v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023362275.1/GCF_023362275.1_ASM2336227v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4301843,
@@ -1320,7 +1320,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517195.1/GCF_023517195.1_ASM2351719v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023517195.1/GCF_023517195.1_ASM2351719v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023517195.1/GCF_023517195.1_ASM2351719v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4266800,
@@ -1329,7 +1329,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517215.1/GCF_023517215.1_ASM2351721v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023517215.1/GCF_023517215.1_ASM2351721v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023517215.1/GCF_023517215.1_ASM2351721v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4122719,
@@ -1338,7 +1338,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517695.1/GCF_023517695.1_ASM2351769v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023517695.1/GCF_023517695.1_ASM2351769v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023517695.1/GCF_023517695.1_ASM2351769v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4212588,
@@ -1347,7 +1347,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517715.1/GCF_023517715.1_ASM2351771v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023517715.1/GCF_023517715.1_ASM2351771v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023517715.1/GCF_023517715.1_ASM2351771v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4088091,
@@ -1356,7 +1356,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023809705.1/GCF_023809705.1_ASM2380970v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023809705.1/GCF_023809705.1_ASM2380970v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023809705.1/GCF_023809705.1_ASM2380970v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4395524,
@@ -1365,7 +1365,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023981045.1/GCF_023981045.1_ASM2398104v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_023981045.1/GCF_023981045.1_ASM2398104v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_023981045.1/GCF_023981045.1_ASM2398104v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4258509,
@@ -1374,7 +1374,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024138435.1/GCF_024138435.1_ASM2413843v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024138435.1/GCF_024138435.1_ASM2413843v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024138435.1/GCF_024138435.1_ASM2413843v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4155018,
@@ -1383,7 +1383,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139015.1/GCF_024139015.1_ASM2413901v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024139015.1/GCF_024139015.1_ASM2413901v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024139015.1/GCF_024139015.1_ASM2413901v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4096549,
@@ -1392,7 +1392,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139035.1/GCF_024139035.1_ASM2413903v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024139035.1/GCF_024139035.1_ASM2413903v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024139035.1/GCF_024139035.1_ASM2413903v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4267922,
@@ -1401,7 +1401,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139055.1/GCF_024139055.1_ASM2413905v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024139055.1/GCF_024139055.1_ASM2413905v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024139055.1/GCF_024139055.1_ASM2413905v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4033238,
@@ -1410,7 +1410,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139095.1/GCF_024139095.1_ASM2413909v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024139095.1/GCF_024139095.1_ASM2413909v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024139095.1/GCF_024139095.1_ASM2413909v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4196136,
@@ -1419,7 +1419,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024732425.1/GCF_024732425.1_ASM2473242v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024732425.1/GCF_024732425.1_ASM2473242v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024732425.1/GCF_024732425.1_ASM2473242v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4235651,
@@ -1428,7 +1428,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749445.1/GCF_024749445.1_ASM2474944v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024749445.1/GCF_024749445.1_ASM2474944v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024749445.1/GCF_024749445.1_ASM2474944v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4076227,
@@ -1437,7 +1437,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749485.1/GCF_024749485.1_ASM2474948v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024749485.1/GCF_024749485.1_ASM2474948v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024749485.1/GCF_024749485.1_ASM2474948v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4186038,
@@ -1446,7 +1446,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749525.1/GCF_024749525.1_ASM2474952v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024749525.1/GCF_024749525.1_ASM2474952v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024749525.1/GCF_024749525.1_ASM2474952v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4226980,
@@ -1455,7 +1455,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749545.1/GCF_024749545.1_ASM2474954v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024749545.1/GCF_024749545.1_ASM2474954v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024749545.1/GCF_024749545.1_ASM2474954v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4083447,
@@ -1464,7 +1464,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749605.1/GCF_024749605.1_ASM2474960v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024749605.1/GCF_024749605.1_ASM2474960v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024749605.1/GCF_024749605.1_ASM2474960v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4284839,
@@ -1473,7 +1473,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749765.1/GCF_024749765.1_ASM2474976v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_024749765.1/GCF_024749765.1_ASM2474976v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_024749765.1/GCF_024749765.1_ASM2474976v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4223824,
@@ -1482,7 +1482,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025258705.1/GCF_025258705.1_ASM2525870v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_025258705.1/GCF_025258705.1_ASM2525870v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_025258705.1/GCF_025258705.1_ASM2525870v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4530046,
@@ -1491,7 +1491,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025722955.1/GCF_025722955.1_ASM2572295v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_025722955.1/GCF_025722955.1_ASM2572295v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_025722955.1/GCF_025722955.1_ASM2572295v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4131662,
@@ -1500,7 +1500,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025853915.1/GCF_025853915.1_ASM2585391v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_025853915.1/GCF_025853915.1_ASM2585391v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_025853915.1/GCF_025853915.1_ASM2585391v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4031448,
@@ -1509,7 +1509,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025854015.1/GCF_025854015.1_ASM2585401v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_025854015.1/GCF_025854015.1_ASM2585401v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_025854015.1/GCF_025854015.1_ASM2585401v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4193528,
@@ -1518,7 +1518,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025854095.1/GCF_025854095.1_ASM2585409v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_025854095.1/GCF_025854095.1_ASM2585409v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_025854095.1/GCF_025854095.1_ASM2585409v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4031882,
@@ -1527,7 +1527,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_027943685.1/GCF_027943685.1_ASM2794368v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_027943685.1/GCF_027943685.1_ASM2794368v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_027943685.1/GCF_027943685.1_ASM2794368v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4080894,
@@ -1536,7 +1536,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028201495.1/GCF_028201495.1_ASM2820149v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_028201495.1/GCF_028201495.1_ASM2820149v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_028201495.1/GCF_028201495.1_ASM2820149v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4181652,
@@ -1545,7 +1545,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028464005.1/GCF_028464005.1_ASM2846400v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_028464005.1/GCF_028464005.1_ASM2846400v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_028464005.1/GCF_028464005.1_ASM2846400v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4114918,
@@ -1554,7 +1554,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028583465.1/GCF_028583465.1_ASM2858346v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_028583465.1/GCF_028583465.1_ASM2858346v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_028583465.1/GCF_028583465.1_ASM2858346v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3986784,
@@ -1563,7 +1563,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028753295.1/GCF_028753295.1_ASM2875329v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_028753295.1/GCF_028753295.1_ASM2875329v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_028753295.1/GCF_028753295.1_ASM2875329v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4152692,
@@ -1572,7 +1572,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029223565.1/GCF_029223565.1_ASM2922356v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029223565.1/GCF_029223565.1_ASM2922356v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029223565.1/GCF_029223565.1_ASM2922356v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4124073,
@@ -1581,7 +1581,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029582015.1/GCF_029582015.1_ASM2958201v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029582015.1/GCF_029582015.1_ASM2958201v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029582015.1/GCF_029582015.1_ASM2958201v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3884568,
@@ -1590,7 +1590,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029674825.1/GCF_029674825.1_ASM2967482v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029674825.1/GCF_029674825.1_ASM2967482v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029674825.1/GCF_029674825.1_ASM2967482v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4040523,
@@ -1599,7 +1599,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029713785.1/GCF_029713785.1_ASM2971378v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029713785.1/GCF_029713785.1_ASM2971378v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029713785.1/GCF_029713785.1_ASM2971378v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4120518,
@@ -1608,7 +1608,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029713865.1/GCF_029713865.1_ASM2971386v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029713865.1/GCF_029713865.1_ASM2971386v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029713865.1/GCF_029713865.1_ASM2971386v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4218381,
@@ -1617,7 +1617,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029713925.1/GCF_029713925.1_ASM2971392v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029713925.1/GCF_029713925.1_ASM2971392v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029713925.1/GCF_029713925.1_ASM2971392v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4055130,
@@ -1626,7 +1626,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029714005.1/GCF_029714005.1_ASM2971400v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029714005.1/GCF_029714005.1_ASM2971400v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029714005.1/GCF_029714005.1_ASM2971400v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4165136,
@@ -1635,7 +1635,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029714105.1/GCF_029714105.1_ASM2971410v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029714105.1/GCF_029714105.1_ASM2971410v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029714105.1/GCF_029714105.1_ASM2971410v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4080429,
@@ -1644,7 +1644,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029774195.1/GCF_029774195.1_ASM2977419v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029774195.1/GCF_029774195.1_ASM2977419v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029774195.1/GCF_029774195.1_ASM2977419v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4289494,
@@ -1653,7 +1653,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029774275.1/GCF_029774275.1_ASM2977427v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029774275.1/GCF_029774275.1_ASM2977427v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029774275.1/GCF_029774275.1_ASM2977427v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4145460,
@@ -1662,7 +1662,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029931545.1/GCF_029931545.1_ASM2993154v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_029931545.1/GCF_029931545.1_ASM2993154v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_029931545.1/GCF_029931545.1_ASM2993154v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3977511,
@@ -1671,7 +1671,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030168245.1/GCF_030168245.1_ASM3016824v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_030168245.1/GCF_030168245.1_ASM3016824v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_030168245.1/GCF_030168245.1_ASM3016824v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4062561,
@@ -1680,7 +1680,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030168285.1/GCF_030168285.1_ASM3016828v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_030168285.1/GCF_030168285.1_ASM3016828v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_030168285.1/GCF_030168285.1_ASM3016828v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4362740,
@@ -1689,7 +1689,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030413705.1/GCF_030413705.1_ASM3041370v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_030413705.1/GCF_030413705.1_ASM3041370v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_030413705.1/GCF_030413705.1_ASM3041370v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4283131,
@@ -1698,7 +1698,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030585265.1/GCF_030585265.1_ASM3058526v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_030585265.1/GCF_030585265.1_ASM3058526v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_030585265.1/GCF_030585265.1_ASM3058526v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4053505,
@@ -1707,7 +1707,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_033378915.2/GCF_033378915.2_ASM3337891v2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_033378915.2/GCF_033378915.2_ASM3337891v2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_033378915.2/GCF_033378915.2_ASM3337891v2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4095184,
@@ -1716,7 +1716,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_034494405.1/GCF_034494405.1_ASM3449440v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_034494405.1/GCF_034494405.1_ASM3449440v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_034494405.1/GCF_034494405.1_ASM3449440v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4367010,
@@ -1725,7 +1725,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_035666135.1/GCF_035666135.1_ASM3566613v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_035666135.1/GCF_035666135.1_ASM3566613v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_035666135.1/GCF_035666135.1_ASM3566613v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3941422,
@@ -1734,7 +1734,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_036287275.1/GCF_036287275.1_ASM3628727v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_036287275.1/GCF_036287275.1_ASM3628727v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_036287275.1/GCF_036287275.1_ASM3628727v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4144624,
@@ -1743,7 +1743,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_036870965.1/GCF_036870965.1_ASM3687096v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_036870965.1/GCF_036870965.1_ASM3687096v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_036870965.1/GCF_036870965.1_ASM3687096v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4013197,
@@ -1752,7 +1752,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_037215885.1/GCF_037215885.1_ASM3721588v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_037215885.1/GCF_037215885.1_ASM3721588v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_037215885.1/GCF_037215885.1_ASM3721588v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4174207,
@@ -1761,7 +1761,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038441205.1/GCF_038441205.1_ASM3844120v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038441205.1/GCF_038441205.1_ASM3844120v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038441205.1/GCF_038441205.1_ASM3844120v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4277986,
@@ -1770,7 +1770,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038441225.1/GCF_038441225.1_ASM3844122v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038441225.1/GCF_038441225.1_ASM3844122v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038441225.1/GCF_038441225.1_ASM3844122v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3981091,
@@ -1779,7 +1779,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038441235.1/GCF_038441235.1_ASM3844123v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038441235.1/GCF_038441235.1_ASM3844123v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038441235.1/GCF_038441235.1_ASM3844123v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4176775,
@@ -1788,7 +1788,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442095.1/GCF_038442095.1_ASM3844209v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038442095.1/GCF_038442095.1_ASM3844209v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038442095.1/GCF_038442095.1_ASM3844209v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4233968,
@@ -1797,7 +1797,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442225.1/GCF_038442225.1_CIRI-40288_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038442225.1/GCF_038442225.1_CIRI-40288_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038442225.1/GCF_038442225.1_CIRI-40288_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4283698,
@@ -1806,7 +1806,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442275.1/GCF_038442275.1_CIRI-F19-10-CH3_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038442275.1/GCF_038442275.1_CIRI-F19-10-CH3_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038442275.1/GCF_038442275.1_CIRI-F19-10-CH3_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4225311,
@@ -1815,7 +1815,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442395.1/GCF_038442395.1_CIRI-F19-10-2_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038442395.1/GCF_038442395.1_CIRI-F19-10-2_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038442395.1/GCF_038442395.1_CIRI-F19-10-2_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4065418,
@@ -1824,7 +1824,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038987955.1/GCF_038987955.1_ASM3898795v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038987955.1/GCF_038987955.1_ASM3898795v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038987955.1/GCF_038987955.1_ASM3898795v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4207540,
@@ -1833,7 +1833,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038995905.1/GCF_038995905.1_ASM3899590v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038995905.1/GCF_038995905.1_ASM3899590v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038995905.1/GCF_038995905.1_ASM3899590v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4112729,
@@ -1842,7 +1842,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038998165.1/GCF_038998165.1_ASM3899816v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_038998165.1/GCF_038998165.1_ASM3899816v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_038998165.1/GCF_038998165.1_ASM3899816v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4059281,
@@ -1851,7 +1851,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_039545565.1/GCF_039545565.1_NCSR_106_Hybrid_assembly_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_039545565.1/GCF_039545565.1_NCSR_106_Hybrid_assembly_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_039545565.1/GCF_039545565.1_NCSR_106_Hybrid_assembly_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4273905,
@@ -1860,7 +1860,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_039779435.1/GCF_039779435.1_ASM3977943v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_039779435.1/GCF_039779435.1_ASM3977943v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_039779435.1/GCF_039779435.1_ASM3977943v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4112399,
@@ -1869,7 +1869,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_039780165.1/GCF_039780165.1_ASM3978016v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_039780165.1/GCF_039780165.1_ASM3978016v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_039780165.1/GCF_039780165.1_ASM3978016v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4163765,
@@ -1878,7 +1878,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040543095.1/GCF_040543095.1_ASM4054309v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_040543095.1/GCF_040543095.1_ASM4054309v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_040543095.1/GCF_040543095.1_ASM4054309v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4078697,
@@ -1887,7 +1887,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040822385.1/GCF_040822385.1_ASM4082238v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_040822385.1/GCF_040822385.1_ASM4082238v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_040822385.1/GCF_040822385.1_ASM4082238v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3927934,
@@ -1896,7 +1896,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040822405.1/GCF_040822405.1_ASM4082240v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_040822405.1/GCF_040822405.1_ASM4082240v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_040822405.1/GCF_040822405.1_ASM4082240v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4174361,
@@ -1905,7 +1905,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040834015.1/GCF_040834015.1_ASM4083401v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_040834015.1/GCF_040834015.1_ASM4083401v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_040834015.1/GCF_040834015.1_ASM4083401v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4251720,
@@ -1914,7 +1914,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041014305.2/GCF_041014305.2_ASM4101430v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041014305.2/GCF_041014305.2_ASM4101430v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041014305.2/GCF_041014305.2_ASM4101430v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4151936,
@@ -1923,7 +1923,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041021905.1/GCF_041021905.1_XH1679_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041021905.1/GCF_041021905.1_XH1679_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041021905.1/GCF_041021905.1_XH1679_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4152625,
@@ -1932,7 +1932,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154805.1/GCF_041154805.1_ASM4115480v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041154805.1/GCF_041154805.1_ASM4115480v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041154805.1/GCF_041154805.1_ASM4115480v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4034891,
@@ -1941,7 +1941,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154815.1/GCF_041154815.1_ASM4115481v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041154815.1/GCF_041154815.1_ASM4115481v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041154815.1/GCF_041154815.1_ASM4115481v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3900166,
@@ -1950,7 +1950,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154825.1/GCF_041154825.1_ASM4115482v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041154825.1/GCF_041154825.1_ASM4115482v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041154825.1/GCF_041154825.1_ASM4115482v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3930172,
@@ -1959,7 +1959,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154835.1/GCF_041154835.1_ASM4115483v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041154835.1/GCF_041154835.1_ASM4115483v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041154835.1/GCF_041154835.1_ASM4115483v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3939563,
@@ -1968,7 +1968,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154855.1/GCF_041154855.1_ASM4115485v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041154855.1/GCF_041154855.1_ASM4115485v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041154855.1/GCF_041154855.1_ASM4115485v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4208291,
@@ -1977,7 +1977,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041930545.1/GCF_041930545.1_ASM4193054v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_041930545.1/GCF_041930545.1_ASM4193054v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_041930545.1/GCF_041930545.1_ASM4193054v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3971126,
@@ -1986,7 +1986,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042140495.1/GCF_042140495.1_Hv640_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042140495.1/GCF_042140495.1_Hv640_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042140495.1/GCF_042140495.1_Hv640_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4101618,
@@ -1995,7 +1995,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042140575.1/GCF_042140575.1_Hv766_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042140575.1/GCF_042140575.1_Hv766_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042140575.1/GCF_042140575.1_Hv766_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4053340,
@@ -2004,7 +2004,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042140585.1/GCF_042140585.1_Hv770_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042140585.1/GCF_042140585.1_Hv770_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042140585.1/GCF_042140585.1_Hv770_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4035355,
@@ -2013,7 +2013,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042141555.1/GCF_042141555.1_Hv782_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042141555.1/GCF_042141555.1_Hv782_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042141555.1/GCF_042141555.1_Hv782_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4072405,
@@ -2022,7 +2022,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042142205.1/GCF_042142205.1_HvAb04_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042142205.1/GCF_042142205.1_HvAb04_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042142205.1/GCF_042142205.1_HvAb04_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4253930,
@@ -2031,7 +2031,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042145845.1/GCF_042145845.1_Lv647_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042145845.1/GCF_042145845.1_Lv647_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042145845.1/GCF_042145845.1_Lv647_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4178654,
@@ -2040,7 +2040,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042146535.1/GCF_042146535.1_Lv648_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042146535.1/GCF_042146535.1_Lv648_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042146535.1/GCF_042146535.1_Lv648_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3915282,
@@ -2049,7 +2049,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042151695.1/GCF_042151695.1_Rp779_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_042151695.1/GCF_042151695.1_Rp779_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_042151695.1/GCF_042151695.1_Rp779_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3899778,
@@ -2058,7 +2058,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043038945.1/GCF_043038945.1_ASM4303894v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043038945.1/GCF_043038945.1_ASM4303894v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043038945.1/GCF_043038945.1_ASM4303894v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4200705,
@@ -2067,7 +2067,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043040895.1/GCF_043040895.1_ASM4304089v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043040895.1/GCF_043040895.1_ASM4304089v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043040895.1/GCF_043040895.1_ASM4304089v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3957172,
@@ -2076,7 +2076,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043042805.1/GCF_043042805.1_ASM4304280v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043042805.1/GCF_043042805.1_ASM4304280v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043042805.1/GCF_043042805.1_ASM4304280v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3991615,
@@ -2085,7 +2085,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043043455.1/GCF_043043455.1_ASM4304345v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043043455.1/GCF_043043455.1_ASM4304345v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043043455.1/GCF_043043455.1_ASM4304345v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4032358,
@@ -2094,7 +2094,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043044755.1/GCF_043044755.1_ASM4304475v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043044755.1/GCF_043044755.1_ASM4304475v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043044755.1/GCF_043044755.1_ASM4304475v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4089829,
@@ -2103,7 +2103,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043045365.1/GCF_043045365.1_ASM4304536v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043045365.1/GCF_043045365.1_ASM4304536v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043045365.1/GCF_043045365.1_ASM4304536v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4055070,
@@ -2112,7 +2112,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043046865.1/GCF_043046865.1_ASM4304686v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043046865.1/GCF_043046865.1_ASM4304686v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043046865.1/GCF_043046865.1_ASM4304686v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4031114,
@@ -2121,7 +2121,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043051495.1/GCF_043051495.1_ASM4305149v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043051495.1/GCF_043051495.1_ASM4305149v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043051495.1/GCF_043051495.1_ASM4305149v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4342220,
@@ -2130,7 +2130,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043052795.1/GCF_043052795.1_ASM4305279v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043052795.1/GCF_043052795.1_ASM4305279v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043052795.1/GCF_043052795.1_ASM4305279v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4079972,
@@ -2139,7 +2139,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043053445.1/GCF_043053445.1_ASM4305344v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043053445.1/GCF_043053445.1_ASM4305344v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043053445.1/GCF_043053445.1_ASM4305344v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3978020,
@@ -2148,7 +2148,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043054745.1/GCF_043054745.1_ASM4305474v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043054745.1/GCF_043054745.1_ASM4305474v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043054745.1/GCF_043054745.1_ASM4305474v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4029281,
@@ -2157,7 +2157,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043056915.1/GCF_043056915.1_ASM4305691v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043056915.1/GCF_043056915.1_ASM4305691v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043056915.1/GCF_043056915.1_ASM4305691v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3858426,
@@ -2166,7 +2166,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043572945.1/GCF_043572945.1_T24_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_043572945.1/GCF_043572945.1_T24_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_043572945.1/GCF_043572945.1_T24_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4021263,
@@ -2175,7 +2175,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097175.1/GCF_046097175.1_UMB001_Hybrid_Assembly_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_046097175.1/GCF_046097175.1_UMB001_Hybrid_Assembly_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_046097175.1/GCF_046097175.1_UMB001_Hybrid_Assembly_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4103053,
@@ -2184,7 +2184,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097185.1/GCF_046097185.1_NIH1_Hybrid_Assembly_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_046097185.1/GCF_046097185.1_NIH1_Hybrid_Assembly_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_046097185.1/GCF_046097185.1_NIH1_Hybrid_Assembly_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4071740,
@@ -2193,7 +2193,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097195.1/GCF_046097195.1_ASM4609719v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_046097195.1/GCF_046097195.1_ASM4609719v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_046097195.1/GCF_046097195.1_ASM4609719v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4218175,
@@ -2202,7 +2202,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097205.1/GCF_046097205.1_HUMC1_Hybrid_Assembly_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_046097205.1/GCF_046097205.1_HUMC1_Hybrid_Assembly_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_046097205.1/GCF_046097205.1_HUMC1_Hybrid_Assembly_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4204281,
@@ -2211,7 +2211,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047227755.2/GCF_047227755.2_A297_complete_genome_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_047227755.2/GCF_047227755.2_A297_complete_genome_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_047227755.2/GCF_047227755.2_A297_complete_genome_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4233520,
@@ -2220,7 +2220,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772295.1/GCF_047772295.1_ASM4777229v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_047772295.1/GCF_047772295.1_ASM4777229v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_047772295.1/GCF_047772295.1_ASM4777229v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4229500,
@@ -2229,7 +2229,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772305.1/GCF_047772305.1_ASM4777230v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_047772305.1/GCF_047772305.1_ASM4777230v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_047772305.1/GCF_047772305.1_ASM4777230v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4272434,
@@ -2238,7 +2238,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772435.1/GCF_047772435.1_ASM4777243v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_047772435.1/GCF_047772435.1_ASM4777243v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_047772435.1/GCF_047772435.1_ASM4777243v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4034033,
@@ -2247,7 +2247,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772455.1/GCF_047772455.1_ASM4777245v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_047772455.1/GCF_047772455.1_ASM4777245v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_047772455.1/GCF_047772455.1_ASM4777245v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4156245,
@@ -2256,7 +2256,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048480215.1/GCF_048480215.1_ASM4848021v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_048480215.1/GCF_048480215.1_ASM4848021v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_048480215.1/GCF_048480215.1_ASM4848021v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4088463,
@@ -2265,7 +2265,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048635235.1/GCF_048635235.1_ASM4863523v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_048635235.1/GCF_048635235.1_ASM4863523v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_048635235.1/GCF_048635235.1_ASM4863523v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4151358,
@@ -2274,7 +2274,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048636145.1/GCF_048636145.1_ASM4863614v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_048636145.1/GCF_048636145.1_ASM4863614v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_048636145.1/GCF_048636145.1_ASM4863614v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4151332,
@@ -2283,7 +2283,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048636155.1/GCF_048636155.1_ASM4863615v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_048636155.1/GCF_048636155.1_ASM4863615v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_048636155.1/GCF_048636155.1_ASM4863615v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4085227,
@@ -2292,7 +2292,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050030185.1/GCF_050030185.1_ASM5003018v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_050030185.1/GCF_050030185.1_ASM5003018v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_050030185.1/GCF_050030185.1_ASM5003018v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4165581,
@@ -2301,7 +2301,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050032335.1/GCF_050032335.1_ASM5003233v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_050032335.1/GCF_050032335.1_ASM5003233v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_050032335.1/GCF_050032335.1_ASM5003233v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3871739,
@@ -2310,7 +2310,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050164325.1/GCF_050164325.1_ASM5016432v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_050164325.1/GCF_050164325.1_ASM5016432v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_050164325.1/GCF_050164325.1_ASM5016432v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4277290,
@@ -2319,7 +2319,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050320315.1/GCF_050320315.1_Up644_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_050320315.1/GCF_050320315.1_Up644_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_050320315.1/GCF_050320315.1_Up644_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4009237,
@@ -2328,7 +2328,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050500295.1/GCF_050500295.1_WM99a_Hybrid_Assembly_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_050500295.1/GCF_050500295.1_WM99a_Hybrid_Assembly_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_050500295.1/GCF_050500295.1_WM99a_Hybrid_Assembly_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4019228,
@@ -2337,7 +2337,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051294665.1/GCF_051294665.1_ASM5129466v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_051294665.1/GCF_051294665.1_ASM5129466v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_051294665.1/GCF_051294665.1_ASM5129466v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4197083,
@@ -2346,7 +2346,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051356365.1/GCF_051356365.1_ASM5135636v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_051356365.1/GCF_051356365.1_ASM5135636v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_051356365.1/GCF_051356365.1_ASM5135636v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4091375,
@@ -2355,7 +2355,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051521805.1/GCF_051521805.1_ASM5152180v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_051521805.1/GCF_051521805.1_ASM5152180v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_051521805.1/GCF_051521805.1_ASM5152180v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4013469,
@@ -2364,7 +2364,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051547485.1/GCF_051547485.1_ASM5154748v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_051547485.1/GCF_051547485.1_ASM5154748v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_051547485.1/GCF_051547485.1_ASM5154748v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4012813,
@@ -2373,7 +2373,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051622705.1/GCF_051622705.1_ASM5162270v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_051622705.1/GCF_051622705.1_ASM5162270v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_051622705.1/GCF_051622705.1_ASM5162270v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4130464,
@@ -2382,7 +2382,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051776275.1/GCF_051776275.1_ASM5177627v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_051776275.1/GCF_051776275.1_ASM5177627v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_051776275.1/GCF_051776275.1_ASM5177627v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4303860,
@@ -2391,7 +2391,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052052845.1/GCF_052052845.1_ASM5205284v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052052845.1/GCF_052052845.1_ASM5205284v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052052845.1/GCF_052052845.1_ASM5205284v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3888099,
@@ -2400,7 +2400,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052053485.1/GCF_052053485.1_ASM5205348v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052053485.1/GCF_052053485.1_ASM5205348v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052053485.1/GCF_052053485.1_ASM5205348v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3989186,
@@ -2409,7 +2409,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052054865.1/GCF_052054865.1_ASM5205486v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052054865.1/GCF_052054865.1_ASM5205486v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052054865.1/GCF_052054865.1_ASM5205486v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4287277,
@@ -2418,7 +2418,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052055445.1/GCF_052055445.1_ASM5205544v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052055445.1/GCF_052055445.1_ASM5205544v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052055445.1/GCF_052055445.1_ASM5205544v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4224677,
@@ -2427,7 +2427,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052055455.1/GCF_052055455.1_ASM5205545v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052055455.1/GCF_052055455.1_ASM5205545v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052055455.1/GCF_052055455.1_ASM5205545v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4095707,
@@ -2436,7 +2436,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052186105.1/GCF_052186105.1_ASM5218610v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052186105.1/GCF_052186105.1_ASM5218610v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052186105.1/GCF_052186105.1_ASM5218610v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3817915,
@@ -2445,7 +2445,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052216905.1/GCF_052216905.1_ASM5221690v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_052216905.1/GCF_052216905.1_ASM5221690v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_052216905.1/GCF_052216905.1_ASM5221690v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4051041,
@@ -2454,7 +2454,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053151155.1/GCF_053151155.1_ASM5315115v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053151155.1/GCF_053151155.1_ASM5315115v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053151155.1/GCF_053151155.1_ASM5315115v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4011746,
@@ -2463,7 +2463,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053175695.1/GCF_053175695.1_ASM5317569v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053175695.1/GCF_053175695.1_ASM5317569v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053175695.1/GCF_053175695.1_ASM5317569v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4011593,
@@ -2472,7 +2472,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053175715.1/GCF_053175715.1_ASM5317571v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053175715.1/GCF_053175715.1_ASM5317571v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053175715.1/GCF_053175715.1_ASM5317571v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4125955,
@@ -2481,7 +2481,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053819165.1/GCF_053819165.1_ASM5381916v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053819165.1/GCF_053819165.1_ASM5381916v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053819165.1/GCF_053819165.1_ASM5381916v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4247656,
@@ -2490,7 +2490,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053819345.1/GCF_053819345.1_ASM5381934v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053819345.1/GCF_053819345.1_ASM5381934v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053819345.1/GCF_053819345.1_ASM5381934v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4295968,
@@ -2499,7 +2499,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053852035.1/GCF_053852035.1_ASM5385203v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053852035.1/GCF_053852035.1_ASM5385203v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053852035.1/GCF_053852035.1_ASM5385203v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4422265,
@@ -2508,7 +2508,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053891325.1/GCF_053891325.1_ASM5389132v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_053891325.1/GCF_053891325.1_ASM5389132v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_053891325.1/GCF_053891325.1_ASM5389132v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4392235,
@@ -2517,7 +2517,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054897905.1/GCF_054897905.1_ASM5489790v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_054897905.1/GCF_054897905.1_ASM5489790v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_054897905.1/GCF_054897905.1_ASM5489790v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4035324,
@@ -2526,7 +2526,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054898345.1/GCF_054898345.1_ASM5489834v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_054898345.1/GCF_054898345.1_ASM5489834v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_054898345.1/GCF_054898345.1_ASM5489834v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 3929036,
@@ -2535,7 +2535,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054898395.1/GCF_054898395.1_ASM5489839v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_054898395.1/GCF_054898395.1_ASM5489839v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_054898395.1/GCF_054898395.1_ASM5489839v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4163435,
@@ -2544,7 +2544,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054901555.1/GCF_054901555.1_ASM5490155v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_054901555.1/GCF_054901555.1_ASM5490155v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_054901555.1/GCF_054901555.1_ASM5490155v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4068996,
@@ -2553,7 +2553,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_055381115.1/GCF_055381115.1_ASM5538111v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_055381115.1/GCF_055381115.1_ASM5538111v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_055381115.1/GCF_055381115.1_ASM5538111v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4148730,
@@ -2562,7 +2562,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_055521135.1/GCF_055521135.1_ASM5552113v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_055521135.1/GCF_055521135.1_ASM5552113v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_055521135.1/GCF_055521135.1_ASM5552113v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4117204,
@@ -2571,7 +2571,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115525.1/GCF_056115525.1_ASM5611552v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115525.1/GCF_056115525.1_ASM5611552v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115525.1/GCF_056115525.1_ASM5611552v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4137112,
@@ -2580,7 +2580,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115625.1/GCF_056115625.1_ASM5611562v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115625.1/GCF_056115625.1_ASM5611562v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115625.1/GCF_056115625.1_ASM5611562v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4237479,
@@ -2589,7 +2589,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115685.1/GCF_056115685.1_ASM5611568v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115685.1/GCF_056115685.1_ASM5611568v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115685.1/GCF_056115685.1_ASM5611568v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4332190,
@@ -2598,7 +2598,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115825.1/GCF_056115825.1_ASM5611582v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115825.1/GCF_056115825.1_ASM5611582v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115825.1/GCF_056115825.1_ASM5611582v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4257210,
@@ -2607,7 +2607,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115855.1/GCF_056115855.1_ASM5611585v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115855.1/GCF_056115855.1_ASM5611585v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115855.1/GCF_056115855.1_ASM5611585v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4176878,
@@ -2616,7 +2616,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115905.1/GCF_056115905.1_ASM5611590v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115905.1/GCF_056115905.1_ASM5611590v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115905.1/GCF_056115905.1_ASM5611590v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4169695,
@@ -2625,7 +2625,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115955.1/GCF_056115955.1_ASM5611595v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056115955.1/GCF_056115955.1_ASM5611595v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056115955.1/GCF_056115955.1_ASM5611595v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4050206,
@@ -2634,7 +2634,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056136145.1/GCF_056136145.1_ASM5613614v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056136145.1/GCF_056136145.1_ASM5613614v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056136145.1/GCF_056136145.1_ASM5613614v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4147042,
@@ -2643,7 +2643,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056136325.1/GCF_056136325.1_ASM5613632v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056136325.1/GCF_056136325.1_ASM5613632v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056136325.1/GCF_056136325.1_ASM5613632v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4304353,
@@ -2652,7 +2652,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056340895.1/GCF_056340895.1_ASM5634089v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056340895.1/GCF_056340895.1_ASM5634089v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056340895.1/GCF_056340895.1_ASM5634089v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4003884,
@@ -2661,7 +2661,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056385705.1/GCF_056385705.1_ASM5638570v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056385705.1/GCF_056385705.1_ASM5638570v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056385705.1/GCF_056385705.1_ASM5638570v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4303972,
@@ -2670,7 +2670,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056429515.1/GCF_056429515.1_ASM5642951v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056429515.1/GCF_056429515.1_ASM5642951v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056429515.1/GCF_056429515.1_ASM5642951v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4116559,
@@ -2679,7 +2679,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056429785.1/GCF_056429785.1_ASM5642978v1_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_056429785.1/GCF_056429785.1_ASM5642978v1_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_056429785.1/GCF_056429785.1_ASM5642978v1_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4098785,
@@ -2688,7 +2688,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_900088705.1/GCF_900088705.1_26872B01_genomic.fna",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/fasta/GCF_900088705.1/GCF_900088705.1_26872B01_genomic.fna",
       "drive_relative_path": "frozen_data/fasta/GCF_900088705.1/GCF_900088705.1_26872B01_genomic.fna",
       "category": "frozen_fasta",
       "size_bytes": 4101568,
@@ -2697,7 +2697,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/dataset_manifest_v1.json",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/dataset_manifest_v1.json",
       "drive_relative_path": "frozen_data/manifests/dataset_manifest_v1.json",
       "category": "runtime_manifest",
       "size_bytes": 95283,
@@ -2706,7 +2706,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/dev_lowess_v1.csv",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/dev_lowess_v1.csv",
       "drive_relative_path": "frozen_data/manifests/dev_lowess_v1.csv",
       "category": "runtime_manifest",
       "size_bytes": 27123,
@@ -2715,7 +2715,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/dev_lowess_v1.json",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/dev_lowess_v1.json",
       "drive_relative_path": "frozen_data/manifests/dev_lowess_v1.json",
       "category": "runtime_manifest",
       "size_bytes": 2691,
@@ -2724,7 +2724,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/fasta_manifest.csv",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/fasta_manifest.csv",
       "drive_relative_path": "frozen_data/manifests/fasta_manifest.csv",
       "category": "runtime_manifest",
       "size_bytes": 74281,
@@ -2733,7 +2733,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/split_manifest_v1.json",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/split_manifest_v1.json",
       "drive_relative_path": "frozen_data/manifests/split_manifest_v1.json",
       "category": "runtime_manifest",
       "size_bytes": 2438,
@@ -2742,7 +2742,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/target_manifest.csv",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/target_manifest.csv",
       "drive_relative_path": "frozen_data/manifests/target_manifest.csv",
       "category": "runtime_manifest",
       "size_bytes": 646,
@@ -2751,7 +2751,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/TEST_SET_LOCKED.txt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/manifests/TEST_SET_LOCKED.txt",
       "drive_relative_path": "frozen_data/manifests/TEST_SET_LOCKED.txt",
       "category": "runtime_manifest",
       "size_bytes": 889,
@@ -2760,7 +2760,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/splits/dissertation_split_v1.csv",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/splits/dissertation_split_v1.csv",
       "drive_relative_path": "frozen_data/splits/dissertation_split_v1.csv",
       "category": "frozen_split",
       "size_bytes": 40030,
@@ -2769,7 +2769,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/targets/window512_canonical_v1.parquet",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/targets/window512_canonical_v1.parquet",
       "drive_relative_path": "frozen_data/targets/window512_canonical_v1.parquet",
       "category": "frozen_targets_and_features",
       "size_bytes": 42162717,
@@ -2778,7 +2778,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/targets/window512_targets_v1.parquet",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/frozen_data/targets/window512_targets_v1.parquet",
       "drive_relative_path": "frozen_data/targets/window512_targets_v1.parquet",
       "category": "frozen_targets_and_features",
       "size_bytes": 37186368,
@@ -2787,7 +2787,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/logs/phase4_5/README.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/logs/phase4_5/README.md",
       "drive_relative_path": "logs/phase4_5/README.md",
       "category": "persistent_output_scaffold",
       "size_bytes": 73,
@@ -2796,7 +2796,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase1/baseline_c_hist_gbr.joblib",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase1/baseline_c_hist_gbr.joblib",
       "drive_relative_path": "models/phase1/baseline_c_hist_gbr.joblib",
       "category": "frozen_baseline",
       "size_bytes": 167885,
@@ -2805,7 +2805,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase2/M1_full_distilled.pt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase2/M1_full_distilled.pt",
       "drive_relative_path": "models/phase2/M1_full_distilled.pt",
       "category": "historical_model_reference",
       "size_bytes": 69188,
@@ -2814,7 +2814,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed11_epoch04.pt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase3/member_seed11_epoch04.pt",
       "drive_relative_path": "models/phase3/member_seed11_epoch04.pt",
       "category": "historical_model_reference",
       "size_bytes": 213650,
@@ -2823,7 +2823,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed23_epoch04.pt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase3/member_seed23_epoch04.pt",
       "drive_relative_path": "models/phase3/member_seed23_epoch04.pt",
       "category": "historical_model_reference",
       "size_bytes": 213650,
@@ -2832,7 +2832,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed37_epoch04.pt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase3/member_seed37_epoch04.pt",
       "drive_relative_path": "models/phase3/member_seed37_epoch04.pt",
       "category": "historical_model_reference",
       "size_bytes": 213650,
@@ -2841,7 +2841,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed53_epoch04.pt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase3/member_seed53_epoch04.pt",
       "drive_relative_path": "models/phase3/member_seed53_epoch04.pt",
       "category": "historical_model_reference",
       "size_bytes": 213650,
@@ -2850,7 +2850,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed71_epoch04.pt",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase3/member_seed71_epoch04.pt",
       "drive_relative_path": "models/phase3/member_seed71_epoch04.pt",
       "category": "historical_model_reference",
       "size_bytes": 213650,
@@ -2859,7 +2859,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase4_5/README.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/models/phase4_5/README.md",
       "drive_relative_path": "models/phase4_5/README.md",
       "category": "persistent_output_scaffold",
       "size_bytes": 113,
@@ -2868,7 +2868,7 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/predictions/phase4_5/README.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/predictions/phase4_5/README.md",
       "drive_relative_path": "predictions/phase4_5/README.md",
       "category": "persistent_output_scaffold",
       "size_bytes": 89,
@@ -2877,16 +2877,16 @@
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/README.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/README.md",
       "drive_relative_path": "README.md",
       "category": "persistent_output_scaffold",
-      "size_bytes": 557,
-      "sha256": "23058ea50e5f6383f9cc3b0b20034c4664b757726577d2088b02ae4f4dcc1c82",
+      "size_bytes": 582,
+      "sha256": "a078501e6b493fe3dcef5adae54fa1b277ffc56d0dc020dad309473de7a88077",
       "required_for_phase4_5": false,
       "notes": "Prepared transfer copy on D drive."
     },
     {
-      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/results/phase4_5/README.md",
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2-distillation/results/phase4_5/README.md",
       "drive_relative_path": "results/phase4_5/README.md",
       "category": "persistent_output_scaffold",
       "size_bytes": 69,

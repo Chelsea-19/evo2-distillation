@@ -15,12 +15,14 @@ and Google Colab notebooks for validation-only Phase 4.5 development of
 
 ## Quick start
 
-1. Upload the prepared Drive payload to `MyDrive/evo2_dissertation/`.
-2. Push this directory to a GitHub repository.
-3. Open `notebooks/00_colab_environment_check.ipynb` in Colab Pro.
-4. Continue with notebooks 01 and 02 only after their verification gates pass.
-5. Run notebook 03 only after `final_student_v2.lock` has been created by an
-   explicit validation-only candidate-selection decision.
+1. Upload the prepared Drive payload to `MyDrive/evo2-distillation/`.
+2. Open [`notebooks/00_run_all_phase4_5.ipynb`](https://colab.research.google.com/github/Chelsea-19/evo2-distillation/blob/main/notebooks/00_run_all_phase4_5.ipynb) in Colab Pro.
+3. Enable a GPU runtime and run the notebook from the top.
+4. Review its validation-only candidate table before opening the explicit final
+   student/ensemble gate.
+
+The numbered environment, data, runner, ensemble, and analysis notebooks remain
+available as modular recovery/debugging entry points. The unified runner is the
+recommended path and already contains the public repository URL.
 
 See `docs/COLAB_SETUP.md` and `docs/TEST_SET_POLICY.md`.
-
