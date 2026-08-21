@@ -1,0 +1,74 @@
+{
+  "version": "dissertation_v1",
+  "created_utc": "2026-08-20T01:21:00.303565+00:00",
+  "allocation_seed": 20260820,
+  "assignment_unit": "Mash connected-component cluster",
+  "mash_distance_threshold": 0.01,
+  "source_cluster_manifest": {
+    "path": "D:\\BMDSIS\\Evo2_perplexity\\GitHub submission\\validation_extension\\splits\\assembly_cluster_manifest.csv",
+    "bytes": 26677,
+    "sha256": "8b31e8fe5cf15b6de88e8175fe1ec9700646e2684d50dccb19bbdc26ca47efea"
+  },
+  "allocation_input_columns": [
+    "cluster_id",
+    "cluster_size",
+    "assembly_id"
+  ],
+  "explicitly_unused_for_allocation": [
+    "historical split",
+    "Evo 2 PPL",
+    "GC or GC residual",
+    "AMR/MOB/prophage annotations",
+    "biological labels",
+    "model performance",
+    "residual extremes",
+    "window counts"
+  ],
+  "algorithm": {
+    "name": "seeded size-only cluster allocation",
+    "targets": {
+      "development": 207,
+      "validation": 45,
+      "test": 44
+    },
+    "largest_cluster_policy": "A cluster larger than either held-out assembly target is assigned to development.",
+    "heldout_policy": "Seeded search selects six multi-assembly clusters per held-out partition and fills exact assembly targets with seeded singleton clusters; cluster integrity precedes proportions.",
+    "selection_iterations_max": 250000
+  },
+  "summary": {
+    "development": {
+      "assemblies": 207,
+      "clusters": 35,
+      "windows_512": 1640110,
+      "assembly_fraction": 0.6993243243243243,
+      "window_fraction": 0.6986618115767314
+    },
+    "validation": {
+      "assemblies": 45,
+      "clusters": 19,
+      "windows_512": 353840,
+      "assembly_fraction": 0.15202702702702703,
+      "window_fraction": 0.15073043601240807
+    },
+    "test": {
+      "assemblies": 44,
+      "clusters": 19,
+      "windows_512": 353552,
+      "assembly_fraction": 0.14864864864864866,
+      "window_fraction": 0.15060775241086058
+    }
+  },
+  "validation": {
+    "assemblies_assigned": 296,
+    "clusters_assigned": 73,
+    "cluster_crossings": 0,
+    "windows_assigned": 2347502
+  },
+  "split_csv": {
+    "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\splits\\dissertation_split_v1.csv",
+    "bytes": 40030,
+    "sha256": "ac0ee12e44c896be3f3c92a574d4b37596e7f6985636a57a822da7ad3a7c31b6"
+  },
+  "historical_partition_reused": false,
+  "test_policy": "LOCKED; no model outcome may be examined before Phase 5"
+}

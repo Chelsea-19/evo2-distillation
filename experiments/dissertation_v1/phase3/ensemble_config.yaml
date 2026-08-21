@@ -1,0 +1,145 @@
+version: phase3_ensemble_v1
+created_utc: '2026-08-20T05:44:27.426316+00:00'
+seeds:
+- 11
+- 23
+- 37
+- 53
+- 71
+seed_source: Task-provided example reused because experiment_protocol_v1.yaml defines no ensemble seeds
+member_count: 5
+test_accessed: false
+partitions_materialized:
+- development
+- validation
+architecture:
+  version: student_cnn_v1
+  definition_sha256: d02e78d92cc0acf8f4573acbb3e977da60f8d0cb4c6829dfe9a7e5fdf020cb67
+  altered_after_phase2: false
+  parameter_count: 11873
+data:
+  cache_manifest_sha256: e3f13b3aaecaa036d913e6da96a512082516a1ac0116dd0c88d1288624082fbb
+  development_rows: 52992
+  development_genomes: 207
+  validation_rows: 353840
+  validation_genomes: 45
+  validation_lineages: 19
+  same_rows_for_all_members: true
+target:
+  definition: absolute development-fitted GC-LOWESS residual
+  development_pool_mean: 0.36751281628959814
+  development_pool_population_std: 0.3004767950574155
+  same_for_all_members: true
+training:
+  epochs: 4
+  schedule: epochs 1-3 Huber only; epoch 4 Huber + same-genome pairwise ranking
+  huber_weight: 1.0
+  huber_delta_standardized_units: 1.0
+  pairwise_ranking_weight_final_epoch: 4.0
+  same_genome_pairs_only: true
+  optimizer: AdamW
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 1.0
+  batch_size: 128
+  only_seed_dependent_elements:
+  - parameter initialization
+  - same-genome pair sampling
+  - minibatch ordering
+resume_safety:
+  checkpoint_each_epoch: true
+  atomic_checkpoint_write: true
+  metadata_verified_before_resume: true
+uncertainty:
+  primary_score: sample variance (ddof=1) across five member scalar ranking scores
+  calibration: none
+hardware:
+  device: cpu
+  cpu_threads: 4
+  gpu_available: false
+  peak_gpu_memory_mb: null
+frozen_k_definitions:
+- id: top_1_percent
+  rule: ceil(0.01 * n_windows_in_genome)
+- id: top_5_percent
+  rule: ceil(0.05 * n_windows_in_genome)
+- id: fixed_100
+  rule: min(100, n_windows_in_genome)
+software:
+  python: 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]
+  torch: 2.5.1+cpu
+  numpy: 1.26.4
+  pandas: 2.3.3
+  pyarrow: 20.0.0
+  scipy: 1.16.3
+inputs:
+  protocol:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\protocol\experiment_protocol_v1.yaml
+    bytes: 2103
+    sha256: 1725c88e068d5000f477b5b6e97c04d12ad995aaac605a6d167780876272bf65
+  phase2_lock:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase2\final_architecture.lock
+    bytes: 5293
+    sha256: 6d148180d248df09676859144da579b5b90b729aaa33e62a52a6ff0f7880a8f4
+  phase2_training_config:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase2\training_config.yaml
+    bytes: 7710
+    sha256: d6290a333c0975fea5f930a6d5cff1acd8e9a8f8df3399394b6b2456b1ca8472
+  phase2_model_definition:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase2\model_definition.yaml
+    bytes: 837
+    sha256: d02e78d92cc0acf8f4573acbb3e977da60f8d0cb4c6829dfe9a7e5fdf020cb67
+  phase2_primary_checkpoint:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase2\checkpoints\M1_full_distilled.pt
+    bytes: 69188
+    sha256: b09a34a51c70436d8d0005d0fa49873b47d1a142f54ba1f2a455ea3c509d8dca
+  cache_manifest:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase2\cache\token_cache_manifest.json
+    bytes: 58496
+    sha256: e3f13b3aaecaa036d913e6da96a512082516a1ac0116dd0c88d1288624082fbb
+members:
+  seed_11:
+    checkpoint:
+      path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase3\checkpoints\member_seed11_epoch04.pt
+      bytes: 213650
+      sha256: 7323980992f3009f384db0dde017893a28831a646639da8008e6f25aa461ebdf
+    training_runtime_seconds: 945.520563600061
+    validation_inference_seconds: 189.88731799996458
+    validation_mean_spearman: 0.15302757065759665
+    status: valid
+  seed_23:
+    checkpoint:
+      path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase3\checkpoints\member_seed23_epoch04.pt
+      bytes: 213650
+      sha256: 28e2c66012af684229405e598b5cbf274d5c998213bb18474deb6a2c0ccfb67b
+    training_runtime_seconds: 957.056074699969
+    validation_inference_seconds: 158.4180378000019
+    validation_mean_spearman: 0.2208391420927353
+    status: valid
+  seed_37:
+    checkpoint:
+      path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase3\checkpoints\member_seed37_epoch04.pt
+      bytes: 213650
+      sha256: 6e84577aff38efc48b2e8899f15fa8e45dc820ebf70e0c2ac0029a968ebaf41c
+    training_runtime_seconds: 803.7787181999884
+    validation_inference_seconds: 151.54503109998768
+    validation_mean_spearman: 0.2490718636402663
+    status: valid
+  seed_53:
+    checkpoint:
+      path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase3\checkpoints\member_seed53_epoch04.pt
+      bytes: 213650
+      sha256: d6a772b890e0dc99769d212251045cede6c6dfd913736ee8811363932293d175
+    training_runtime_seconds: 782.435196299979
+    validation_inference_seconds: 151.52200860000448
+    validation_mean_spearman: 0.25386378656790654
+    status: valid
+  seed_71:
+    checkpoint:
+      path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase3\checkpoints\member_seed71_epoch04.pt
+      bytes: 213650
+      sha256: 12c043a9d6480e1e118bf8a12cb4f79379cf65d48b11e8840bb24fc0b68bad30
+    training_runtime_seconds: 827.5057854000479
+    validation_inference_seconds: 161.54394200001843
+    validation_mean_spearman: 0.22637598076210808
+    status: valid

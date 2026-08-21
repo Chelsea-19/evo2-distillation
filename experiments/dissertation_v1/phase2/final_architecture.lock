@@ -1,0 +1,138 @@
+{
+  "lock": "DISSERTATION PHASE 2 ARCHITECTURE FROZEN",
+  "created_utc": "2026-08-20T02:12:09.445495+00:00",
+  "architecture_version": "student_cnn_v1",
+  "architecture": {
+    "version": "student_cnn_v1",
+    "created_utc": "2026-08-20T02:12:09.445495+00:00",
+    "proposal_compliant": true,
+    "historical_cds_student_reused": false,
+    "input": {
+      "length_bp": 512,
+      "tokens": [
+        "A",
+        "C",
+        "G",
+        "T",
+        "N"
+      ],
+      "mask_token": "M5 only"
+    },
+    "embedding_dim": 8,
+    "channels": 16,
+    "stem": {
+      "kernel_size": 7,
+      "stride": 2,
+      "padding": 3
+    },
+    "residual_blocks": 6,
+    "convolutional_layers": 13,
+    "convolutions_per_residual_block": 2,
+    "dilation_schedule": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "kernel_size": 3,
+    "receptive_field_bp": 511,
+    "normalisation": "GroupNorm(4 groups)",
+    "activation": "GELU",
+    "dropout": 0.1,
+    "pooling": "concatenated global mean and global max pooling",
+    "scalar_head": "Linear(32->32) + GELU + Dropout + Linear(32->1)",
+    "scalar_parameter_count": 11873,
+    "sequence_comparator_decoder": "ConvTranspose1d stride 2 + GELU + 1x1 nucleotide logits",
+    "sequence_comparator_parameter_count": 11909,
+    "same_encoder_for_M1_M2_M3_M5": true
+  },
+  "phase3_primary_model": "M1_full_distilled",
+  "phase3_objective": {
+    "Huber_weight": 1.0,
+    "within_genome_pairwise_ranking_weight": 4.0
+  },
+  "training_seed": 20260822,
+  "frozen_k_definitions": [
+    {
+      "id": "top_1_percent",
+      "rule": "ceil(0.01 * n_windows_in_genome)"
+    },
+    {
+      "id": "top_5_percent",
+      "rule": "ceil(0.05 * n_windows_in_genome)"
+    },
+    {
+      "id": "fixed_100",
+      "rule": "min(100, n_windows_in_genome)"
+    }
+  ],
+  "validation_mean_spearman": 0.2425134956539113,
+  "cheap_baseline_spearman": 0.2078666408386137,
+  "sequence_only_spearman": -0.012169217998532,
+  "ranking_loss_delta": 0.019855826376515312,
+  "residual_vs_raw_delta": 0.1673976162830456,
+  "architecture_justified_against_both_comparators": true,
+  "outputs": {
+    "model_definition": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\model_definition.yaml",
+      "bytes": 837,
+      "sha256": "d02e78d92cc0acf8f4573acbb3e977da60f8d0cb4c6829dfe9a7e5fdf020cb67"
+    },
+    "training_config": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\training_config.yaml",
+      "bytes": 7710,
+      "sha256": "d6290a333c0975fea5f930a6d5cff1acd8e9a8f8df3399394b6b2456b1ca8472"
+    },
+    "validation_metrics": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\validation_metrics.csv",
+      "bytes": 177802,
+      "sha256": "f68d66006aa3c153e77814ce48e2cafa3b2b5b38aad76f94642c79803ec515ba"
+    },
+    "ablation_results": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\ablation_results.csv",
+      "bytes": 2618,
+      "sha256": "dc88a888b0b04bbe20d527947dfdf3c31c84c588bf03214fa689bfac52a09b44"
+    },
+    "validation_predictions": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\validation_predictions.parquet",
+      "bytes": 15470918,
+      "sha256": "cef015c9c2e5163f60c1f98396729215e3f1c00e632feb079f93b0453a4c887d"
+    },
+    "report": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\phase2_report.md",
+      "bytes": 4755,
+      "sha256": "13d99d33752ada7ff1f43c4d8165ccdd6917e987b46facc6272d867ee8d46a34"
+    },
+    "checkpoints": {
+      "M1_full_distilled": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\checkpoints\\M1_full_distilled.pt",
+        "bytes": 69188,
+        "sha256": "b09a34a51c70436d8d0005d0fa49873b47d1a142f54ba1f2a455ea3c509d8dca"
+      },
+      "M2_huber_only": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\checkpoints\\M2_huber_only.pt",
+        "bytes": 68944,
+        "sha256": "76335b2f09a78d292ee4d8fa5113b86711a3c0594d112c4f09956c721a627a96"
+      },
+      "M3_raw_ppl": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\checkpoints\\M3_raw_ppl.pt",
+        "bytes": 68697,
+        "sha256": "a1d71b923aca5386f12151063726ebe3ec4c42cebbc87c93de345b2661126e74"
+      },
+      "M5_sequence_only": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\checkpoints\\M5_sequence_only.pt",
+        "bytes": 68999,
+        "sha256": "c8d6f87d85266e5957db9ef197ef5423eeb073c709842c4e60e21ba4df96d665"
+      }
+    },
+    "token_cache_manifest": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\cache\\token_cache_manifest.json",
+      "bytes": 58496,
+      "sha256": "e3f13b3aaecaa036d913e6da96a512082516a1ac0116dd0c88d1288624082fbb"
+    }
+  },
+  "test_accessed": false,
+  "statement": "Architecture, primary objective and Phase 1 K definitions are frozen for Phase 3. TEST remains sealed."
+}

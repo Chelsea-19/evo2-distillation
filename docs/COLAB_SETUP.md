@@ -1,0 +1,64 @@
+# Colab Pro setup
+
+## Required persistent layout
+
+Upload the prepared Drive payload so that the following exists:
+
+```text
+/content/drive/MyDrive/evo2_dissertation/
+  frozen_data/
+  caches/tokens/
+  models/
+  checkpoints/phase4_5/
+  predictions/phase4_5/
+  results/phase4_5/
+  logs/phase4_5/
+```
+
+The GitHub repository must be cloneable independently of the original Windows
+filesystem. Set `REPO_URL` in the notebook; never store credentials in it.
+
+## Runtime sequence
+
+1. In Colab choose **Runtime → Change runtime type → GPU**.
+2. Run notebook 00 and require the GPU check to pass.
+3. Mount Drive at `/content/drive`.
+4. Clone the repository to `/content/evo2-dissertation`.
+5. Install `requirements/requirements-colab.txt` and the repository editable.
+6. Run manifest verification before staging any large file.
+7. Stage data once to `/content/evo2_dissertation_data`; training must not use
+   mounted Drive as its high-frequency filesystem.
+8. Load or build the complete token cache and verify its hashes.
+9. Run the non-scientific GPU benchmark and copy its JSON to Drive.
+10. Run selected Phase 4.5 configurations. Sync complete run directories to
+    Drive after each important checkpoint or run.
+
+## Checkpoint and resume
+
+Each epoch checkpoint stores model, optimizer, scheduler, epoch, global step,
+seed, config hash, best validation metric, and random states. Resume with:
+
+```bash
+python scripts/resume_experiment.py \
+  --config configs/phase4_5/data_scaling.yaml \
+  --checkpoint /content/evo2_runs/<run_id>/checkpoint/epoch_008.pt
+```
+
+After disconnect, restage data/cache, copy the desired checkpoint from Drive to
+`/content`, and resume with the identical config. A config-hash mismatch must be
+treated as a different run.
+
+## Common recovery
+
+- CUDA unavailable: enable a GPU runtime and restart notebook 00.
+- CUDA OOM: rerun the benchmark and reduce only batch size/prefetch/workers or
+  precision; do not change scientific hyperparameters.
+- Corrupt/incomplete Drive file: remove only the `.partial` copy, then restage;
+  final files are created by atomic rename.
+- Invalid cache: rebuild from the frozen canonical table plus the 296 verified
+  FASTAs; do not use the historical partial CPU cache.
+- Colab disk pressure: retain the token cache and Parquets; omit staged FASTA
+  after a verified cache exists.
+
+TEST remains locked throughout Phase 4.5.
+

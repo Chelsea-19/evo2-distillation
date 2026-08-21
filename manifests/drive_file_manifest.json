@@ -1,0 +1,2898 @@
+{
+  "manifest_version": "colab_migration_v1",
+  "generated_utc": "2026-08-20T10:55:06.643Z",
+  "drive_root_name": "evo2_dissertation",
+  "file_count": 321,
+  "total_bytes": 1298190274,
+  "files": [
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/caches/tokens/BUILD_REQUIRED.json",
+      "drive_relative_path": "caches/tokens/BUILD_REQUIRED.json",
+      "category": "token_cache",
+      "size_bytes": 581,
+      "sha256": "ad1a1eaa00475e6bfe6f57f6d73028fc2e9ff67d4b38548f91c8ba5f6c72d3ba",
+      "required_for_phase4_5": true,
+      "notes": "Complete cache is deterministically buildable; BUILD_REQUIRED marker is transferred until built."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/checkpoints/phase4_5/README.md",
+      "drive_relative_path": "checkpoints/phase4_5/README.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 68,
+      "sha256": "22992f01ba869f02059063da1ea7c24d882f627a4312e0deabf935517cc67f11",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/environments/SOURCE_ENVIRONMENT.md",
+      "drive_relative_path": "environments/SOURCE_ENVIRONMENT.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 300,
+      "sha256": "13f8eb0ce51c36eb299c517ef0d03341866ad768316e035be2921967b52ae4b6",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_014880215.2/GCA_014880215.2_ASM1488021v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_014880215.2/GCA_014880215.2_ASM1488021v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4072214,
+      "sha256": "67c06567a4b3487f18afdefe79f42e86a98a131c20c37dceec119ff5d5309609",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_014881055.2/GCA_014881055.2_ASM1488105v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_014881055.2/GCA_014881055.2_ASM1488105v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4074366,
+      "sha256": "f0344356110ac5c5e18e3c06d6a2815229710c5263a25a1281a8354353da7503",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_014882805.2/GCA_014882805.2_ASM1488280v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_014882805.2/GCA_014882805.2_ASM1488280v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4085219,
+      "sha256": "2b49e2fc7567260636bc44af50ac1a11470552f35c3024c84cae4f125dbddbaa",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_021387855.2/GCA_021387855.2_ASM2138785v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_021387855.2/GCA_021387855.2_ASM2138785v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4059790,
+      "sha256": "b76b12597336b873516b696068f7401e49e915302e0c76a046454c5f278aa0f4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_022107375.2/GCA_022107375.2_ASM2210737v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_022107375.2/GCA_022107375.2_ASM2210737v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4047292,
+      "sha256": "54fae5e3c46ecc02bf216463a8cdb5dc02b0dfdb3df001737d21d6399af51760",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_023273785.1/GCA_023273785.1_ASM2327378v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_023273785.1/GCA_023273785.1_ASM2327378v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3956740,
+      "sha256": "aecbe80095173511d825e5baf96b4c65a2e531f451107c11c7f03af0e7dbda0c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_023615745.2/GCA_023615745.2_ASM2361574v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_023615745.2/GCA_023615745.2_ASM2361574v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4098948,
+      "sha256": "0de6987d580f82069686fda5420006c0c5d98f60e09d2622a09eb3f321c84ff6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_024106315.2/GCA_024106315.2_ASM2410631v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_024106315.2/GCA_024106315.2_ASM2410631v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4075475,
+      "sha256": "fda85a60066c242c805d8a8d063ccbdff0b6d7f1d2f1dc7e7d8bec16185c3314",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_028634015.3/GCA_028634015.3_ASM2863401v3_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_028634015.3/GCA_028634015.3_ASM2863401v3_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4099241,
+      "sha256": "be8cd459300b2b8ba7b855bf8d52e56b5be24875f7e70f6f2e646d916b0c0e60",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_034331205.2/GCA_034331205.2_ASM3433120v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_034331205.2/GCA_034331205.2_ASM3433120v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4292094,
+      "sha256": "54ea0db860e52771fdf8c7acebe72157b855e8749789e9b0f75c597aad996eec",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_036718155.2/GCA_036718155.2_ASM3671815v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_036718155.2/GCA_036718155.2_ASM3671815v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4084137,
+      "sha256": "edcf08c3e44de325b0a187ae5283310dc093a83ecc80a38a2bde7c20586105b1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_038069235.2/GCA_038069235.2_ASM3806923v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_038069235.2/GCA_038069235.2_ASM3806923v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4077602,
+      "sha256": "f51232b32b9a9b4a23368e8ddf1412ea207711bd6523027af0c6ead220505c54",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_038627255.2/GCA_038627255.2_ASM3862725v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_038627255.2/GCA_038627255.2_ASM3862725v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4042272,
+      "sha256": "861fbc8d69b415b66010989eb76f0062289ec53e8f52dd606c69c730aaac35fe",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_038627335.2/GCA_038627335.2_ASM3862733v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_038627335.2/GCA_038627335.2_ASM3862733v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4315083,
+      "sha256": "f4fce46e500f63355d6c9a4d4711348f8ecb8bd3d7ecb605cd0507c4c8abf6b3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_040273435.2/GCA_040273435.2_ASM4027343v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_040273435.2/GCA_040273435.2_ASM4027343v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4078273,
+      "sha256": "09f7d5ec9cc005e817981b6022f355bbddf7594d9a02cb76216a454f4bde9c06",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_040801815.1/GCA_040801815.1_ASM4080181v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_040801815.1/GCA_040801815.1_ASM4080181v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3932825,
+      "sha256": "f8a2c6dae4a3fd00192c9a659a6401bf9fd19fc8bddd2a545acdcd52e45ce0d8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_041292065.2/GCA_041292065.2_2024CK-01224_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_041292065.2/GCA_041292065.2_2024CK-01224_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4077459,
+      "sha256": "d6a44e79f7f5a4684bd1536dc70b47dd49bc2c1cdcb7fa042bdba53849b56d1c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_042165515.2/GCA_042165515.2_2024CK-01391_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_042165515.2/GCA_042165515.2_2024CK-01391_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4008661,
+      "sha256": "c3369b15e18f859c4404ba3f3e7d1fe5ad1f57a57a6d9e96dca71f78f9ecbae5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_042209675.2/GCA_042209675.2_ASM4220967v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_042209675.2/GCA_042209675.2_ASM4220967v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4041150,
+      "sha256": "ad16772f2e37e9e64dbb9fee3ae55cd813ba789d50eb0f772e0ff7fef8b78036",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_043647235.2/GCA_043647235.2_ASM4364723v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_043647235.2/GCA_043647235.2_ASM4364723v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3989158,
+      "sha256": "21a622c8d56c3e5f9c92724444e5647d7f93fb15f5d507b0c8c9b53aa4392e75",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_051641645.2/GCA_051641645.2_ASM5164164v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_051641645.2/GCA_051641645.2_ASM5164164v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4074160,
+      "sha256": "d30ab927d7f2891c3fcaccd37e9c167acc1e95ad6515958bc891b0ebd42cbb2e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052390855.1/GCA_052390855.1_ASM5239085v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052390855.1/GCA_052390855.1_ASM5239085v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3969826,
+      "sha256": "b4d5e6a806af2aa444928ba3230a80562aa34dd33ea29f122f61dd8677a1767f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052390975.1/GCA_052390975.1_ASM5239097v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052390975.1/GCA_052390975.1_ASM5239097v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4001786,
+      "sha256": "937b5385a7bd9905ef49a1e4dda4b6340b583ee5654aa5491711f5075b236596",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052391035.1/GCA_052391035.1_ASM5239103v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052391035.1/GCA_052391035.1_ASM5239103v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4302134,
+      "sha256": "0fc45c24a90151853d9b8b0151bc7875c9459a5ab3414dee46ab3a7f60e18b7d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052391215.1/GCA_052391215.1_ASM5239121v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052391215.1/GCA_052391215.1_ASM5239121v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3909957,
+      "sha256": "29d1aa6a2e462e6ff9c0ef7b9eef50cff4d8993549e900d22e643b203b1f2b28",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052393145.1/GCA_052393145.1_ASM5239314v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052393145.1/GCA_052393145.1_ASM5239314v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3861046,
+      "sha256": "adf7c3539891c057b0ad4fa34ff57e54854cd6843aacd7b6676701a0ac759c08",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052393535.1/GCA_052393535.1_ASM5239353v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052393535.1/GCA_052393535.1_ASM5239353v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3904933,
+      "sha256": "fa6af935130d81043e2f8bf2c603fe690d1fb0ad47484b1796a74cd2d65d1807",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395045.1/GCA_052395045.1_ASM5239504v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052395045.1/GCA_052395045.1_ASM5239504v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4115744,
+      "sha256": "c99441938fbdff768f15a45f41c21d58242e32b4d4c9224ec3594d5937ee53e9",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395065.1/GCA_052395065.1_ASM5239506v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052395065.1/GCA_052395065.1_ASM5239506v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4005824,
+      "sha256": "a05a1b72dbd8daa0ae061281382592820e6524bd3f3ef20c682f7f1c6912612f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395305.1/GCA_052395305.1_ASM5239530v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052395305.1/GCA_052395305.1_ASM5239530v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4343173,
+      "sha256": "9980f4389b8e837de5dfbe9025ee8d435320700d8c9448e131db4f627ea13e39",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395415.1/GCA_052395415.1_ASM5239541v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052395415.1/GCA_052395415.1_ASM5239541v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4050655,
+      "sha256": "9c1728eee6fbbd0d8e1ada84b89fc7617992512ee5b3f8f45e2c5a4f6193df5d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052395845.1/GCA_052395845.1_ASM5239584v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052395845.1/GCA_052395845.1_ASM5239584v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3996956,
+      "sha256": "135eb44e8c3d03b088ddbd7b26195b29c958bbb7c9f29f1f3b8fceb71fc3aec5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396005.1/GCA_052396005.1_ASM5239600v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052396005.1/GCA_052396005.1_ASM5239600v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3909773,
+      "sha256": "73d8a853a484984f1542ec4b2401c1d4c2163b4b3b13f2fd94af9d73e79724c3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396085.1/GCA_052396085.1_ASM5239608v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052396085.1/GCA_052396085.1_ASM5239608v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4042043,
+      "sha256": "61e6c3f20f3e64f532d9c261e48eae51f453fb02386cd363ba4063f96aa8a9c8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396345.1/GCA_052396345.1_ASM5239634v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052396345.1/GCA_052396345.1_ASM5239634v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4121270,
+      "sha256": "3f41f65b6012723e0c50f98ece48d21e4c2473f62eec1e09904400f17aa8dbce",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396545.1/GCA_052396545.1_ASM5239654v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052396545.1/GCA_052396545.1_ASM5239654v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4033273,
+      "sha256": "75f4b147eadfda99338f43b0afe62a22784ecf42c5976ee78e022ac45dbbf439",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396815.1/GCA_052396815.1_ASM5239681v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052396815.1/GCA_052396815.1_ASM5239681v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4264263,
+      "sha256": "302b9ebb81e38448871cc09e816606f377a0729d5e7d9f0ed22b519671f67e6c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052396885.1/GCA_052396885.1_ASM5239688v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052396885.1/GCA_052396885.1_ASM5239688v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4105314,
+      "sha256": "6fd9077fd5f112b4bd44c7300a7fd7d031cc35ed601cbc811d9fa4ee9752f2a6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052397265.1/GCA_052397265.1_ASM5239726v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052397265.1/GCA_052397265.1_ASM5239726v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4235076,
+      "sha256": "9f7f300227ab5a8c09df864ca573b923c35b88c7bf68d4e09ee8052df2bf2702",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052397405.1/GCA_052397405.1_ASM5239740v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052397405.1/GCA_052397405.1_ASM5239740v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4385657,
+      "sha256": "863e5e1a651ac643f723d6fc84f682a1c56fe5afb3c5ac82ed175acd204660d8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398255.1/GCA_052398255.1_ASM5239825v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052398255.1/GCA_052398255.1_ASM5239825v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3885048,
+      "sha256": "e89004a228c1e03324d90a07f9609581f8cd41a163ecedeb69d78d5e620f6ac1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398745.1/GCA_052398745.1_ASM5239874v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052398745.1/GCA_052398745.1_ASM5239874v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3996756,
+      "sha256": "0474063251092e2f9854bd20cdec1eee9d82922d2984faffc0408bff20e4bc24",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398755.1/GCA_052398755.1_ASM5239875v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052398755.1/GCA_052398755.1_ASM5239875v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3932185,
+      "sha256": "8a31af25452003f237aa3d1445f418694358dfc1d48f6b8b7cd091cee884af75",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052398945.1/GCA_052398945.1_ASM5239894v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052398945.1/GCA_052398945.1_ASM5239894v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4090907,
+      "sha256": "32fe1bfb829a72c497ee5c528edc4509108c82084f450f59efca77070794960e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052399425.1/GCA_052399425.1_ASM5239942v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052399425.1/GCA_052399425.1_ASM5239942v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3896161,
+      "sha256": "d102f95d5a84cd150c67517835951fa9cda366f8c6c98d94971ebacc2cd51c5b",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052399625.1/GCA_052399625.1_ASM5239962v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052399625.1/GCA_052399625.1_ASM5239962v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4129339,
+      "sha256": "95a8d71d9db75d9ade1f7e1f30aed2ad0ede2ef0ef17dbed623a029d5b1b76e8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052399745.1/GCA_052399745.1_ASM5239974v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052399745.1/GCA_052399745.1_ASM5239974v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4064244,
+      "sha256": "703bcbf091a680091e37b25d176d2cebc8864f576450cfe6397510ef1da43038",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052427735.1/GCA_052427735.1_ASM5242773v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052427735.1/GCA_052427735.1_ASM5242773v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4027790,
+      "sha256": "ccdcac2f925620d5a2b6b6008ea92cd828f2455374dc36b59d040ed1e2c9b970",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052428965.1/GCA_052428965.1_ASM5242896v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052428965.1/GCA_052428965.1_ASM5242896v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3994806,
+      "sha256": "ea38b3d3f9aa4748f5bcd2e2ce86dc6de589870ab5f184b3524dd2d11193d06c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052429135.1/GCA_052429135.1_ASM5242913v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052429135.1/GCA_052429135.1_ASM5242913v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4005241,
+      "sha256": "c765e32ffe2202ac9a5752b2cf732df8acfec2d72bafb21c47bc06ce2b6b206c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052430155.1/GCA_052430155.1_ASM5243015v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052430155.1/GCA_052430155.1_ASM5243015v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4056883,
+      "sha256": "0042a80d88b40ed080cd82d9c90d217c10d3bd34fdcd2c2c2837d18485cc2cea",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052437165.1/GCA_052437165.1_ASM5243716v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052437165.1/GCA_052437165.1_ASM5243716v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3979865,
+      "sha256": "9a82c6249eb61f96098e80817ead233ae5bbc40cbf85957601d05f64a652c87d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052438345.1/GCA_052438345.1_ASM5243834v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052438345.1/GCA_052438345.1_ASM5243834v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4044022,
+      "sha256": "92095a06e3546752a230062208f05501f0fce98a536f48909edf2de64f70b712",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052439725.1/GCA_052439725.1_ASM5243972v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052439725.1/GCA_052439725.1_ASM5243972v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4040940,
+      "sha256": "b08be1a2fd17c865daf3098dd4b4402b06454fec9a3b7a78bec8072ad1d1f41c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052440925.1/GCA_052440925.1_ASM5244092v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052440925.1/GCA_052440925.1_ASM5244092v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3768633,
+      "sha256": "c44cf6e866a7c86fbd8292fce69de3006a8615a5677b89e59a05678921c10e3d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_052681735.1/GCA_052681735.1_MRSN7088-complete-genome_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_052681735.1/GCA_052681735.1_MRSN7088-complete-genome_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4194642,
+      "sha256": "32d435475d9a68e1eabaca9938735783c671f0983f50f34a9beaa24bf6395888",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCA_056504615.1/GCA_056504615.1_ASM5650461v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCA_056504615.1/GCA_056504615.1_ASM5650461v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4227465,
+      "sha256": "96a91565575df639f52883abcfe7b77fd30cbf7e7b73b1117a2605a290b87eeb",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_000069245.1/GCF_000069245.1_ASM6924v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_000069245.1/GCF_000069245.1_ASM6924v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4099711,
+      "sha256": "d01249bf63118e582c145265190987150eace07579712fa5231fe8e706d84acd",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_000828795.1/GCF_000828795.1_ASM82879v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_000828795.1/GCF_000828795.1_ASM82879v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4072270,
+      "sha256": "01f0094968df2ab9a4715ffdf0123aef95b346afd93ec7607bb570b43d8d8d09",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001399655.1/GCF_001399655.1_ASM139965v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001399655.1/GCF_001399655.1_ASM139965v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4183264,
+      "sha256": "e24fba3ea8d028e0aaf619b4f1af401e5126b1fb77e5264b5bd185f73e2e4611",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001517645.1/GCF_001517645.1_R2091_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001517645.1/GCF_001517645.1_R2091_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3997000,
+      "sha256": "b405d7821e87a9538152045058d685f40ee5283e6b88bbd2a08f3dae8e87eff2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001578145.1/GCF_001578145.1_ASM157814v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001578145.1/GCF_001578145.1_ASM157814v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4224847,
+      "sha256": "cc485baa08d4d052d6eebc7dec089324a4e95559523c87b23c5adbf556ac4e41",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001668465.2/GCF_001668465.2_ASM166846v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001668465.2/GCF_001668465.2_ASM166846v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3934454,
+      "sha256": "9d300595922699d7778f31785d3426795e8fe1818828b1920c6d6c4237289007",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001669145.2/GCF_001669145.2_ASM166914v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001669145.2/GCF_001669145.2_ASM166914v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4159572,
+      "sha256": "3ccd752a683b9efacd75d8ff6417c6b0a41047eaccb1d493dbcee312fa7d13f4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001908295.1/GCF_001908295.1_ASM190829v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001908295.1/GCF_001908295.1_ASM190829v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4038803,
+      "sha256": "64b44accb7b59e5fff8b3b9ce342c1865aa04ce3589566ee4874615991068177",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_001922245.1/GCF_001922245.1_ASM192224v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_001922245.1/GCF_001922245.1_ASM192224v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4226635,
+      "sha256": "02f14e0ce0831f6fb79d2c1d358fd532ec5f2d66351b40592557a8b272aba48a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_002082745.1/GCF_002082745.1_ASM208274v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_002082745.1/GCF_002082745.1_ASM208274v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3933049,
+      "sha256": "07765ce73eb2c47443b7c12605009fde38580eb141e8d2ddef30fef87f501c95",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_002082805.1/GCF_002082805.1_ASM208280v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_002082805.1/GCF_002082805.1_ASM208280v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3919412,
+      "sha256": "5a0ed69892cad0a1e91f754a2f218a657f15ab0fcf55d7701366143a9ac23009",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_002210065.1/GCF_002210065.1_ASM221006v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_002210065.1/GCF_002210065.1_ASM221006v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4196927,
+      "sha256": "f94e2ecee30941df0282e0e376fd467bc990401db9945132b6bde79d8346a932",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003006035.1/GCF_003006035.1_ASM300603v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003006035.1/GCF_003006035.1_ASM300603v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4281417,
+      "sha256": "fe9c28d66f1a471fdc1334254f1844d5ea737011623353d04c389d4e55ce53b7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003029495.1/GCF_003029495.1_ASM302949v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003029495.1/GCF_003029495.1_ASM302949v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4241089,
+      "sha256": "8137d5fe31eab77ecdd480cc0bddae3976dc5ce5893c9530059fb1e4c67807e6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003296225.1/GCF_003296225.1_ASM329622v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003296225.1/GCF_003296225.1_ASM329622v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4087639,
+      "sha256": "018428d827638f1b9c176cf320a7979ff7de5a8a869f8077f71d39b2e554dc7b",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003522665.1/GCF_003522665.1_ASM352266v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003522665.1/GCF_003522665.1_ASM352266v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4179922,
+      "sha256": "a4f3afc3bd8815eb5ae80658290d127bc9cf12874a4afd1e3c36afb42bb50fd1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003547115.1/GCF_003547115.1_ASM354711v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003547115.1/GCF_003547115.1_ASM354711v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4342954,
+      "sha256": "be3feedb37d6e136b7d0e3d57e52f92a5a032a01fb5c1938638e1c64951d5ca7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003931775.1/GCF_003931775.1_ASM393177v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003931775.1/GCF_003931775.1_ASM393177v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3992483,
+      "sha256": "6d09f146f4076028ad92c5effd823e27fad40aae59a88c004c95916a120fc349",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_003949725.2/GCF_003949725.2_ASM394972v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_003949725.2/GCF_003949725.2_ASM394972v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4165224,
+      "sha256": "636c82e68342c71eea723f99f3800f584d1791faa4990b53c57fbe8798f9d18a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_004768705.1/GCF_004768705.1_ASM476870v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_004768705.1/GCF_004768705.1_ASM476870v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4096908,
+      "sha256": "44798604743d5819bac009602453c9cdd9f9b8c14941b46fc7e05455c22e0292",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005280435.1/GCF_005280435.1_ASM528043v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_005280435.1/GCF_005280435.1_ASM528043v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4331724,
+      "sha256": "62847a28d24ff55434a86489590084520daffec66455baa8f37d0b217635b2ef",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005280695.1/GCF_005280695.1_ASM528069v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_005280695.1/GCF_005280695.1_ASM528069v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4062533,
+      "sha256": "4a1f3c430fda494733b76b934548afd9299650208ca405cab38a734d72a3fed7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005518095.1/GCF_005518095.1_ASM551809v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_005518095.1/GCF_005518095.1_ASM551809v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4421517,
+      "sha256": "496cc59e5801a684774fcc928a245ec98f4332b862efc9d203c81e72e32ad5ea",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005519135.2/GCF_005519135.2_ASM551913v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_005519135.2/GCF_005519135.2_ASM551913v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4064049,
+      "sha256": "bb32c9f8a16e9dfb60df6d4d6136fa609ae94d9f142c891283fcda577d7f41cf",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_005671375.1/GCF_005671375.1_ASM567137v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_005671375.1/GCF_005671375.1_ASM567137v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4188431,
+      "sha256": "68c145af3e42b068d1aa9e39287cf83d40908d00880ae0790d6ecf6a068dc844",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_007107525.1/GCF_007107525.1_ASM710752v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_007107525.1/GCF_007107525.1_ASM710752v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4010595,
+      "sha256": "8f595b36ccf28f94275a29ef3b413c4e5acaf979e44a224e44b4b709ddf8db53",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_007221455.1/GCF_007221455.1_ASM722145v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_007221455.1/GCF_007221455.1_ASM722145v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3945336,
+      "sha256": "c815a59230339df38da00090a37cec020b720ef227e4ecef97c220e27567b3c6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_009497995.1/GCF_009497995.1_ASM949799v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_009497995.1/GCF_009497995.1_ASM949799v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4147202,
+      "sha256": "1f9a54d4c034534c4a4f038a7bf6f3c7a4a1f7158ae43892060f9524305e3169",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_011067065.1/GCF_011067065.1_ASM1106706v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_011067065.1/GCF_011067065.1_ASM1106706v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3933611,
+      "sha256": "99390b475642738f914639d40e002577d2932924063c2a0d1dccd2226f35f45c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012272735.1/GCF_012272735.1_ASM1227273v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012272735.1/GCF_012272735.1_ASM1227273v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4282735,
+      "sha256": "00968b746433ffae4b08c74b0906d9e3dc8603b03738e168f2499c5f7bb1b86e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012931625.1/GCF_012931625.1_ASM1293162v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012931625.1/GCF_012931625.1_ASM1293162v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4227484,
+      "sha256": "3fed3fe1152c6c3adc41468913c939acd7f7528944e4e7c88efe04d5f8d1bd04",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012934905.1/GCF_012934905.1_ASM1293490v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012934905.1/GCF_012934905.1_ASM1293490v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4489398,
+      "sha256": "1d98430560c109009d8720abcc1574f7a4de55b75f7dfbd2fd10253784893ba1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012934965.1/GCF_012934965.1_ASM1293496v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012934965.1/GCF_012934965.1_ASM1293496v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4123561,
+      "sha256": "614d6a7aef50db434afe565160bbf33e42a8aed35c544f8bb53b12b42a91541d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935005.1/GCF_012935005.1_ASM1293500v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012935005.1/GCF_012935005.1_ASM1293500v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4331966,
+      "sha256": "bac7afa9d92bfa1282a497a9a91fc58cd6097d0741c66fe7465d7203253b2506",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935065.1/GCF_012935065.1_ASM1293506v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012935065.1/GCF_012935065.1_ASM1293506v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4096387,
+      "sha256": "ab8104accd38978e89da17ded10a23870f1dec3947eaf92cbc7c196286996f94",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935105.1/GCF_012935105.1_ASM1293510v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012935105.1/GCF_012935105.1_ASM1293510v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4245437,
+      "sha256": "171f694ddc8c9d325792dede524f2b578d0ecf964c16a13f541a21af8f545a7d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935125.1/GCF_012935125.1_ASM1293512v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012935125.1/GCF_012935125.1_ASM1293512v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4185433,
+      "sha256": "e7cb827fcedd4c815ee73e8f61040749cd275fde41edc61fcadf868911db2a9a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935145.1/GCF_012935145.1_ASM1293514v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012935145.1/GCF_012935145.1_ASM1293514v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4114024,
+      "sha256": "e87177840bffb7b0a51d5c3f45a3a13b37d23eb80fc06e7353d860a2ca90af15",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012935185.1/GCF_012935185.1_ASM1293518v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012935185.1/GCF_012935185.1_ASM1293518v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4071149,
+      "sha256": "c771fb033f02ffe29f8e09a567450478b3e7a1226e6f33ca546c8433087712ea",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_012974845.1/GCF_012974845.1_ASM1297484v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_012974845.1/GCF_012974845.1_ASM1297484v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4131604,
+      "sha256": "dd2709bbf2b4bcf57baaead655c1e9ca2176943538041e4f1e9314c4579fb0a4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_013305465.1/GCF_013305465.1_ASM1330546v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_013305465.1/GCF_013305465.1_ASM1330546v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4133612,
+      "sha256": "71207e835dbb72c8464d8fb4c80627339788d22b37db19ede591eefb98b489ff",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_013377175.1/GCF_013377175.1_ASM1337717v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_013377175.1/GCF_013377175.1_ASM1337717v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4214254,
+      "sha256": "394ade9fd14aaf0b06513eb4d7038b4e9bd92b14cf8b9e2dea94173c84a2804f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_013416255.1/GCF_013416255.1_ASM1341625v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_013416255.1/GCF_013416255.1_ASM1341625v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4021618,
+      "sha256": "c652fc9b64354dd995f59f37ca15a44061d18a2ff9661d6d2bf2ecf8f2a8b4b7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_014719435.1/GCF_014719435.1_ASM1471943v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_014719435.1/GCF_014719435.1_ASM1471943v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4554278,
+      "sha256": "a6d898b2cb8f350355bb2a56874fe80cf1d8f3ab53ba790d9498c6579cb26bd7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_015571935.1/GCF_015571935.1_ASM1557193v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_015571935.1/GCF_015571935.1_ASM1557193v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4003040,
+      "sha256": "631c54ebfbefe9fdd3dc997b8bb307550e27ff4b1b006955425fc542f85967d2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_015602685.1/GCF_015602685.1_ASM1560268v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_015602685.1/GCF_015602685.1_ASM1560268v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4077698,
+      "sha256": "d608e1d4dc7e974880a813701853b0f99dd183636c32d7aaecac27ed4e2f5789",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_015910475.1/GCF_015910475.1_ASM1591047v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_015910475.1/GCF_015910475.1_ASM1591047v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4083130,
+      "sha256": "3481467cff2c17659dae00dc46475aa8c5831a8802f89a8ce6bde0ed135c7183",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016127515.1/GCF_016127515.1_ASM1612751v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016127515.1/GCF_016127515.1_ASM1612751v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4101187,
+      "sha256": "5327e53460f699c684a5682a859f173c7ce564658ccef7efe3a59dd3223390e6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016506985.2/GCF_016506985.2_ASM1650698v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016506985.2/GCF_016506985.2_ASM1650698v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3849073,
+      "sha256": "5edfaba517dfe13478702560d34d30622594a7d2164adf229f1cdcb3e1451a2d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016864915.1/GCF_016864915.1_ASM1686491v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016864915.1/GCF_016864915.1_ASM1686491v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4144307,
+      "sha256": "bbdb8a013dc99677faa6b5920086c435148a7e1cae14f2d152dbb5b676fae767",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016865465.1/GCF_016865465.1_ASM1686546v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016865465.1/GCF_016865465.1_ASM1686546v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4062022,
+      "sha256": "de19c36aeaaf130df36c345e120fb72744dcae9615034ef02576249eb4f8352d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016903135.1/GCF_016903135.1_ASM1690313v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016903135.1/GCF_016903135.1_ASM1690313v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4121278,
+      "sha256": "aca40217660be4de23121dab798a5d6aae8720235b134ed90f394eb008981014",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016903215.1/GCF_016903215.1_ASM1690321v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016903215.1/GCF_016903215.1_ASM1690321v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3947194,
+      "sha256": "7ce2f3fedda7db9b2abfe8e6626869d27db8b376e3b733a1ec437243f162b57a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_016919505.2/GCF_016919505.2_ASM1691950v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_016919505.2/GCF_016919505.2_ASM1691950v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4147272,
+      "sha256": "74229cc3b679bb7597068cd1e55520cfd0a7743ca40fd0ee9a39b3008a3a80cb",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_017723975.1/GCF_017723975.1_ASM1772397v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_017723975.1/GCF_017723975.1_ASM1772397v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4446053,
+      "sha256": "b3d881162b989677a587d48856dceefcfadda39eb3d187839e6f946e36a66f80",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_017726575.1/GCF_017726575.1_ASM1772657v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_017726575.1/GCF_017726575.1_ASM1772657v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3952176,
+      "sha256": "c29500073b83166f65e708fa55855e24268d795fc85042129618829314064ece",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_018808925.1/GCF_018808925.1_ASM1880892v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_018808925.1/GCF_018808925.1_ASM1880892v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4362766,
+      "sha256": "1a1abe4d9d280b0db97c00e18c31277a567970b30bc2ebbc7621a6d66f8a03ba",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_018831125.1/GCF_018831125.1_ASM1883112v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_018831125.1/GCF_018831125.1_ASM1883112v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4379247,
+      "sha256": "d2206d2d4e1c734426801f2f43b0f60d2a426468917aae18c17e325597db9fbf",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_019331655.1/GCF_019331655.1_ASM1933165v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_019331655.1/GCF_019331655.1_ASM1933165v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3994598,
+      "sha256": "9bc54a929c5e01e0c7cd28e17de12b176dbef5ffcdf0673b987f0a5a9cd3e430",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_019458485.1/GCF_019458485.1_ASM1945848v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_019458485.1/GCF_019458485.1_ASM1945848v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4104784,
+      "sha256": "5427421a0fd048bb58c22b19ad74f2c6081996411dda6b03f72dcb9404bc5b2c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_019903195.1/GCF_019903195.1_ASM1990319v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_019903195.1/GCF_019903195.1_ASM1990319v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3858028,
+      "sha256": "3399f1a5798a7864f564816435e15fa97ce0fdb7d287afa9867280fee21d0422",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_020132105.1/GCF_020132105.1_ASM2013210v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_020132105.1/GCF_020132105.1_ASM2013210v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4066959,
+      "sha256": "db5e9b34fa1f59486b0dd8f71b0001a573ce9776d177aafb12ddfe63a7ab93c1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_020912005.1/GCF_020912005.1_ASM2091200v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_020912005.1/GCF_020912005.1_ASM2091200v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4227603,
+      "sha256": "c9b2b850df12f0e12e64b819020c3a47dce0a0bd4e79b21833b9813835d8192d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_021730415.1/GCF_021730415.1_ASM2173041v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_021730415.1/GCF_021730415.1_ASM2173041v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4089627,
+      "sha256": "48c23d03e638be6580206d21e0bdf9df173992c3f7665eee12a203d511d29a55",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022369355.1/GCF_022369355.1_ASM2236935v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022369355.1/GCF_022369355.1_ASM2236935v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4013689,
+      "sha256": "8bae264160865965f7474001d18da9b2931bf6708ba53b76e217c47d1b9721c7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022459295.1/GCF_022459295.1_ASM2245929v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022459295.1/GCF_022459295.1_ASM2245929v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4024633,
+      "sha256": "061e27e804728291eb6d820bc7cad0741d8d634d37d424dbabadda561d1ff733",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022459415.1/GCF_022459415.1_ASM2245941v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022459415.1/GCF_022459415.1_ASM2245941v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4157634,
+      "sha256": "2c5615f9b0f6f945876ff75d885a4bcc88beee8c77bc057850a7cd0b037c1835",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022459875.1/GCF_022459875.1_ASM2245987v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022459875.1/GCF_022459875.1_ASM2245987v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4072272,
+      "sha256": "5aed37c91de7f5fb622b138aad7c788bf3479b4c79b75306ad796123266db0b8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022460575.1/GCF_022460575.1_ASM2246057v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022460575.1/GCF_022460575.1_ASM2246057v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4046007,
+      "sha256": "7bc47584b08f5ad5ef245c6baf764762fb1c06d8c71a70fa8e50ed6df49a7770",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022466815.1/GCF_022466815.1_ASM2246681v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022466815.1/GCF_022466815.1_ASM2246681v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4046273,
+      "sha256": "e58bb0736dcfecf69b7d98be53447903c13113e1f8adc724a4de0995a44e4b68",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467435.1/GCF_022467435.1_ASM2246743v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022467435.1/GCF_022467435.1_ASM2246743v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4046486,
+      "sha256": "5a487e37fa4767e797fdce0f6f052899fd5fd4dc6a081d8b9878ccceb4e6bf1f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467655.1/GCF_022467655.1_ASM2246765v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022467655.1/GCF_022467655.1_ASM2246765v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3922867,
+      "sha256": "c39e242829383ac760d8b3ad520e97a15b9c20617823c2afdb468c52b9cf221d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467735.1/GCF_022467735.1_ASM2246773v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022467735.1/GCF_022467735.1_ASM2246773v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4059079,
+      "sha256": "979572e9db27c6a94e24a001f9b1461bda5ebc4217039ea10d8f568498a354f3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467905.1/GCF_022467905.1_ASM2246790v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022467905.1/GCF_022467905.1_ASM2246790v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3979523,
+      "sha256": "ea9f2f67bd626f84ea97760b5cecc1872cc2d83d1377ad0d30cfd3c463b3e9a0",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022467975.1/GCF_022467975.1_ASM2246797v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022467975.1/GCF_022467975.1_ASM2246797v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4045414,
+      "sha256": "160005e1832fb5ac76db62f337d582766defb2de934815fe3bcbe263f0844918",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022468295.1/GCF_022468295.1_ASM2246829v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022468295.1/GCF_022468295.1_ASM2246829v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3962939,
+      "sha256": "88b6555e92f816f54a227fb6d8fa9147d9ad91b16ec863cbe0de569258076cac",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022468565.1/GCF_022468565.1_ASM2246856v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022468565.1/GCF_022468565.1_ASM2246856v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3971443,
+      "sha256": "acd932ce07e5351cd506a18306c26c0a053d122853526dfac5deaf1bb6ce3cab",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022468795.1/GCF_022468795.1_ASM2246879v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022468795.1/GCF_022468795.1_ASM2246879v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4012691,
+      "sha256": "c77fc941237e8a2dba791f2de7aaf66841789f0f1d66368cf85a8aadd1617d6a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_022759565.1/GCF_022759565.1_ASM2275956v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_022759565.1/GCF_022759565.1_ASM2275956v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4283974,
+      "sha256": "6c84e4789e81f9a104a785da9fa2aaa7f4100b961923610c42883c5c6f1bcb7e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023221535.1/GCF_023221535.1_ASM2322153v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023221535.1/GCF_023221535.1_ASM2322153v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3927540,
+      "sha256": "3f3550126bb7baa633205fdd6e2104fb7d77a0aecaf6347a5e406da0607f10ef",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023361015.1/GCF_023361015.1_ASM2336101v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023361015.1/GCF_023361015.1_ASM2336101v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4187975,
+      "sha256": "093dff33c3b1ae06916ac58dffda18c2525b2423742ef51d5375461b48051b6e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023361175.1/GCF_023361175.1_ASM2336117v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023361175.1/GCF_023361175.1_ASM2336117v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4228355,
+      "sha256": "7f0b18c333289a77b3a6de504eeb6dfc4826245536ab80a701fb9d002c096722",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023361915.1/GCF_023361915.1_ASM2336191v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023361915.1/GCF_023361915.1_ASM2336191v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4243604,
+      "sha256": "2d52712a854f60f78ccf1cc96f789237a48f43488d90e14c58dfdf08b841ef32",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023362115.1/GCF_023362115.1_ASM2336211v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023362115.1/GCF_023362115.1_ASM2336211v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4138351,
+      "sha256": "a2f24f2d2534c9ef518ab2bb8ed8466cfc2dcd2d7b22cd610435901d9f9eecf5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023362215.1/GCF_023362215.1_ASM2336221v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023362215.1/GCF_023362215.1_ASM2336221v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4053051,
+      "sha256": "40598d972607c658751025013b1d13f4c072ef7471d95928cf38aebdff9036a3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023362275.1/GCF_023362275.1_ASM2336227v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023362275.1/GCF_023362275.1_ASM2336227v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4301843,
+      "sha256": "edc3680fac63247d81dc6e54be1a699fb033616f0ef56f018e674db1fa1cd20d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517195.1/GCF_023517195.1_ASM2351719v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023517195.1/GCF_023517195.1_ASM2351719v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4266800,
+      "sha256": "f2cf2f5d649d641b2beaa92f3ed4ff8e8844325dc5458bca627b5566d968c8c5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517215.1/GCF_023517215.1_ASM2351721v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023517215.1/GCF_023517215.1_ASM2351721v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4122719,
+      "sha256": "c590bced6c2d3c46210bdaeb98dccbbd8b54f44af43290659a34b9f1806ecc22",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517695.1/GCF_023517695.1_ASM2351769v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023517695.1/GCF_023517695.1_ASM2351769v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4212588,
+      "sha256": "eb34e37886f7a882765399d248c120f5f6a924dd8ee0849e3be2c6c37dac0cc8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023517715.1/GCF_023517715.1_ASM2351771v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023517715.1/GCF_023517715.1_ASM2351771v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4088091,
+      "sha256": "de48e6d5bca9c9dbd5f022da44935a27e05a22ca30b51455223350569fc0f149",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023809705.1/GCF_023809705.1_ASM2380970v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023809705.1/GCF_023809705.1_ASM2380970v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4395524,
+      "sha256": "ae2c1bcce030bdf98213b10f2487b7d4467fe08ec6384ab3118f52121815ffef",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_023981045.1/GCF_023981045.1_ASM2398104v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_023981045.1/GCF_023981045.1_ASM2398104v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4258509,
+      "sha256": "faf08e1f34a652d27e2a75254d175e0559ddb6b5f21b0194c43f64ed03c03da2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024138435.1/GCF_024138435.1_ASM2413843v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024138435.1/GCF_024138435.1_ASM2413843v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4155018,
+      "sha256": "1f39d8ab35afed18e80bb3c32a1ffeebbb114c9f8dc25dad195096c2ecad7fb7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139015.1/GCF_024139015.1_ASM2413901v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024139015.1/GCF_024139015.1_ASM2413901v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4096549,
+      "sha256": "5e5239a2a3859c6c2225a1e293df9a87e37c56e972fa4d4cd700a918c8177494",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139035.1/GCF_024139035.1_ASM2413903v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024139035.1/GCF_024139035.1_ASM2413903v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4267922,
+      "sha256": "ac4664dd5fbe27f19b7ea0a807abd16905c5a3232ac6a8e2351f5fb8c3d73d5c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139055.1/GCF_024139055.1_ASM2413905v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024139055.1/GCF_024139055.1_ASM2413905v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4033238,
+      "sha256": "00d3059fbc739ba2e3db2acac4018cc58199cf4b132b1ac355965ebec173a3d5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024139095.1/GCF_024139095.1_ASM2413909v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024139095.1/GCF_024139095.1_ASM2413909v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4196136,
+      "sha256": "2c239f45d20c9f3cdb1eb685ba332ab3918fcdef5d46dde02bdf92952c4b38a0",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024732425.1/GCF_024732425.1_ASM2473242v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024732425.1/GCF_024732425.1_ASM2473242v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4235651,
+      "sha256": "efd64fc79534d7015c6481441a5d252ba58989702482f6e480c688f10666553b",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749445.1/GCF_024749445.1_ASM2474944v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024749445.1/GCF_024749445.1_ASM2474944v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4076227,
+      "sha256": "621159519a2826d52874b0f6d0ffbd0cf3b4ca885a74e5abc6472a22bd599b58",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749485.1/GCF_024749485.1_ASM2474948v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024749485.1/GCF_024749485.1_ASM2474948v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4186038,
+      "sha256": "25ef2fd03c80fe016b95a151d2aff28bd773f792f95c83b7c3c89d318c0e389d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749525.1/GCF_024749525.1_ASM2474952v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024749525.1/GCF_024749525.1_ASM2474952v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4226980,
+      "sha256": "dc10290e58a6a32c0d513ca0aa570a93282797b155a50af7876ee42aa7d17826",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749545.1/GCF_024749545.1_ASM2474954v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024749545.1/GCF_024749545.1_ASM2474954v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4083447,
+      "sha256": "e3e9beec6449acd2f542a51fafd66db659e7b971021d0bd3dc1f7dc43f00cebb",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749605.1/GCF_024749605.1_ASM2474960v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024749605.1/GCF_024749605.1_ASM2474960v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4284839,
+      "sha256": "de06b3c1861a5fb80ac3bcdb3c95f4fde3c4fd9d068ebf6e46c0534699fc76e3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_024749765.1/GCF_024749765.1_ASM2474976v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_024749765.1/GCF_024749765.1_ASM2474976v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4223824,
+      "sha256": "f9cf1df413a84dfa1655df74a8ea42a4d4bad368461f94150cdfc699a9d7abb1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025258705.1/GCF_025258705.1_ASM2525870v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_025258705.1/GCF_025258705.1_ASM2525870v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4530046,
+      "sha256": "e9af0752f033bafe5897f16193535185709712d6246117f98faad326e6f8a1af",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025722955.1/GCF_025722955.1_ASM2572295v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_025722955.1/GCF_025722955.1_ASM2572295v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4131662,
+      "sha256": "c9457e4336da6fa336bd4094508fe7ba0174bc2f4a4027472d1277a90f93bb06",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025853915.1/GCF_025853915.1_ASM2585391v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_025853915.1/GCF_025853915.1_ASM2585391v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4031448,
+      "sha256": "a5f742e2d10848bdeb6e1a8983643fe6ef6bed6cd0299030e57e2318473bb360",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025854015.1/GCF_025854015.1_ASM2585401v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_025854015.1/GCF_025854015.1_ASM2585401v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4193528,
+      "sha256": "8edac8de815e722395956cd85cc4bcb2b067962aa74e16227666fb419d3e7684",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_025854095.1/GCF_025854095.1_ASM2585409v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_025854095.1/GCF_025854095.1_ASM2585409v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4031882,
+      "sha256": "038f88fae70832805afc026f599cd858e7f5f54f5ece0e83c645aa8051b06336",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_027943685.1/GCF_027943685.1_ASM2794368v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_027943685.1/GCF_027943685.1_ASM2794368v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4080894,
+      "sha256": "27a742266df42b87c24bf3938165468627bf2e01e9467779ad9f641aa7d36a6a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028201495.1/GCF_028201495.1_ASM2820149v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_028201495.1/GCF_028201495.1_ASM2820149v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4181652,
+      "sha256": "1d31ef7c82c61c22ac07fe1652d0c88621ac80a79f4cae41032bab1244b431f8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028464005.1/GCF_028464005.1_ASM2846400v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_028464005.1/GCF_028464005.1_ASM2846400v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4114918,
+      "sha256": "353a8ac40280e6a9f0bc2f9e77c0166647ec0e0ff2d4336e962f570e2f524b15",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028583465.1/GCF_028583465.1_ASM2858346v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_028583465.1/GCF_028583465.1_ASM2858346v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3986784,
+      "sha256": "35f45eec12cb043e50f23a3a5df87b3a592b9c91e5a1a4e2d63abf1d6322e75a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_028753295.1/GCF_028753295.1_ASM2875329v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_028753295.1/GCF_028753295.1_ASM2875329v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4152692,
+      "sha256": "8b8f05981e01f48cc9123fdf7ef60bbb2e19da866564b54d3895b56fe87fd2ab",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029223565.1/GCF_029223565.1_ASM2922356v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029223565.1/GCF_029223565.1_ASM2922356v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4124073,
+      "sha256": "3d64aae560a4b1b3727d3428cf72ddced5d666e6ae16b8655c6c5597709b80d4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029582015.1/GCF_029582015.1_ASM2958201v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029582015.1/GCF_029582015.1_ASM2958201v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3884568,
+      "sha256": "ca6258aa9fc2b68245d28ab112b21f426beab0ee036c5fd76cd147d9d611bbb2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029674825.1/GCF_029674825.1_ASM2967482v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029674825.1/GCF_029674825.1_ASM2967482v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4040523,
+      "sha256": "8b8975c5f8aea32d314320a36d73e6e82c1a08a6462a0b2f813f21ab4abb4fa9",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029713785.1/GCF_029713785.1_ASM2971378v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029713785.1/GCF_029713785.1_ASM2971378v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4120518,
+      "sha256": "788e149c263ffe2dd44f7a9e3e944db33579dc726b004cd1ab39709473e0de2b",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029713865.1/GCF_029713865.1_ASM2971386v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029713865.1/GCF_029713865.1_ASM2971386v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4218381,
+      "sha256": "936e113d139cd7ab892cc95090f698357d17d1be1d0850d9d9ece0c2f5e211eb",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029713925.1/GCF_029713925.1_ASM2971392v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029713925.1/GCF_029713925.1_ASM2971392v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4055130,
+      "sha256": "95c2ab0d8d9db8a9d4e4a5a0025c168b339f1246530dd9db07b9d3277cc77687",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029714005.1/GCF_029714005.1_ASM2971400v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029714005.1/GCF_029714005.1_ASM2971400v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4165136,
+      "sha256": "93fc54cc6702efb71fcf477ef831309c9fb1ae29001f3faf7871265f8c63c830",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029714105.1/GCF_029714105.1_ASM2971410v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029714105.1/GCF_029714105.1_ASM2971410v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4080429,
+      "sha256": "d85a32b0ac776e58b9d70c76b9eb5c9d792fd10419fdc84e13aba5f89d9e48f6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029774195.1/GCF_029774195.1_ASM2977419v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029774195.1/GCF_029774195.1_ASM2977419v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4289494,
+      "sha256": "aed66c650a891ec482230eb8f18c3b42b0e9a6435d4e6f56fe8db5d8f3ef865e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029774275.1/GCF_029774275.1_ASM2977427v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029774275.1/GCF_029774275.1_ASM2977427v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4145460,
+      "sha256": "1bd4f3e18c860aae48e81e4f0f94568aa23a7faf8d0b1e1a602982eda3929c35",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_029931545.1/GCF_029931545.1_ASM2993154v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_029931545.1/GCF_029931545.1_ASM2993154v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3977511,
+      "sha256": "fa66b21e33fe65243bee041a8138eed7561082f7614450abca2bc9f3fed4c01b",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030168245.1/GCF_030168245.1_ASM3016824v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_030168245.1/GCF_030168245.1_ASM3016824v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4062561,
+      "sha256": "1d39d81596c0be8eaec70f143e72ea4af502218bc6d50a7110ef2ea486c39c13",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030168285.1/GCF_030168285.1_ASM3016828v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_030168285.1/GCF_030168285.1_ASM3016828v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4362740,
+      "sha256": "dac7fbb6c9604339b1ac280dc58e8c1ae9309873a4f7510c79543201ba0728e9",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030413705.1/GCF_030413705.1_ASM3041370v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_030413705.1/GCF_030413705.1_ASM3041370v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4283131,
+      "sha256": "99b8e620546ab474c328be27c9ed98d76118eaab61933a33b824610dadcf0573",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_030585265.1/GCF_030585265.1_ASM3058526v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_030585265.1/GCF_030585265.1_ASM3058526v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4053505,
+      "sha256": "069b4bef500027210565917c946f4a4af017c8705bdecc601c748634e2f4d0f1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_033378915.2/GCF_033378915.2_ASM3337891v2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_033378915.2/GCF_033378915.2_ASM3337891v2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4095184,
+      "sha256": "de01af4d9f005bfacf79206c8fbdb39bc5ac4828f395e119c7ebaeb92fb645fe",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_034494405.1/GCF_034494405.1_ASM3449440v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_034494405.1/GCF_034494405.1_ASM3449440v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4367010,
+      "sha256": "b3a33c7125525cfae090f26884e494d95d10fb21313f2b82bd38dae36c8cd511",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_035666135.1/GCF_035666135.1_ASM3566613v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_035666135.1/GCF_035666135.1_ASM3566613v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3941422,
+      "sha256": "0d8ad6e3957f67949c7a7b25aec1b7c6356902b9e70357b9103a82ac56c46663",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_036287275.1/GCF_036287275.1_ASM3628727v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_036287275.1/GCF_036287275.1_ASM3628727v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4144624,
+      "sha256": "dc0a6db85a8b98e745a3898a75e9c730cd334c518523dd9a8d0141f37016b0cc",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_036870965.1/GCF_036870965.1_ASM3687096v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_036870965.1/GCF_036870965.1_ASM3687096v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4013197,
+      "sha256": "78cc796dc22ded0b3ca4c57243f24a2739d7d4f2b5e01f1a06bab13b56b6d1bd",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_037215885.1/GCF_037215885.1_ASM3721588v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_037215885.1/GCF_037215885.1_ASM3721588v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4174207,
+      "sha256": "d1b1b055df2793c6c63ed096f77d47f1fb2b90330126d3cedbcb7feab158e34d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038441205.1/GCF_038441205.1_ASM3844120v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038441205.1/GCF_038441205.1_ASM3844120v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4277986,
+      "sha256": "26b0a4d4e016cb242a3b3d12e3a3769bbcb9b13ca22660bcc7ac8d7c64f29467",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038441225.1/GCF_038441225.1_ASM3844122v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038441225.1/GCF_038441225.1_ASM3844122v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3981091,
+      "sha256": "4c0d2119d0c24d0e71d89428be1c23e2f6c88aff6500eb151c65780013b454c7",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038441235.1/GCF_038441235.1_ASM3844123v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038441235.1/GCF_038441235.1_ASM3844123v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4176775,
+      "sha256": "c6a56f0a165fd1a8b62132c67c7d1a19e5c414a2edb64600a0eb92e1b3e700eb",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442095.1/GCF_038442095.1_ASM3844209v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038442095.1/GCF_038442095.1_ASM3844209v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4233968,
+      "sha256": "0c52877b64e9f493af3dbdf60761bfa4bded15c6eeecdf0fad12af461c34874e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442225.1/GCF_038442225.1_CIRI-40288_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038442225.1/GCF_038442225.1_CIRI-40288_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4283698,
+      "sha256": "f03ecf724a818b9b0aace49438ce827ed26203c7a8d63baf14bb9b3c109b81ba",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442275.1/GCF_038442275.1_CIRI-F19-10-CH3_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038442275.1/GCF_038442275.1_CIRI-F19-10-CH3_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4225311,
+      "sha256": "ea6093263e09754c4fbea23d28209ca5ccdd3025d592fcdfb2bdb5d6b23a714e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038442395.1/GCF_038442395.1_CIRI-F19-10-2_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038442395.1/GCF_038442395.1_CIRI-F19-10-2_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4065418,
+      "sha256": "66aa286b4b58e2650b3831222dc86400a25e7d1237e16c4a93f3379fb11c113f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038987955.1/GCF_038987955.1_ASM3898795v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038987955.1/GCF_038987955.1_ASM3898795v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4207540,
+      "sha256": "d362f2ea82e7c405c540db97645068dae8df774c20af6413c5fa6c7d7dd1fa51",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038995905.1/GCF_038995905.1_ASM3899590v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038995905.1/GCF_038995905.1_ASM3899590v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4112729,
+      "sha256": "57fde8d6dda8b544656dfd514bde339149df92f9abc14b273888977c0e3100a3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_038998165.1/GCF_038998165.1_ASM3899816v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_038998165.1/GCF_038998165.1_ASM3899816v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4059281,
+      "sha256": "25fd2cd6076c4755ee8f9962039ea42625f2ce7a91940a804de3733f6255cb22",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_039545565.1/GCF_039545565.1_NCSR_106_Hybrid_assembly_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_039545565.1/GCF_039545565.1_NCSR_106_Hybrid_assembly_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4273905,
+      "sha256": "c933704b0b059033c3fe688f15999503c17d044609ec2c931e436254701482b6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_039779435.1/GCF_039779435.1_ASM3977943v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_039779435.1/GCF_039779435.1_ASM3977943v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4112399,
+      "sha256": "cf05a5ec76f24c22a5b351a295c609611aef2c00ec294a5e0ff933ca876df060",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_039780165.1/GCF_039780165.1_ASM3978016v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_039780165.1/GCF_039780165.1_ASM3978016v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4163765,
+      "sha256": "1967517a9130d95454e3b8059cc0272ded480b166e33529f7edaf26fb2179720",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040543095.1/GCF_040543095.1_ASM4054309v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_040543095.1/GCF_040543095.1_ASM4054309v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4078697,
+      "sha256": "e1448b35a44eedae79d413cb103fb21eed75bcd8a9bea7238e068d75cc729b70",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040822385.1/GCF_040822385.1_ASM4082238v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_040822385.1/GCF_040822385.1_ASM4082238v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3927934,
+      "sha256": "a6b6832cdb84e2e6b1a3ec96c28e0096ebe549cdeaf6360e740a764ea631de3c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040822405.1/GCF_040822405.1_ASM4082240v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_040822405.1/GCF_040822405.1_ASM4082240v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4174361,
+      "sha256": "b37a1b32db9f6a660170556be952b642107b4d441825bee34cb400563909ac79",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_040834015.1/GCF_040834015.1_ASM4083401v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_040834015.1/GCF_040834015.1_ASM4083401v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4251720,
+      "sha256": "86bbcc35f27f097351f0807b165402704dee265ba9b21b67a5e9199423ce3c2e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041014305.2/GCF_041014305.2_ASM4101430v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041014305.2/GCF_041014305.2_ASM4101430v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4151936,
+      "sha256": "656bf0eecbc49770d8f9d8b5940bf8a396d898963fb22a1148db5d63924bf60c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041021905.1/GCF_041021905.1_XH1679_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041021905.1/GCF_041021905.1_XH1679_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4152625,
+      "sha256": "b9612db4c54ea02f3447a5facdecc3fecb74ce3fdfa78a499101e7d6a9e3df45",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154805.1/GCF_041154805.1_ASM4115480v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041154805.1/GCF_041154805.1_ASM4115480v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4034891,
+      "sha256": "3cb19b05d9d420f0649d417c96d9559adf4a149bd40f145d9a60f11c568985ed",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154815.1/GCF_041154815.1_ASM4115481v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041154815.1/GCF_041154815.1_ASM4115481v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3900166,
+      "sha256": "10575e7d3cfe30cc28a2819391b97c82b504aa7f6a5a95ccb5663f953c26a869",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154825.1/GCF_041154825.1_ASM4115482v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041154825.1/GCF_041154825.1_ASM4115482v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3930172,
+      "sha256": "1337c330fd55bee827dcb0e8c447a02a0712a9988dc163fd6efda1b6fd94b502",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154835.1/GCF_041154835.1_ASM4115483v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041154835.1/GCF_041154835.1_ASM4115483v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3939563,
+      "sha256": "3e204daaeed36254926991d2c0d9997069d85a196b379658fc5ce310cb5f076e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041154855.1/GCF_041154855.1_ASM4115485v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041154855.1/GCF_041154855.1_ASM4115485v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4208291,
+      "sha256": "01865e1e364c5c6d6151062aa01943b08510aa20ad8558564ee1f8d809ecfa54",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_041930545.1/GCF_041930545.1_ASM4193054v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_041930545.1/GCF_041930545.1_ASM4193054v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3971126,
+      "sha256": "44521fd40cadf2f7a6809d2d9e64fcccbb4cfe29804a918343005df1a5bed946",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042140495.1/GCF_042140495.1_Hv640_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042140495.1/GCF_042140495.1_Hv640_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4101618,
+      "sha256": "2a453770396029347338caab2c49cc365d4fb041cd5ae83daf81374f7ee2cfc2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042140575.1/GCF_042140575.1_Hv766_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042140575.1/GCF_042140575.1_Hv766_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4053340,
+      "sha256": "258bb4d35494256df9d6a13ea96089a7ffba50df43772b6e32d032d7946abaac",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042140585.1/GCF_042140585.1_Hv770_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042140585.1/GCF_042140585.1_Hv770_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4035355,
+      "sha256": "064c36a62f5db9dd2726c85c3e4d8cf5153aa9314b8510b3b7538c57a5a506f3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042141555.1/GCF_042141555.1_Hv782_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042141555.1/GCF_042141555.1_Hv782_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4072405,
+      "sha256": "9aa2ddc30e3d97f896db46c6445153f0802cf0953d4588e2ee41b177d151f427",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042142205.1/GCF_042142205.1_HvAb04_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042142205.1/GCF_042142205.1_HvAb04_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4253930,
+      "sha256": "8b758be6f23062e95702b79f9a5812c449bd6aa4a845ae290d15f516c08b1338",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042145845.1/GCF_042145845.1_Lv647_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042145845.1/GCF_042145845.1_Lv647_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4178654,
+      "sha256": "9d2f7edde621be37b3153f7326648e73a91f76fd41e4c7a582cac54a08611968",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042146535.1/GCF_042146535.1_Lv648_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042146535.1/GCF_042146535.1_Lv648_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3915282,
+      "sha256": "8ede59644968bfd611c6f7e1eec310483a1b1482577788ed2f3a0870a26097bf",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_042151695.1/GCF_042151695.1_Rp779_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_042151695.1/GCF_042151695.1_Rp779_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3899778,
+      "sha256": "846a254852299464168b1ecd4799df243dd9f6cffd6fc7508a49e7160e9de1d4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043038945.1/GCF_043038945.1_ASM4303894v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043038945.1/GCF_043038945.1_ASM4303894v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4200705,
+      "sha256": "1e7ba4ba82295ee661c032f5d74a68ae6b1c09636f1edcae77a9048aa1ce26c3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043040895.1/GCF_043040895.1_ASM4304089v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043040895.1/GCF_043040895.1_ASM4304089v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3957172,
+      "sha256": "bd161211cee2d810a05d48df196b2740258d3a5c4d5431a0a08dee430080e76d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043042805.1/GCF_043042805.1_ASM4304280v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043042805.1/GCF_043042805.1_ASM4304280v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3991615,
+      "sha256": "f64fabb95ff2cd7755f874e369ceda7b38a7ae1cf68fda5b67ad466f063198e2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043043455.1/GCF_043043455.1_ASM4304345v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043043455.1/GCF_043043455.1_ASM4304345v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4032358,
+      "sha256": "fc2917fc3e0043f0e92b3c900c542b45c62578a77ebfc71a095a64b98740628d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043044755.1/GCF_043044755.1_ASM4304475v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043044755.1/GCF_043044755.1_ASM4304475v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4089829,
+      "sha256": "20d6e80a2cc271477d7bc8ac51752f72bcd99bd2fb8171f2876e2ec529878885",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043045365.1/GCF_043045365.1_ASM4304536v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043045365.1/GCF_043045365.1_ASM4304536v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4055070,
+      "sha256": "f396030fe4030da89057b918e7c40b778e3876837f710f974fb01dc246279e4d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043046865.1/GCF_043046865.1_ASM4304686v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043046865.1/GCF_043046865.1_ASM4304686v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4031114,
+      "sha256": "42ac3d6d4537845a461d5667fdbcfda5d38ca2b53ae6b83a318c4dd98436631a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043051495.1/GCF_043051495.1_ASM4305149v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043051495.1/GCF_043051495.1_ASM4305149v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4342220,
+      "sha256": "5baeac0ecf4daadf3b7783c025a53508cdb6246cc8990df450b88c468465fce9",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043052795.1/GCF_043052795.1_ASM4305279v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043052795.1/GCF_043052795.1_ASM4305279v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4079972,
+      "sha256": "edd434cc9a0e8a9bd54a8a4497a966bea25fb74903697661ec27dfb813265742",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043053445.1/GCF_043053445.1_ASM4305344v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043053445.1/GCF_043053445.1_ASM4305344v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3978020,
+      "sha256": "228863e121a4dd29bd7be9555bb513cbd8556c730782a6d8dc2afb98cdee7c56",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043054745.1/GCF_043054745.1_ASM4305474v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043054745.1/GCF_043054745.1_ASM4305474v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4029281,
+      "sha256": "948d17cd0ee0fbbca584dde2df8cd8e97df51f2d75853d4479759d92ea2b3d11",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043056915.1/GCF_043056915.1_ASM4305691v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043056915.1/GCF_043056915.1_ASM4305691v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3858426,
+      "sha256": "65210f2c91277ef0af594b8699b74f069928be775710175dc3dcfd5e5f6c39ee",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_043572945.1/GCF_043572945.1_T24_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_043572945.1/GCF_043572945.1_T24_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4021263,
+      "sha256": "fcf7b8f54647758acfae3834b76b42e7ed36bae78d8b50f897d6a58bfc4da4f0",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097175.1/GCF_046097175.1_UMB001_Hybrid_Assembly_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_046097175.1/GCF_046097175.1_UMB001_Hybrid_Assembly_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4103053,
+      "sha256": "12f690fd512d1df6f1f1a634b96efd90541fd4f4d22049c9a57bb89ac035d3c2",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097185.1/GCF_046097185.1_NIH1_Hybrid_Assembly_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_046097185.1/GCF_046097185.1_NIH1_Hybrid_Assembly_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4071740,
+      "sha256": "5322c23416d901098a604bdeac638fa1a7559a2bf052d0c1ac84fff69b6cc240",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097195.1/GCF_046097195.1_ASM4609719v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_046097195.1/GCF_046097195.1_ASM4609719v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4218175,
+      "sha256": "41f86b33210fab0459ed6528539bc769de6d1cca5af9bb823e69b5e89268b06f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_046097205.1/GCF_046097205.1_HUMC1_Hybrid_Assembly_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_046097205.1/GCF_046097205.1_HUMC1_Hybrid_Assembly_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4204281,
+      "sha256": "65c978dec16cd7ff4ca6b3a186a05055a6c514201cf87b389f87e16e83b5cf32",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047227755.2/GCF_047227755.2_A297_complete_genome_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_047227755.2/GCF_047227755.2_A297_complete_genome_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4233520,
+      "sha256": "265d8740ab6f0b3eb96d1672174cb1df07b51fa99c548d8192c5401033a0ee39",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772295.1/GCF_047772295.1_ASM4777229v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_047772295.1/GCF_047772295.1_ASM4777229v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4229500,
+      "sha256": "ab620fa30d55698ed89af51dc348280d6129ac121ed5d04e0531e97724b145a3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772305.1/GCF_047772305.1_ASM4777230v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_047772305.1/GCF_047772305.1_ASM4777230v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4272434,
+      "sha256": "5647237f9e5584ed7befbfd39d17f096df67c9ff3aa23eeba334f8fd02133b53",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772435.1/GCF_047772435.1_ASM4777243v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_047772435.1/GCF_047772435.1_ASM4777243v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4034033,
+      "sha256": "f3892a439fe4fe74e053a340655fc65e5792f48cf1018990e0a6b4ced2eb6936",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_047772455.1/GCF_047772455.1_ASM4777245v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_047772455.1/GCF_047772455.1_ASM4777245v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4156245,
+      "sha256": "ea3fb2a908b4aa06a2440f2db34ab197b8b85d914c0d666168ed6de264cac23f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048480215.1/GCF_048480215.1_ASM4848021v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_048480215.1/GCF_048480215.1_ASM4848021v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4088463,
+      "sha256": "8e22db796c5a945a7794caf80efe1f6d9ac0d30194a43944d7586f3ddf0a68b6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048635235.1/GCF_048635235.1_ASM4863523v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_048635235.1/GCF_048635235.1_ASM4863523v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4151358,
+      "sha256": "3de654c086b62a17286d5062ea45b06fe23396e2ff9b2faf44134618ac2c7f39",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048636145.1/GCF_048636145.1_ASM4863614v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_048636145.1/GCF_048636145.1_ASM4863614v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4151332,
+      "sha256": "8d7ba4ee2fb6b92dd7eb6551e3c937084810271a20155b6cca329df26c6fae01",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_048636155.1/GCF_048636155.1_ASM4863615v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_048636155.1/GCF_048636155.1_ASM4863615v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4085227,
+      "sha256": "30a4a3f5d17f026077fb6d2df4298102e01f345a1243425fa38c0baac072a076",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050030185.1/GCF_050030185.1_ASM5003018v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_050030185.1/GCF_050030185.1_ASM5003018v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4165581,
+      "sha256": "7327d1b363e0959dfae9dacbe5b7561c72ab7b4cea6561cd2fb6c5a5ebb72311",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050032335.1/GCF_050032335.1_ASM5003233v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_050032335.1/GCF_050032335.1_ASM5003233v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3871739,
+      "sha256": "d4518b3576ccf15cc011aa782a65f9db43c884d9c7883d08a350285f3cddb383",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050164325.1/GCF_050164325.1_ASM5016432v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_050164325.1/GCF_050164325.1_ASM5016432v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4277290,
+      "sha256": "09a9c422398fe42511d6d90543c0c3e2b9a30dbd7e4a743c3909249211f88d2f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050320315.1/GCF_050320315.1_Up644_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_050320315.1/GCF_050320315.1_Up644_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4009237,
+      "sha256": "a55dc46041e52408891d2732abe81bd0c6bf2ba7c6d363656a6e98eb0ec79457",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_050500295.1/GCF_050500295.1_WM99a_Hybrid_Assembly_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_050500295.1/GCF_050500295.1_WM99a_Hybrid_Assembly_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4019228,
+      "sha256": "27beab10204d85c0fb0ff102936cbb9b1457f214a8f2cb1a108ea3be327dac33",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051294665.1/GCF_051294665.1_ASM5129466v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_051294665.1/GCF_051294665.1_ASM5129466v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4197083,
+      "sha256": "9cb29c20514d7a13967e4f754830d374b96fa23aa6c0d6aa4b156ea002df6a45",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051356365.1/GCF_051356365.1_ASM5135636v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_051356365.1/GCF_051356365.1_ASM5135636v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4091375,
+      "sha256": "c3427d9271a78d8b4889dc5fb3c8f1c252b71e38ca7e91c63eeb6c578a3b1e5f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051521805.1/GCF_051521805.1_ASM5152180v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_051521805.1/GCF_051521805.1_ASM5152180v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4013469,
+      "sha256": "fd1d95706e8c014de2693f5feac920707f1054a7eadd7a6c4b2f6d8f742cd9e6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051547485.1/GCF_051547485.1_ASM5154748v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_051547485.1/GCF_051547485.1_ASM5154748v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4012813,
+      "sha256": "ed2b53bbdcee501c012255c12374a0871a7626ed6757c0d328efd7c59ef5c408",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051622705.1/GCF_051622705.1_ASM5162270v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_051622705.1/GCF_051622705.1_ASM5162270v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4130464,
+      "sha256": "51ebdeb1a1b017b490952fa41d7e120d54dedd4ffaaba2193e4ccfcc02f0b29f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_051776275.1/GCF_051776275.1_ASM5177627v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_051776275.1/GCF_051776275.1_ASM5177627v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4303860,
+      "sha256": "871e3f4f3d0f6c1b724b044b3e48b6cabe04c59cd3dfd80a280b2e9900df47b6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052052845.1/GCF_052052845.1_ASM5205284v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052052845.1/GCF_052052845.1_ASM5205284v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3888099,
+      "sha256": "89c5fd0d0f7b4e3466ed135175bb56aee06a3b9b213a97171730a7fde8209d94",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052053485.1/GCF_052053485.1_ASM5205348v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052053485.1/GCF_052053485.1_ASM5205348v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3989186,
+      "sha256": "ed059e5f2662ce2c10a4dcf4f048ae628ca9fe170e1efb6dc6992e1acdc95bcf",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052054865.1/GCF_052054865.1_ASM5205486v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052054865.1/GCF_052054865.1_ASM5205486v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4287277,
+      "sha256": "16cfff24180caec519f9c1af8dc90bc33fa772f917f3cd865e11e03d352fe969",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052055445.1/GCF_052055445.1_ASM5205544v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052055445.1/GCF_052055445.1_ASM5205544v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4224677,
+      "sha256": "e881eb6f275e027a73a9af4a2e98270872ec6193e565c1ab9e3b5c98daa9cd7e",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052055455.1/GCF_052055455.1_ASM5205545v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052055455.1/GCF_052055455.1_ASM5205545v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4095707,
+      "sha256": "bc8553d47e255a1614ff1b9294acb2a3a288c547930a7c82bde9d5b49f143d15",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052186105.1/GCF_052186105.1_ASM5218610v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052186105.1/GCF_052186105.1_ASM5218610v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3817915,
+      "sha256": "1e6cc16a844e5b362acc3aec3119b56a6ea7afc1be88712a3d9632bca1cf4955",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_052216905.1/GCF_052216905.1_ASM5221690v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_052216905.1/GCF_052216905.1_ASM5221690v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4051041,
+      "sha256": "172030aa0fd08244fd06bc9281110fc2b4dedb96f5e57ebb7af7ca7c541466ee",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053151155.1/GCF_053151155.1_ASM5315115v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053151155.1/GCF_053151155.1_ASM5315115v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4011746,
+      "sha256": "5891621527c482b0de3e89434e81e5f83117e39dd5ce22a169680c0f07f9c026",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053175695.1/GCF_053175695.1_ASM5317569v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053175695.1/GCF_053175695.1_ASM5317569v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4011593,
+      "sha256": "e762b401cdd7437e6ced36fcab52189138589151f4fd4e6691c12a89b914dcd5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053175715.1/GCF_053175715.1_ASM5317571v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053175715.1/GCF_053175715.1_ASM5317571v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4125955,
+      "sha256": "693321d63f3a03fb75c91878025e2d085c6550f3610789ff285b8fedf6030eb8",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053819165.1/GCF_053819165.1_ASM5381916v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053819165.1/GCF_053819165.1_ASM5381916v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4247656,
+      "sha256": "8fd83771577517111aa3615ec6513833d3e6f4df0a4f806e53924c776b006f92",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053819345.1/GCF_053819345.1_ASM5381934v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053819345.1/GCF_053819345.1_ASM5381934v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4295968,
+      "sha256": "2ada1ef395662b91fb36810d42b44850aad8292d5a5802be9897409715121275",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053852035.1/GCF_053852035.1_ASM5385203v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053852035.1/GCF_053852035.1_ASM5385203v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4422265,
+      "sha256": "c0fbe905420673d0fbdad96e1aa972a9186efd0993df74805804ca45b0694957",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_053891325.1/GCF_053891325.1_ASM5389132v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_053891325.1/GCF_053891325.1_ASM5389132v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4392235,
+      "sha256": "3b4d4d7350700efffbd69570decae8e11b7a10358430f6852cd42ac59a4f15b9",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054897905.1/GCF_054897905.1_ASM5489790v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_054897905.1/GCF_054897905.1_ASM5489790v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4035324,
+      "sha256": "69b64ccff6a46918a26a9b3c2b88c1e0bebf0d33deba24a5806f13e070f1c5a3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054898345.1/GCF_054898345.1_ASM5489834v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_054898345.1/GCF_054898345.1_ASM5489834v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 3929036,
+      "sha256": "b4e4c456a320e378a028e687ea6a436e58fe5a7c4adbfbe8132b2086bb3a36aa",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054898395.1/GCF_054898395.1_ASM5489839v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_054898395.1/GCF_054898395.1_ASM5489839v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4163435,
+      "sha256": "430d3ec2281fa4c4be24f8f9880afed7109fd5629953e5edd71eef8b954c4d2b",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_054901555.1/GCF_054901555.1_ASM5490155v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_054901555.1/GCF_054901555.1_ASM5490155v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4068996,
+      "sha256": "a6f3878279c572af41af137fb733904b26bf51c8b366b7276d289b7fcc01b4a1",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_055381115.1/GCF_055381115.1_ASM5538111v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_055381115.1/GCF_055381115.1_ASM5538111v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4148730,
+      "sha256": "0c89cd2900f5fc67f8751e8606a9a8704c99fc200708b12b48d59678b7bb1e22",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_055521135.1/GCF_055521135.1_ASM5552113v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_055521135.1/GCF_055521135.1_ASM5552113v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4117204,
+      "sha256": "568e9876214ccda3ed8f54c7b4b0c62467072e4e5ad4f21623efceea8bbdcccb",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115525.1/GCF_056115525.1_ASM5611552v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115525.1/GCF_056115525.1_ASM5611552v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4137112,
+      "sha256": "b233017b4df5b192aa1d78abbaa7f9321009899f8f5ed99c2991b8f84c38a15a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115625.1/GCF_056115625.1_ASM5611562v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115625.1/GCF_056115625.1_ASM5611562v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4237479,
+      "sha256": "6ed9b1490c3732eebd01dd60c7a3aab72096941f45dc626ba2b4472c6b1e58f6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115685.1/GCF_056115685.1_ASM5611568v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115685.1/GCF_056115685.1_ASM5611568v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4332190,
+      "sha256": "f5a4752d20ee79ef19c1cd834dd0fa2ef7ebaae5e5ccec12d54fa3acf2586a14",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115825.1/GCF_056115825.1_ASM5611582v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115825.1/GCF_056115825.1_ASM5611582v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4257210,
+      "sha256": "ec043e38ed41628758d814e45fb97c49a506a6a486abb17159a69d15eed9dd44",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115855.1/GCF_056115855.1_ASM5611585v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115855.1/GCF_056115855.1_ASM5611585v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4176878,
+      "sha256": "3fad759a7f783123cfbe2e1a4a0eb847ccdc9c8448c12f942cb71b51d97c7f3a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115905.1/GCF_056115905.1_ASM5611590v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115905.1/GCF_056115905.1_ASM5611590v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4169695,
+      "sha256": "88f2af5d05ab2fecf65c9857eab638f7842dda645fa4330da3dbda43bbde2000",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056115955.1/GCF_056115955.1_ASM5611595v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056115955.1/GCF_056115955.1_ASM5611595v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4050206,
+      "sha256": "f683bad74a533a25b811b9f432a1f2fb5b27b687294b23b64407f46099d33acd",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056136145.1/GCF_056136145.1_ASM5613614v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056136145.1/GCF_056136145.1_ASM5613614v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4147042,
+      "sha256": "4c11ded9a69d51aee267d2487bfa02672ab9a6bddd8f97b1c319272aca6c307d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056136325.1/GCF_056136325.1_ASM5613632v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056136325.1/GCF_056136325.1_ASM5613632v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4304353,
+      "sha256": "4898963c2b289244b99eb4eecc1cfe4a55bc61a252c1f2a0dab63e7665d08e99",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056340895.1/GCF_056340895.1_ASM5634089v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056340895.1/GCF_056340895.1_ASM5634089v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4003884,
+      "sha256": "7fc4ca944a7759c6b488ab0c185b4cbc0e223efb19052b78dbf8c99238806b3c",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056385705.1/GCF_056385705.1_ASM5638570v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056385705.1/GCF_056385705.1_ASM5638570v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4303972,
+      "sha256": "5564cc121cac0809ca4246e64b66019b1257d4ccd39f5c315940f83f86c4fa28",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056429515.1/GCF_056429515.1_ASM5642951v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056429515.1/GCF_056429515.1_ASM5642951v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4116559,
+      "sha256": "3fe96b535c802b2dd46d5951ab0a7be7b72769b02178bea73ca7b229ac8f619a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_056429785.1/GCF_056429785.1_ASM5642978v1_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_056429785.1/GCF_056429785.1_ASM5642978v1_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4098785,
+      "sha256": "516e7046f1be1b0fc0ecc34b5d0866cd0c30cc3ff7116f0138a11744aa58b5b5",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/fasta/GCF_900088705.1/GCF_900088705.1_26872B01_genomic.fna",
+      "drive_relative_path": "frozen_data/fasta/GCF_900088705.1/GCF_900088705.1_26872B01_genomic.fna",
+      "category": "frozen_fasta",
+      "size_bytes": 4101568,
+      "sha256": "be4785436185abcb2b66193d8ff0f3879b016f4819fbd59c0a3034bbe486b7b3",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/dataset_manifest_v1.json",
+      "drive_relative_path": "frozen_data/manifests/dataset_manifest_v1.json",
+      "category": "runtime_manifest",
+      "size_bytes": 95283,
+      "sha256": "fe787d405e642f660913c3be3c17a3960364ca371c7a9bdee9868c6e5659d690",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/dev_lowess_v1.csv",
+      "drive_relative_path": "frozen_data/manifests/dev_lowess_v1.csv",
+      "category": "runtime_manifest",
+      "size_bytes": 27123,
+      "sha256": "2159311eb45c4d1a7d39cbc6d9ff62b31f5d1d4f69b8bceab03f57701289ea87",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/dev_lowess_v1.json",
+      "drive_relative_path": "frozen_data/manifests/dev_lowess_v1.json",
+      "category": "runtime_manifest",
+      "size_bytes": 2691,
+      "sha256": "ea08d07d2814ca343a894bfac38bdd8ed637fa72b41374776720275386d3845f",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/fasta_manifest.csv",
+      "drive_relative_path": "frozen_data/manifests/fasta_manifest.csv",
+      "category": "runtime_manifest",
+      "size_bytes": 74281,
+      "sha256": "85803f9b836ef8bdbf49d4780b0eec82384dd8dddc45ccb5018d5e0b1ede758d",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/split_manifest_v1.json",
+      "drive_relative_path": "frozen_data/manifests/split_manifest_v1.json",
+      "category": "runtime_manifest",
+      "size_bytes": 2438,
+      "sha256": "5658f1d4c74f44d700791a800601f6270b847f3de7a9970f4c64db856f73b2d4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/target_manifest.csv",
+      "drive_relative_path": "frozen_data/manifests/target_manifest.csv",
+      "category": "runtime_manifest",
+      "size_bytes": 646,
+      "sha256": "e218b2cd9f63aa8675791701914d545bef83e5e9112e451ab9f5c239c4e24d2a",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/manifests/TEST_SET_LOCKED.txt",
+      "drive_relative_path": "frozen_data/manifests/TEST_SET_LOCKED.txt",
+      "category": "runtime_manifest",
+      "size_bytes": 889,
+      "sha256": "b30ca6eacdba8d5392d745e2d88258a5e7d4701ec8efcffa882d920236c8f736",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/splits/dissertation_split_v1.csv",
+      "drive_relative_path": "frozen_data/splits/dissertation_split_v1.csv",
+      "category": "frozen_split",
+      "size_bytes": 40030,
+      "sha256": "ac0ee12e44c896be3f3c92a574d4b37596e7f6985636a57a822da7ad3a7c31b6",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/targets/window512_canonical_v1.parquet",
+      "drive_relative_path": "frozen_data/targets/window512_canonical_v1.parquet",
+      "category": "frozen_targets_and_features",
+      "size_bytes": 42162717,
+      "sha256": "25a4e4b20611cce19b5d07996fb0b5311e27fa59786ba36efc1d5d6033c83901",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/frozen_data/targets/window512_targets_v1.parquet",
+      "drive_relative_path": "frozen_data/targets/window512_targets_v1.parquet",
+      "category": "frozen_targets_and_features",
+      "size_bytes": 37186368,
+      "sha256": "62bccb22d98f2ec0a67d80236b43106b750403ccb1c069ce8765ecc2b9ddfec4",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/logs/phase4_5/README.md",
+      "drive_relative_path": "logs/phase4_5/README.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 73,
+      "sha256": "cf4bcb8b9786f26dd6a1b04b3ef32a6c002b5a48e3f7649630f6564f013b6382",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase1/baseline_c_hist_gbr.joblib",
+      "drive_relative_path": "models/phase1/baseline_c_hist_gbr.joblib",
+      "category": "frozen_baseline",
+      "size_bytes": 167885,
+      "sha256": "eb8beb98d74a406066812c83d1dc21ee7424feb40a0fe39e5033f7843d04ec81",
+      "required_for_phase4_5": true,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase2/M1_full_distilled.pt",
+      "drive_relative_path": "models/phase2/M1_full_distilled.pt",
+      "category": "historical_model_reference",
+      "size_bytes": 69188,
+      "sha256": "b09a34a51c70436d8d0005d0fa49873b47d1a142f54ba1f2a455ea3c509d8dca",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed11_epoch04.pt",
+      "drive_relative_path": "models/phase3/member_seed11_epoch04.pt",
+      "category": "historical_model_reference",
+      "size_bytes": 213650,
+      "sha256": "7323980992f3009f384db0dde017893a28831a646639da8008e6f25aa461ebdf",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed23_epoch04.pt",
+      "drive_relative_path": "models/phase3/member_seed23_epoch04.pt",
+      "category": "historical_model_reference",
+      "size_bytes": 213650,
+      "sha256": "28e2c66012af684229405e598b5cbf274d5c998213bb18474deb6a2c0ccfb67b",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed37_epoch04.pt",
+      "drive_relative_path": "models/phase3/member_seed37_epoch04.pt",
+      "category": "historical_model_reference",
+      "size_bytes": 213650,
+      "sha256": "6e84577aff38efc48b2e8899f15fa8e45dc820ebf70e0c2ac0029a968ebaf41c",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed53_epoch04.pt",
+      "drive_relative_path": "models/phase3/member_seed53_epoch04.pt",
+      "category": "historical_model_reference",
+      "size_bytes": 213650,
+      "sha256": "d6a772b890e0dc99769d212251045cede6c6dfd913736ee8811363932293d175",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase3/member_seed71_epoch04.pt",
+      "drive_relative_path": "models/phase3/member_seed71_epoch04.pt",
+      "category": "historical_model_reference",
+      "size_bytes": 213650,
+      "sha256": "12c043a9d6480e1e118bf8a12cb4f79379cf65d48b11e8840bb24fc0b68bad30",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/models/phase4_5/README.md",
+      "drive_relative_path": "models/phase4_5/README.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 113,
+      "sha256": "399a11d5f0fc5a41880b3c968802dfdeb0b34a071abae26c5977023683bfbfcc",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/predictions/phase4_5/README.md",
+      "drive_relative_path": "predictions/phase4_5/README.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 89,
+      "sha256": "f251069612be40f407f7dee3c01be2bd6e5a855ab9bc3666d6db33507466c96b",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/README.md",
+      "drive_relative_path": "README.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 557,
+      "sha256": "23058ea50e5f6383f9cc3b0b20034c4664b757726577d2088b02ae4f4dcc1c82",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    },
+    {
+      "local_source_path": "D:/BMDSIS/colab_migration/google_drive_package/evo2_dissertation_drive/results/phase4_5/README.md",
+      "drive_relative_path": "results/phase4_5/README.md",
+      "category": "persistent_output_scaffold",
+      "size_bytes": 69,
+      "sha256": "6cbb349ff137dc3a0c332bf0a39f47a4b674240bb2383fb802008a0bd52882a2",
+      "required_for_phase4_5": false,
+      "notes": "Prepared transfer copy on D drive."
+    }
+  ]
+}

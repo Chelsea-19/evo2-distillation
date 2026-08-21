@@ -1,0 +1,17 @@
+DISSERTATION TEST SET LOCKED
+
+Version: dissertation_v1
+Timestamp (UTC): 2026-08-20T01:21:00.303565+00:00
+Allocation seed: 20260820
+Split manifest: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\splits\split_manifest_v1.json
+Split manifest SHA256: 5658f1d4c74f44d700791a800601f6270b847f3de7a9970f4c64db856f73b2d4
+
+The dissertation_v1 test partition is sealed. Test model predictions,
+performance metrics, ablations, model comparisons, error analyses, enrichment
+outcomes and test-informed tuning must not be examined before Phase 5.
+
+Phase 0 may generate test target values only by applying the frozen
+development-fitted LOWESS curve and the declared deterministic within-genome
+ranking rule. This is target construction, not model evaluation. The curve,
+preprocessing, model design and evaluation protocol must not be refitted or
+selected using the test partition.

@@ -1,0 +1,22 @@
+{
+  "version": "phase3_run_spec_v1",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "seed_source": "Task-prespecified example; protocol contains no ensemble-specific seeds",
+  "architecture_version": "student_cnn_v1",
+  "phase2_lock_sha256": "6d148180d248df09676859144da579b5b90b729aaa33e62a52a6ff0f7880a8f4",
+  "cache_manifest_sha256": "e3f13b3aaecaa036d913e6da96a512082516a1ac0116dd0c88d1288624082fbb",
+  "epochs": 4,
+  "warmup_epochs": 3,
+  "huber_weight": 1.0,
+  "ranking_weight_final_epoch": 4.0,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 128,
+  "test_accessed": false
+}

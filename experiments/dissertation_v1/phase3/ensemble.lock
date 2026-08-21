@@ -1,0 +1,96 @@
+{
+  "lock": "DISSERTATION PHASE 3 ENSEMBLE FROZEN",
+  "created_utc": "2026-08-20T05:44:27.426316+00:00",
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "five_valid_members": 5,
+  "architecture_version": "student_cnn_v1",
+  "architecture_altered": false,
+  "member_checkpoints": {
+    "seed_11": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\checkpoints\\member_seed11_epoch04.pt",
+      "bytes": 213650,
+      "sha256": "7323980992f3009f384db0dde017893a28831a646639da8008e6f25aa461ebdf"
+    },
+    "seed_23": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\checkpoints\\member_seed23_epoch04.pt",
+      "bytes": 213650,
+      "sha256": "28e2c66012af684229405e598b5cbf274d5c998213bb18474deb6a2c0ccfb67b"
+    },
+    "seed_37": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\checkpoints\\member_seed37_epoch04.pt",
+      "bytes": 213650,
+      "sha256": "6e84577aff38efc48b2e8899f15fa8e45dc820ebf70e0c2ac0029a968ebaf41c"
+    },
+    "seed_53": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\checkpoints\\member_seed53_epoch04.pt",
+      "bytes": 213650,
+      "sha256": "d6a772b890e0dc99769d212251045cede6c6dfd913736ee8811363932293d175"
+    },
+    "seed_71": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\checkpoints\\member_seed71_epoch04.pt",
+      "bytes": 213650,
+      "sha256": "12c043a9d6480e1e118bf8a12cb4f79379cf65d48b11e8840bb24fc0b68bad30"
+    }
+  },
+  "ensemble_prediction": "arithmetic mean of five scalar ranking scores",
+  "primary_uncertainty": "sample variance (ddof=1) across five scalar ranking scores",
+  "frozen_k_definitions": [
+    {
+      "id": "top_1_percent",
+      "rule": "ceil(0.01 * n_windows_in_genome)"
+    },
+    {
+      "id": "top_5_percent",
+      "rule": "ceil(0.05 * n_windows_in_genome)"
+    },
+    {
+      "id": "fixed_100",
+      "rule": "min(100, n_windows_in_genome)"
+    }
+  ],
+  "best_single_member_seed": 53,
+  "best_single_member_validation_spearman": 0.25386378656790654,
+  "ensemble_validation_spearman": 0.261910171934507,
+  "ensemble_minus_best_single": 0.008046385366600461,
+  "prediction_variance_available": true,
+  "outputs": {
+    "ensemble_config": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\ensemble_config.yaml",
+      "bytes": 5601,
+      "sha256": "7aaa3a86f3dbc0c9ec47d5d251334052fdda335c7765249b675255416272e6f9"
+    },
+    "member_metrics": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\member_metrics.csv",
+      "bytes": 26259,
+      "sha256": "d86916601dd04b5b5d9489ae02b9b3b4e58d5d482641287aac83dc3b97200b9e"
+    },
+    "validation_ensemble_predictions": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\validation_ensemble_predictions.parquet",
+      "bytes": 24144962,
+      "sha256": "a2f8af7661fdebaab276ea30211930b6c973a9bbf4475cdbbef9a1f18db83224"
+    },
+    "ensemble_diagnostics": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\ensemble_diagnostics.md",
+      "bytes": 2409,
+      "sha256": "f5b4f693f3780ac0585883b5e92df4f2b6be18ef254a42b29b7362bf60dc4dbd"
+    },
+    "phase3_report": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\phase3_report.md",
+      "bytes": 2595,
+      "sha256": "ab70f128db61f93dc209a9ac284cf1b928d3fbbcd91090b5807b1785aec1ce2f"
+    }
+  },
+  "phase2_lock": {
+    "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase2\\final_architecture.lock",
+    "bytes": 5293,
+    "sha256": "6d148180d248df09676859144da579b5b90b729aaa33e62a52a6ff0f7880a8f4"
+  },
+  "test_accessed": false,
+  "statement": "Five-member ensemble frozen after validation. Architecture and membership were not altered using ensemble outcomes. TEST remains sealed."
+}

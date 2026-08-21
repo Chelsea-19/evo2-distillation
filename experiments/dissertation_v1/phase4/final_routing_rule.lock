@@ -1,0 +1,86 @@
+{
+  "lock": "DISSERTATION PHASE 4 ROUTING RULE FROZEN",
+  "created_utc": "2026-08-20T07:43:52.141169+00:00",
+  "phase3_ensemble_lock": {
+    "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase3\\ensemble.lock",
+    "bytes": 4167,
+    "sha256": "8a4177a90e494d17b217bd1f673e6ad646a6e98fcc644625ffbc61de1b071b96"
+  },
+  "uncertainty_definition": "Phase 3 sample variance (ddof=1) across five member scalar ranking scores",
+  "teacher_call_budgets": [
+    0.0,
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "routing_rule": {
+    "unit": "within genome",
+    "order": "ensemble variance descending, window_id ascending ties",
+    "selected_requested_fraction": 1.0,
+    "selected_actual_validation_fraction": 1.0,
+    "score_replacement": "student ensemble mean, replaced by true absolute-residual teacher score for routed windows",
+    "fidelity_target_spearman": 0.9,
+    "routing_status": "variance_not_useful_partial_routing_disabled"
+  },
+  "K_definitions": [
+    {
+      "id": "top_1_percent",
+      "rule": "ceil(0.01 * n_windows_in_genome)"
+    },
+    {
+      "id": "top_5_percent",
+      "rule": "ceil(0.05 * n_windows_in_genome)"
+    },
+    {
+      "id": "fixed_100",
+      "rule": "min(100, n_windows_in_genome)"
+    }
+  ],
+  "evaluation_implementation": {
+    "spearman_ties": "average ranks",
+    "ranking_tie_break_for_top_k": "window_id ascending",
+    "lineage_bootstrap_repetitions": 2000,
+    "windows_as_independent_inferential_replicates": false
+  },
+  "aurc_uncertainty": 0.32412211272476954,
+  "aurc_random_mean": 0.3276787944723978,
+  "aurc_uncertainty_minus_random": -0.003556681747628243,
+  "uncertainty_routing_beats_random": true,
+  "variance_useful_router": false,
+  "prediction_variance_available": true,
+  "outputs": {
+    "routing_config": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase4\\routing_config.yaml",
+      "bytes": 5105,
+      "sha256": "dba37cb106e67b706d85fa119ae2a305bae9fe358070c2bad4f4b1fd2a76cb14"
+    },
+    "validation_risk_coverage": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase4\\validation_risk_coverage.csv",
+      "bytes": 5386,
+      "sha256": "6aef535e5dc5e8ecaf486bbe1940e79f2eb6d48d4b904477f77d61cd44f31bee"
+    },
+    "random_escalation_results": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase4\\random_escalation_results.csv",
+      "bytes": 374614,
+      "sha256": "cbeb17c3287217e079570060b5e0e6b03a1d7738c5c7b8e0e653fd6d6cb0a796"
+    },
+    "validation_routing_predictions": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase4\\validation_routing_predictions.parquet",
+      "bytes": 29361318,
+      "sha256": "acfcdd72ffe4b7c563bb230fa7d52d59fc5506cad760f0f9fbc4ceb4aaead4f1"
+    },
+    "phase4_report": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase4\\phase4_report.md",
+      "bytes": 4111,
+      "sha256": "8d3a4939a48d2a904b4dad7e1ddfdc657316e8bd03bb45d583c23981cb8cbf84"
+    }
+  },
+  "test_accessed": false,
+  "phase5_started": false,
+  "statement": "Routing frozen using validation only. Locked TEST remains unopened. Do not proceed automatically to Phase 5."
+}

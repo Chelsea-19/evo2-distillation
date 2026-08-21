@@ -1,0 +1,31 @@
+protocol_amendment: phase4_5_protocol_v2
+experiment_type: data_scaling
+validation_only: true
+test_accessed: false
+seed: 11
+data_fraction: 1.0
+architecture:
+  embedding_dim: 8
+  channels: 16
+  dilation_schedule: [1, 2, 4, 8, 16, 32]
+  group_norm_groups: 4
+  dropout: 0.10
+  head_hidden: 32
+training:
+  epochs: 8
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  huber_weight: 1.0
+  ranking_weight: 4.0
+infrastructure:
+  device: auto
+  precision: auto
+  batch_size: 256
+  num_workers: 2
+paths: &paths
+  cache_dir: ${EVO2_DATA_ROOT}/caches/tokens
+  run_root: ${EVO2_LOCAL_RUN_ROOT}
+  dataset_manifest: ${EVO2_DATA_ROOT}/frozen_data/manifests/dataset_manifest_v1.json
+  split_manifest: ${EVO2_DATA_ROOT}/frozen_data/manifests/split_manifest_v1.json
+  target_path: ${EVO2_DATA_ROOT}/frozen_data/targets/window512_targets_v1.parquet
+

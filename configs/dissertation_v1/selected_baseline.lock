@@ -1,0 +1,73 @@
+{
+  "lock": "DISSERTATION PHASE 1 BASELINE SELECTION FROZEN",
+  "created_utc": "2026-08-20T01:47:00.836581+00:00",
+  "best_baseline": "baseline_c_hist_gbr",
+  "selected_config_id": "C_hist_gbr_4",
+  "selected_hyperparameters": {
+    "learning_rate": 0.1,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "l2_regularization": 1.0,
+    "min_samples_leaf": 50,
+    "loss": "squared_error",
+    "early_stopping": false
+  },
+  "validation_mean_within_genome_spearman": 0.2078666408386137,
+  "validation_top_1_percent_recall": 0.05756675575734841,
+  "validation_top_1_percent_ndcg": 0.3838965978393575,
+  "frozen_k_definitions": [
+    {
+      "id": "top_1_percent",
+      "rule": "ceil(0.01 * n_windows_in_genome)"
+    },
+    {
+      "id": "top_5_percent",
+      "rule": "ceil(0.05 * n_windows_in_genome)"
+    },
+    {
+      "id": "fixed_100",
+      "rule": "min(100, n_windows_in_genome)"
+    }
+  ],
+  "output_sha256": {
+    "config": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\baseline_config.yaml",
+      "bytes": 5137,
+      "sha256": "58b5756a52c138759d988a9cb57d9afcd87d218af2b35544b3b7da0ef7c56f02"
+    },
+    "metrics": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\baseline_metrics_validation.csv",
+      "bytes": 199691,
+      "sha256": "f6f8bda27161a3ceab3ee07d1f8c0ba794db53154ad4f5b8587a48e71066c531"
+    },
+    "predictions": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\baseline_predictions_validation.parquet",
+      "bytes": 7939872,
+      "sha256": "a88fa9aef489dd6eb3042d6ee775c7f732ef93f1d80c761a321d5a8e2e212bd9"
+    },
+    "report": {
+      "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\phase1_report.md",
+      "bytes": 4516,
+      "sha256": "f71949485c28f0c473dca64caf5b169db9155ba4217e7f0e604140c19386357d"
+    },
+    "models": {
+      "baseline_a_gc_linear": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\models\\baseline_a_gc_linear.joblib",
+        "bytes": 451,
+        "sha256": "2267c69ac8ee1df8027a1003c7bc0ef613a82997a8a49f4014bf38d9b29a0bed"
+      },
+      "baseline_b_gc_kmer_ridge": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\models\\baseline_b_gc_kmer_ridge.joblib",
+        "bytes": 750,
+        "sha256": "64cd07a14f5f820cbf76a6b57b47cb1b74b4049ad25fb7270c79a86dd04bf63c"
+      },
+      "baseline_c_hist_gbr": {
+        "path": "C:\\Users\\LDD\\Documents\\Codex\\2026-08-19\\za\\experiments\\dissertation_v1\\phase1\\models\\baseline_c_hist_gbr.joblib",
+        "bytes": 167885,
+        "sha256": "eb8beb98d74a406066812c83d1dc21ee7424feb40a0fe39e5033f7843d04ec81"
+      }
+    }
+  },
+  "test_accessed": false,
+  "statement": "Baseline selection and K definitions are frozen. Do not change them using test outcomes. The test partition remains sealed until Phase 5."
+}

@@ -1,0 +1,150 @@
+version: dissertation_v1
+phase: phase1_baseline
+created_utc: '2026-08-20T01:47:00.836581+00:00'
+phase0_status: PASS
+test_accessed: false
+permitted_partitions_materialized:
+- development
+- validation
+seed: 20260821
+target:
+  training: absolute_residual
+  ranking_reference: within-genome absolute development-fitted GC-LOWESS residual ordering
+features:
+  baseline_a_gc_linear:
+  - gc_content
+  baseline_b_gc_kmer_ridge:
+  - gc_content
+  - k4_rarity
+  - k6_rarity
+  baseline_c_hist_gbr:
+  - gc_content
+  - window_length
+  - k4_rarity
+  - k6_rarity
+  window_length_note: window_length is frozen at 512 for every row and has zero predictive variance; it is retained only to represent the complete permitted feature schema.
+  forbidden:
+  - DNA sequence
+  - annotations
+  - raw PPL rank
+  - historical test outcomes
+  - test target outcomes
+models:
+  baseline_a_gc_linear:
+    grid:
+    - model: LinearRegression
+  baseline_b_gc_kmer_ridge:
+    grid:
+    - alpha: 0.01
+    - alpha: 1.0
+    - &id001
+      alpha: 100.0
+  baseline_c_hist_gbr:
+    grid:
+    - learning_rate: 0.05
+      max_iter: 150
+      max_leaf_nodes: 15
+      l2_regularization: 1.0
+    - learning_rate: 0.05
+      max_iter: 150
+      max_leaf_nodes: 31
+      l2_regularization: 1.0
+    - learning_rate: 0.1
+      max_iter: 100
+      max_leaf_nodes: 15
+      l2_regularization: 1.0
+    - learning_rate: 0.1
+      max_iter: 100
+      max_leaf_nodes: 31
+      l2_regularization: 1.0
+    fixed:
+      min_samples_leaf: 50
+      loss: squared_error
+      early_stopping: false
+selection:
+  partition: validation only
+  criterion: maximum mean within-genome Spearman across 45 validation genomes
+  tie_break: first configuration in the predeclared compact grid
+  selected:
+    baseline_a_gc_linear:
+      config_id: A_linear
+      features:
+      - gc_content
+      hyperparameters:
+        model: LinearRegression
+      validation_mean_spearman: 0.13652739968648425
+    baseline_b_gc_kmer_ridge:
+      config_id: B_ridge_3
+      features:
+      - gc_content
+      - k4_rarity
+      - k6_rarity
+      hyperparameters: *id001
+      validation_mean_spearman: 0.12793921047381074
+    baseline_c_hist_gbr:
+      config_id: C_hist_gbr_4
+      features:
+      - gc_content
+      - window_length
+      - k4_rarity
+      - k6_rarity
+      hyperparameters:
+        learning_rate: 0.1
+        max_iter: 100
+        max_leaf_nodes: 31
+        l2_regularization: 1.0
+        min_samples_leaf: 50
+        loss: squared_error
+        early_stopping: false
+      validation_mean_spearman: 0.2078666408386137
+  best_inexpensive_baseline: baseline_c_hist_gbr
+frozen_k_definitions:
+- id: top_1_percent
+  rule: ceil(0.01 * n_windows_in_genome)
+- id: top_5_percent
+  rule: ceil(0.05 * n_windows_in_genome)
+- id: fixed_100
+  rule: min(100, n_windows_in_genome)
+primary_k_for_threshold_reporting: top_1_percent
+metrics:
+  spearman: Spearman correlation between predictions and teacher absolute-residual order, calculated separately in each validation genome.
+  recall_at_k: Intersection size between deterministic predicted and teacher top-K sets divided by K; ties break by window_id.
+  ndcg_at_k: Linear-gain DCG using absolute_residual relevance and log2 position discount, divided by ideal teacher-order DCG; ties break by window_id.
+inference:
+  window_level_replicates: false
+  genome_summary: equal-weight mean and median across 45 genomes
+  lineage_summary: equal-weight mean across 19 validation Mash clusters
+  uncertainty: 2000-iteration nonparametric bootstrap of validation cluster means, 2.5th and 97.5th percentiles
+inputs:
+  phase0_completion_report:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\phase0_completion_report.md
+    bytes: 2270
+    sha256: 9c13709b5cd3f06d7cc7b0f38476e77dbfbe599aff6532db1e7d2bb7aebb8257
+  experiment_protocol:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\protocol\experiment_protocol_v1.yaml
+    bytes: 2103
+    sha256: 1725c88e068d5000f477b5b6e97c04d12ad995aaac605a6d167780876272bf65
+  split:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\splits\dissertation_split_v1.csv
+    bytes: 40030
+    sha256: ac0ee12e44c896be3f3c92a574d4b37596e7f6985636a57a822da7ad3a7c31b6
+  canonical_features:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\data\window512_canonical_v1.parquet
+    bytes: 42162717
+    sha256: 25a4e4b20611cce19b5d07996fb0b5311e27fa59786ba36efc1d5d6033c83901
+  targets:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\targets\window512_targets_v1.parquet
+    bytes: 37186368
+    sha256: 62bccb22d98f2ec0a67d80236b43106b750403ccb1c069ce8765ecc2b9ddfec4
+  test_lock:
+    path: C:\Users\LDD\Documents\Codex\2026-08-19\za\experiments\dissertation_v1\splits\TEST_SET_LOCKED.txt
+    bytes: 889
+    sha256: b30ca6eacdba8d5392d745e2d88258a5e7d4701ec8efcffa882d920236c8f736
+software:
+  python: 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]
+  numpy: 1.26.4
+  pandas: 2.3.3
+  pyarrow: 20.0.0
+  scipy: 1.16.3
+  scikit_learn: 1.8.0
+  joblib: 1.5.3

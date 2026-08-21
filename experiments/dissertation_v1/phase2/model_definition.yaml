@@ -1,0 +1,40 @@
+version: student_cnn_v1
+created_utc: '2026-08-20T02:12:09.445495+00:00'
+proposal_compliant: true
+historical_cds_student_reused: false
+input:
+  length_bp: 512
+  tokens:
+  - A
+  - C
+  - G
+  - T
+  - N
+  mask_token: M5 only
+embedding_dim: 8
+channels: 16
+stem:
+  kernel_size: 7
+  stride: 2
+  padding: 3
+residual_blocks: 6
+convolutional_layers: 13
+convolutions_per_residual_block: 2
+dilation_schedule:
+- 1
+- 2
+- 4
+- 8
+- 16
+- 32
+kernel_size: 3
+receptive_field_bp: 511
+normalisation: GroupNorm(4 groups)
+activation: GELU
+dropout: 0.1
+pooling: concatenated global mean and global max pooling
+scalar_head: Linear(32->32) + GELU + Dropout + Linear(32->1)
+scalar_parameter_count: 11873
+sequence_comparator_decoder: ConvTranspose1d stride 2 + GELU + 1x1 nucleotide logits
+sequence_comparator_parameter_count: 11909
+same_encoder_for_M1_M2_M3_M5: true

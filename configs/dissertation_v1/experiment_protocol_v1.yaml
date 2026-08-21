@@ -1,0 +1,60 @@
+protocol_version: dissertation_v1
+phase: phase0
+frozen_utc: '2026-08-20T01:21:00.303565+00:00'
+immutable_primary_unit:
+  type: fixed genomic window
+  window_length_bp: 512
+  coordinate_convention: 1-based inclusive
+  window_id: assembly_id|replicon_id|start-end
+  fields:
+  - assembly_id
+  - replicon_id
+  - start
+  - end
+  - coordinate_convention
+  - window_length
+  - fasta_source
+  - raw_evo2_ppl
+  - gc_content
+  - k4_rarity
+  - k6_rarity
+  sequence_storage: DNA is retrieved from indexed/source FASTA; it is not duplicated in the canonical Parquet table.
+  ambiguous_base_policy: Retain all 9 windows in the canonical manifest and all splits/targets; set has_ambiguous_bases=true and record ambiguous_base_count. Do not silently remove them.
+lineage_split:
+  seed: 20260820
+  assignment_unit: complete Mash cluster
+  mash_threshold: 0.01
+  historical_allocation_reused: false
+  test_status: LOCKED until Phase 5
+  split_manifest_sha256: 5658f1d4c74f44d700791a800601f6270b847f3de7a9970f4c64db856f73b2d4
+teacher_target:
+  primary_target: absolute development-fitted GC-LOWESS residual ranking within genome
+  raw_score: Evo 2 perplexity
+  composition: GC content
+  lowess_span: 0.3
+  lowess_fit_partition: development only
+  validation_test_refit: false
+  rank_scope: assembly/genome across all its replicons
+  rank_ties: average
+  rank_direction: ascending; largest absolute residual approaches 1
+endpoints:
+  primary_fidelity: mean within-genome Spearman correlation
+  secondary_ranking:
+  - Recall@K
+  - NDCG@K
+  statistical_unit: strain/assembly and/or complete Mash lineage; never individual windows
+test_policy:
+  open_phase: Phase 5
+  prohibited_before_phase5:
+  - model prediction inspection
+  - performance metrics
+  - model selection or tuning
+  - test-driven preprocessing
+  - test error analysis
+  - test biological enrichment outcomes
+annotations:
+  role: strictly retrospective biological interpretation
+  training_predictors: FORBIDDEN
+  teacher_target_construction: FORBIDDEN
+historical_test: FORBIDDEN as the dissertation final test
+next_permitted_phase_after_pass: Phase 1 baseline
