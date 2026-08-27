@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import torch
 
-from evo2_distill.data.dataset import GenomePairBatchSampler, TokenWindowDataset
+from evo2_distill.data.dataset import GenomePairBatchSampler, TailAwareGenomePairBatchSampler, TokenWindowDataset
 from evo2_distill.utils.io import sha256_file
 
 
@@ -45,3 +45,21 @@ def test_training_dataset_omits_unused_metadata(tmp_path: Path) -> None:
     _small_cache(tmp_path)
     development = TokenWindowDataset(tmp_path, "development", include_metadata=False)
     assert set(development[0]) == {"tokens", "target"}
+
+
+def test_tail_aware_sampler_keeps_pairs_within_genome(tmp_path: Path) -> None:
+    _small_cache(tmp_path)
+    development = TokenWindowDataset(tmp_path, "development", include_metadata=False)
+    sampler = TailAwareGenomePairBatchSampler(
+        development.assembly_codes,
+        development.targets,
+        batch_size=4,
+        seed=11,
+        tail_quantile=0.75,
+        tail_pair_fraction=1.0,
+    )
+    batch = next(iter(sampler))
+    for index in range(0, len(batch), 2):
+        left, right = batch[index:index + 2]
+        assert development.assembly_codes[left] == development.assembly_codes[right]
+        assert development.targets[left] != development.targets[right]
