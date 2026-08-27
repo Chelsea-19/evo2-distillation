@@ -1,0 +1,40 @@
+protocol_amendment: phase4_6_rank_tail_v1
+experiment_type: rank_tail_v2
+variant_name: rank_tail_balanced
+student_variant: rank_tail_v2
+validation_only: true
+test_accessed: false
+seed: 11
+data_fraction: 1.0
+architecture:
+  embedding_dim: 8
+  channels: 48
+  dilation_schedule: [1, 2, 4, 8, 16, 32]
+  group_norm_groups: 4
+  dropout: 0.10
+  head_hidden: 96
+training:
+  epochs: 10
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  huber_weight: 0.75
+  ranking_weight: 6.0
+  tail_quantile: 0.90
+  tail_weight: 2.0
+  tail_loss_weight: 0.5
+  tail_pair_fraction: 0.50
+  gap_weight: 2.0
+  maximum_pair_weight: 6.0
+  baseline_fusion_alpha: 0.10
+infrastructure:
+  device: auto
+  precision: auto
+  batch_size: 192
+  num_workers: 2
+paths:
+  cache_dir: ${EVO2_DATA_ROOT}/caches/tokens
+  run_root: ${EVO2_LOCAL_RUN_ROOT}
+  dataset_manifest: ${EVO2_DATA_ROOT}/frozen_data/manifests/dataset_manifest_v1.json
+  split_manifest: ${EVO2_DATA_ROOT}/frozen_data/manifests/split_manifest_v1.json
+  target_path: ${EVO2_DATA_ROOT}/frozen_data/targets/window512_targets_v1.parquet
+  baseline_model: ${EVO2_DATA_ROOT}/models/phase1/baseline_c_hist_gbr.joblib
