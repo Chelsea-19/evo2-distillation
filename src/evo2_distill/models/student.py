@@ -96,6 +96,34 @@ class ScalarStudentV1(nn.Module):
         return self.head(pooled).squeeze(-1)
 
 
+class RankingTailStudentV2(nn.Module):
+    """Shared compact encoder with scalar ranking and auxiliary tail heads."""
+
+    def __init__(self, architecture: ArchitectureV1) -> None:
+        super().__init__()
+        self.architecture = architecture
+        self.encoder = DNAEncoderV1(architecture)
+        pooled_width = 2 * architecture.channels
+        self.shared = nn.Sequential(
+            nn.Linear(pooled_width, architecture.head_hidden),
+            nn.GELU(),
+            nn.Dropout(architecture.dropout),
+        )
+        self.scalar_head = nn.Linear(architecture.head_hidden, 1)
+        self.tail_head = nn.Linear(architecture.head_hidden, 1)
+
+    def _features(self, tokens: torch.Tensor) -> torch.Tensor:
+        features = self.encoder(tokens)
+        pooled = torch.cat([features.mean(dim=-1), features.amax(dim=-1)], dim=1)
+        return self.shared(pooled)
+
+    def forward(self, tokens: torch.Tensor) -> torch.Tensor:
+        return self.scalar_head(self._features(tokens)).squeeze(-1)
+
+    def forward_with_tail(self, tokens: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
+        features = self._features(tokens)
+        return self.scalar_head(features).squeeze(-1), self.tail_head(features).squeeze(-1)
+
+
 def trainable_parameter_count(model: nn.Module) -> int:
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
-
