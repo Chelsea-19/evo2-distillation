@@ -14,10 +14,10 @@ import torch
 import yaml
 from torch.utils.data import DataLoader
 
-from evo2_distill.data.dataset import GenomePairBatchSampler, TokenWindowDataset
+from evo2_distill.data.dataset import GenomePairBatchSampler, TailAwareGenomePairBatchSampler, TokenWindowDataset
 from evo2_distill.evaluation.ranking import evaluate_validation_predictions
-from evo2_distill.losses.ranking import pairwise_logistic_ranking_loss
-from evo2_distill.models.student import ArchitectureV1, ScalarStudentV1, trainable_parameter_count
+from evo2_distill.losses.ranking import gap_weighted_pairwise_ranking_loss, pairwise_logistic_ranking_loss
+from evo2_distill.models.student import ArchitectureV1, RankingTailStudentV2, ScalarStudentV1, trainable_parameter_count
 from evo2_distill.training.checkpoint import capture_random_states, load_checkpoint, save_checkpoint_atomic
 from evo2_distill.training.runtime import autocast_context, choose_precision, environment_summary, seed_everything, select_device
 from evo2_distill.utils.io import atomic_json_dump, sha256_file
@@ -68,6 +68,25 @@ def _apply_baseline_correction(dataset: TokenWindowDataset, model_path: Path) ->
     dataset.frame[dataset.target_column] = dataset.frame[dataset.target_column] - baseline
 
 
+def _within_genome_percentile(values: np.ndarray, assembly_ids: pd.Series) -> np.ndarray:
+    frame = pd.DataFrame({"value": values, "assembly_id": assembly_ids.to_numpy()})
+    return frame.groupby("assembly_id", sort=False)["value"].rank(method="average", pct=True).to_numpy(float)
+
+
+def _apply_frozen_baseline_fusion(frame: pd.DataFrame, dataset: TokenWindowDataset, model_path: Path, alpha: float) -> None:
+    if not 0.0 <= alpha <= 1.0:
+        raise ValueError("baseline_fusion_alpha must be in [0, 1]")
+    estimator = joblib.load(model_path)
+    features = dataset.frame[["gc_content", "window_length", "k4_rarity", "k6_rarity"]]
+    cheap = estimator.predict(features)
+    raw = frame["prediction"].to_numpy(float)
+    frame["raw_prediction"] = raw
+    frame["cheap_baseline_prediction"] = cheap
+    student_rank = _within_genome_percentile(raw, frame["assembly_id"])
+    cheap_rank = _within_genome_percentile(cheap, frame["assembly_id"])
+    frame["prediction"] = (1.0 - alpha) * student_rank + alpha * cheap_rank
+
+
 @torch.no_grad()
 def _predict(
     model: torch.nn.Module,
@@ -76,6 +95,7 @@ def _predict(
     batch_size: int,
     workers: int,
     label: str,
+    baseline_fusion: tuple[Path, float] | None = None,
 ) -> pd.DataFrame:
     loader = DataLoader(
         dataset,
@@ -112,6 +132,8 @@ def _predict(
         frame["teacher_target"] = dataset.frame["absolute_residual_original"].to_numpy()
         frame["prediction"] = frame["prediction"] + dataset.frame["baseline_prediction"].to_numpy()
     frame["split"] = "validation"
+    if baseline_fusion is not None:
+        _apply_frozen_baseline_fusion(frame, dataset, baseline_fusion[0], baseline_fusion[1])
     return frame
 
 
@@ -159,7 +181,18 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
         train_data.refresh_assembly_codes()
         validation_data.refresh_assembly_codes()
 
-    sampler = GenomePairBatchSampler(train_data.assembly_codes, batch_size, seed)
+    rank_tail_v2 = student_variant == "rank_tail_v2"
+    if rank_tail_v2:
+        sampler = TailAwareGenomePairBatchSampler(
+            train_data.assembly_codes,
+            train_data.targets,
+            batch_size,
+            seed,
+            tail_quantile=float(config["training"].get("tail_quantile", 0.90)),
+            tail_pair_fraction=float(config["training"].get("tail_pair_fraction", 0.50)),
+        )
+    else:
+        sampler = GenomePairBatchSampler(train_data.assembly_codes, batch_size, seed)
     loader = DataLoader(
         train_data,
         batch_sampler=sampler,
@@ -168,7 +201,7 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
         persistent_workers=workers > 0,
     )
     architecture = _architecture(config)
-    model = ScalarStudentV1(architecture).to(device)
+    model = (RankingTailStudentV2(architecture) if rank_tail_v2 else ScalarStudentV1(architecture)).to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=float(config["training"]["learning_rate"]), weight_decay=float(config["training"].get("weight_decay", 0.0)))
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=int(config["training"]["epochs"]))
     scaler = torch.amp.GradScaler("cuda", enabled=device.type == "cuda" and precision == "fp16")
@@ -195,6 +228,11 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
     history: list[dict[str, float | int]] = []
     ranking_weight = float(config["training"]["ranking_weight"])
     huber_weight = float(config["training"].get("huber_weight", 1.0))
+    tail_threshold = float(np.quantile(train_data.targets, float(config["training"].get("tail_quantile", 0.90))))
+    tail_loss_weight = float(config["training"].get("tail_loss_weight", 0.0))
+    baseline_fusion = None
+    if "baseline_fusion_alpha" in config.get("training", {}):
+        baseline_fusion = (_path(paths["baseline_model"]), float(config["training"]["baseline_fusion_alpha"]))
     epochs = int(config["training"]["epochs"])
     for epoch in range(start_epoch, epochs):
         sampler.set_epoch(epoch)
@@ -210,16 +248,33 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
             targets = batch["target"].to(device, non_blocking=True)
             optimizer.zero_grad(set_to_none=True)
             with autocast_context(device, precision):
-                predictions = model(tokens)
+                if rank_tail_v2:
+                    predictions, tail_logits = model.forward_with_tail(tokens)
+                else:
+                    predictions = model(tokens)
                 per_item_huber = torch.nn.functional.huber_loss(predictions, targets, reduction="none")
-                if student_variant == "tail_aware":
-                    threshold = torch.quantile(targets.detach(), float(config["training"].get("tail_quantile", 0.9)))
+                if student_variant == "tail_aware" or rank_tail_v2:
+                    threshold = (
+                        torch.as_tensor(tail_threshold, device=targets.device, dtype=targets.dtype)
+                        if rank_tail_v2
+                        else torch.quantile(targets.detach(), float(config["training"].get("tail_quantile", 0.9)))
+                    )
                     weights = torch.where(targets >= threshold, float(config["training"].get("tail_weight", 2.0)), 1.0)
                     huber = (per_item_huber * weights).mean()
                 else:
                     huber = per_item_huber.mean()
-                rank = pairwise_logistic_ranking_loss(predictions[0::2], predictions[1::2], targets[0::2], targets[1::2])
-                loss = huber_weight * huber + ranking_weight * rank
+                if rank_tail_v2:
+                    rank = gap_weighted_pairwise_ranking_loss(
+                        predictions[0::2], predictions[1::2], targets[0::2], targets[1::2],
+                        gap_weight=float(config["training"].get("gap_weight", 2.0)),
+                        maximum_weight=float(config["training"].get("maximum_pair_weight", 6.0)),
+                    )
+                    tail_labels = targets.ge(tail_threshold).to(tail_logits.dtype)
+                    tail_loss = torch.nn.functional.binary_cross_entropy_with_logits(tail_logits, tail_labels)
+                else:
+                    rank = pairwise_logistic_ranking_loss(predictions[0::2], predictions[1::2], targets[0::2], targets[1::2])
+                    tail_loss = predictions.new_zeros(())
+                loss = huber_weight * huber + ranking_weight * rank + tail_loss_weight * tail_loss
             scaler.scale(loss).backward()
             scaler.step(optimizer)
             scaler.update()
@@ -240,7 +295,7 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
         scheduler.step()
 
         validation_predictions = _predict(
-            model, validation_data, device, batch_size, workers, f"validation epoch {epoch + 1}/{epochs}"
+            model, validation_data, device, batch_size, workers, f"validation epoch {epoch + 1}/{epochs}", baseline_fusion
         )
         print(f"[validation epoch {epoch + 1}/{epochs}] calculating ranking metrics", flush=True)
         _, summary = evaluate_validation_predictions(validation_predictions)
@@ -268,9 +323,16 @@ def run_training(config_path: str | Path, resume_path: str | Path | None = None)
         }
         save_checkpoint_atomic(checkpoint, run_dir / "checkpoint" / f"epoch_{epoch + 1:03d}.pt")
 
-    validation_predictions = _predict(model, validation_data, device, batch_size, workers, "final validation")
+    validation_predictions = _predict(model, validation_data, device, batch_size, workers, "final validation", baseline_fusion)
     validation_predictions.to_parquet(run_dir / "predictions" / "validation_predictions.parquet", index=False)
     per_genome, summary = evaluate_validation_predictions(validation_predictions)
+    if "raw_prediction" in validation_predictions:
+        raw_frame = validation_predictions.copy()
+        raw_frame["prediction"] = raw_frame["raw_prediction"]
+        _, raw_summary = evaluate_validation_predictions(raw_frame)
+        for key, value in raw_summary.items():
+            if key != "test_accessed":
+                summary[f"raw_student_{key}"] = value
     per_genome.to_csv(run_dir / "metrics.csv", index=False)
     atomic_json_dump(summary, run_dir / "metrics.json")
     env = environment_summary()
