@@ -15,7 +15,9 @@ and Google Colab notebooks for validation-only Phase 4.5 development of
 
 ## Quick start
 
-1. Upload the prepared Drive payload to `MyDrive/evo2-distillation/`.
+1. Upload the prepared Drive payload to `MyDrive/evo2-distillation/`. For a
+   reliable FASTA transfer, upload `frozen_fasta_v1.tar.gz` at that root; the
+   unified notebook restores only missing/wrong-size FASTAs from it.
 2. Open [`notebooks/00_run_all_phase4_5.ipynb`](https://colab.research.google.com/github/Chelsea-19/evo2-distillation/blob/main/notebooks/00_run_all_phase4_5.ipynb) in Colab Pro.
 3. Enable a GPU runtime and run the notebook from the top.
 4. Review its validation-only candidate table before opening the explicit final

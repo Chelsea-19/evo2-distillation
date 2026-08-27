@@ -27,6 +27,9 @@ def test_master_notebook_defaults_keep_final_gate_closed_and_test_locked() -> No
     source = "\n".join("".join(cell["source"]) for cell in document["cells"])
     assert 'REPO_URL = "https://github.com/Chelsea-19/evo2-distillation.git"' in source
     assert 'DRIVE_ROOT = "/content/drive/MyDrive/evo2-distillation"' in source
+    assert 'FASTA_ARCHIVE_NAME = "frozen_fasta_v1.tar.gz"' in source
+    assert "AUTO_RESTORE_FASTA_ARCHIVE = True" in source
+    assert "restore_fasta_archive.py" in source
     assert "APPROVE_FINAL_SELECTION = False" in source
     assert "RUN_FINAL_ENSEMBLE = False" in source
     assert "PHASE 5 STARTED: NO" in source

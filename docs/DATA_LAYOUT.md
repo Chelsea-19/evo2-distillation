@@ -4,6 +4,9 @@ GitHub contains code, configs, small manifests, frozen reports, tests, and
 notebooks. Google Drive contains the 296 FASTAs, frozen target and canonical
 feature Parquets, split/runtime manifests, frozen baseline artifact, selected
 legacy checkpoints, token-cache destination, and persistent run outputs.
+The optional `frozen_fasta_v1.tar.gz` transfer archive at the Drive root is a
+reliable replacement for browser folder uploads; it contains the same 296
+manifest-pinned FASTAs and is used only to repair missing/wrong-size files.
 
 Colab stages required files from Drive into `/content/evo2-distillation-data/`.
 The complete cache consists of:

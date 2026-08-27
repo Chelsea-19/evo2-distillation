@@ -43,9 +43,12 @@ DRIVE_ROOT = "/content/drive/MyDrive/evo2-distillation"
 REPO_ROOT = "/content/evo2-distillation"
 LOCAL_DATA = "/content/evo2-distillation-data"
 LOCAL_RUNS = "/content/evo2-distillation-runs"
+FASTA_ARCHIVE_NAME = "frozen_fasta_v1.tar.gz"
+FASTA_ARCHIVE_SHA256 = "56a95502c4478a9564d94c7c35c93ba4548e52e094a56039a5b3ec607bbfbb67"
 
 REQUIRE_GPU = True
 AUTO_DISCOVER_DRIVE_ROOT = True
+AUTO_RESTORE_FASTA_ARCHIVE = True
 VERIFY_ALL_FASTA_HASHES = True
 RUN_REPOSITORY_TESTS = True
 RUN_CANDIDATES = True
@@ -71,10 +74,12 @@ assert REPO_BRANCH and "test" not in REPO_BRANCH.lower()
         """## How to use this notebook
 
 1. First pass: keep the two final-selection flags `False` and run all cells.
-2. Review the validation-only candidate table produced below.
-3. To accept the deterministic winner, set both flags to `True`, rerun the
+2. If the Drive FASTA folder is incomplete, upload `frozen_fasta_v1.tar.gz`
+   into `DRIVE_ROOT`; the notebook restores only missing/wrong-size files.
+3. Review the validation-only candidate table produced below.
+4. To accept the deterministic winner, set both flags to `True`, rerun the
    controls cell, then rerun from **Freeze the validation-selected student**.
-4. Never change a split to TEST. The code rejects TEST even if requested.
+5. Never change a split to TEST. The code rejects TEST even if requested.
 """
     ),
     code(
@@ -216,6 +221,18 @@ for relative in [
 print("Drive root:", DRIVE_ROOT)
 for marker in required_markers:
     print("PASS", marker)
+
+if AUTO_RESTORE_FASTA_ARCHIVE:
+    run_cmd([
+        "python",
+        f"{REPO_ROOT}/scripts/restore_fasta_archive.py",
+        "--drive-root",
+        DRIVE_ROOT,
+        "--archive",
+        str(pathlib.Path(DRIVE_ROOT, FASTA_ARCHIVE_NAME)),
+        "--expected-archive-sha256",
+        FASTA_ARCHIVE_SHA256,
+    ])
 """
     ),
     markdown("## Verify frozen Phase 0–4 gates and TEST lock\n"),
