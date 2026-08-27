@@ -11,7 +11,7 @@ import yaml
 
 from evo2_distill.training.trainer import run_training
 
-ALLOWED_TYPES = {"data_scaling", "capacity_scaling", "tail_aware", "baseline_correction", "final_ensemble"}
+ALLOWED_TYPES = {"data_scaling", "capacity_scaling", "tail_aware", "baseline_correction", "rank_tail_v2", "final_ensemble"}
 
 
 def main() -> None:
