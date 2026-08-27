@@ -104,3 +104,55 @@ class GenomePairBatchSampler(Sampler[list[int]]):
                 left, right = rng.choice(self.groups[int(group_index)], size=2, replace=False)
                 batch.extend((int(left), int(right)))
             yield batch
+
+
+class TailAwareGenomePairBatchSampler(GenomePairBatchSampler):
+    """Mix ordinary within-genome pairs with pre-specified high-vs-low pairs.
+
+    The tail sets are computed from DEVELOPMENT targets only.  Validation labels
+    are never used by this sampler.
+    """
+
+    def __init__(
+        self,
+        assembly_codes: np.ndarray,
+        targets: np.ndarray,
+        batch_size: int,
+        seed: int,
+        tail_quantile: float = 0.90,
+        tail_pair_fraction: float = 0.50,
+        drop_last: bool = True,
+    ) -> None:
+        super().__init__(assembly_codes, batch_size, seed, drop_last)
+        if not 0.5 < tail_quantile < 1.0:
+            raise ValueError("tail_quantile must be in (0.5, 1)")
+        if not 0.0 <= tail_pair_fraction <= 1.0:
+            raise ValueError("tail_pair_fraction must be in [0, 1]")
+        self.tail_pair_fraction = float(tail_pair_fraction)
+        target_values = np.asarray(targets, dtype=np.float64)
+        self.tail_groups: list[tuple[np.ndarray, np.ndarray]] = []
+        for group in self.groups:
+            threshold = float(np.quantile(target_values[group], tail_quantile))
+            high = group[target_values[group] >= threshold]
+            low = group[target_values[group] < threshold]
+            if len(high) and len(low):
+                self.tail_groups.append((high, low))
+        if not self.tail_groups:
+            raise ValueError("No genome has both tail and non-tail development windows")
+
+    def __iter__(self) -> Iterator[list[int]]:
+        rng = np.random.default_rng(self.seed + self.epoch)
+        for _ in range(len(self)):
+            batch: list[int] = []
+            for _ in range(self.batch_size // 2):
+                if rng.random() < self.tail_pair_fraction:
+                    high, low = self.tail_groups[int(rng.integers(0, len(self.tail_groups)))]
+                    pair = (int(rng.choice(high)), int(rng.choice(low)))
+                    if rng.random() < 0.5:
+                        pair = pair[::-1]
+                else:
+                    group = self.groups[int(rng.integers(0, len(self.groups)))]
+                    left, right = rng.choice(group, size=2, replace=False)
+                    pair = (int(left), int(right))
+                batch.extend(pair)
+            yield batch
