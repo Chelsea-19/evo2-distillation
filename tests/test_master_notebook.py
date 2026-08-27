@@ -30,6 +30,10 @@ def test_master_notebook_defaults_keep_final_gate_closed_and_test_locked() -> No
     assert 'FASTA_ARCHIVE_NAME = "frozen_fasta_v1.tar.gz"' in source
     assert "AUTO_RESTORE_FASTA_ARCHIVE = True" in source
     assert "restore_fasta_archive.py" in source
+    assert 'source_root = str(pathlib.Path(REPO_ROOT, "src"))' in source
+    assert "sys.path.insert(0, source_root)" in source
+    assert "def atomic_copy(source, destination):" in source
+    assert "from evo2_distill.utils.io import atomic_copy" not in source
     assert "APPROVE_FINAL_SELECTION = False" in source
     assert "RUN_FINAL_ENSEMBLE = False" in source
     assert "PHASE 5 STARTED: NO" in source
@@ -41,3 +45,4 @@ def test_final_ensemble_can_preserve_selected_student_variant() -> None:
     assert 'config.get("student_variant", config["experiment_type"])' in trainer
     assert 'student_variant == "baseline_correction"' in trainer
     assert 'student_variant == "tail_aware"' in trainer
+

@@ -94,6 +94,7 @@ import pathlib
 import platform
 import shutil
 import subprocess
+import sys
 import threading
 import time
 from datetime import datetime, timezone
@@ -142,6 +143,26 @@ def atomic_json(path, payload):
     temporary = path.with_name(path.name + ".partial")
     temporary.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
     os.replace(temporary, path)
+
+
+def sha256_path(path):
+    digest = hashlib.sha256()
+    with pathlib.Path(path).open("rb") as handle:
+        for block in iter(lambda: handle.read(8 * 1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def atomic_copy(source, destination):
+    source = pathlib.Path(source)
+    destination = pathlib.Path(destination)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    temporary = destination.with_name(destination.name + ".partial")
+    shutil.copy2(source, temporary)
+    if sha256_path(source) != sha256_path(temporary):
+        temporary.unlink(missing_ok=True)
+        raise IOError(f"Checksum mismatch while copying {source} to {destination}")
+    os.replace(temporary, destination)
 """
     ),
     markdown("## Acquire the exact GitHub repository and install dependencies\n"),
@@ -160,6 +181,11 @@ else:
 
 run_cmd(["python", "-m", "pip", "install", "-r", f"{REPO_ROOT}/requirements/requirements-colab.txt"])
 run_cmd(["python", "-m", "pip", "install", "-e", REPO_ROOT])
+source_root = str(pathlib.Path(REPO_ROOT, "src"))
+if source_root not in sys.path:
+    sys.path.insert(0, source_root)
+import evo2_distill
+print("Notebook kernel package:", pathlib.Path(evo2_distill.__file__).resolve())
 run_cmd(["python", f"{REPO_ROOT}/scripts/verify_environment.py", "--require-gpu"])
 GIT_COMMIT = run_cmd(["git", "-C", REPO_ROOT, "rev-parse", "HEAD"]).strip()
 print("Git commit:", GIT_COMMIT)
@@ -308,7 +334,6 @@ if local_cache_manifest.is_file():
 run_cmd(cache_command)
 
 if not drive_cache_manifest.is_file():
-    from evo2_distill.utils.io import atomic_copy
     drive_cache.mkdir(parents=True, exist_ok=True)
     for source in local_cache.glob("*"):
         if source.is_file():
@@ -341,7 +366,6 @@ run_cmd([
     "--device",
     "cuda",
 ])
-from evo2_distill.utils.io import atomic_copy
 atomic_copy(benchmark_path, pathlib.Path(DRIVE_ROOT, "results/phase4_5/gpu_benchmark.json"))
 """
     ),
@@ -708,3 +732,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
