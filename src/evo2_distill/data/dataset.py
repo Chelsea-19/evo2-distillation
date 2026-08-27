@@ -22,6 +22,7 @@ class TokenWindowDataset(Dataset):
         split: str,
         target_column: str = "absolute_residual",
         additional_columns: list[str] | None = None,
+        include_metadata: bool = True,
     ) -> None:
         self.cache_dir = Path(cache_dir)
         self.split = require_phase4_5_split(split)
@@ -41,26 +42,36 @@ class TokenWindowDataset(Dataset):
         if self.frame.empty:
             raise ValueError(f"No rows for permitted split {self.split}")
         self.target_column = target_column
-        self.assembly_codes, self.assembly_ids = pd.factorize(self.frame["assembly_id"], sort=True)
+        self.include_metadata = include_metadata
+        self.refresh_assembly_codes()
 
     def refresh_assembly_codes(self) -> None:
         self.assembly_codes, self.assembly_ids = pd.factorize(self.frame["assembly_id"], sort=True)
+        self.cache_indices = self.frame["cache_index"].to_numpy(dtype=np.int64, copy=True)
+        self.targets = self.frame[self.target_column].to_numpy(dtype=np.float32, copy=True)
 
     def __len__(self) -> int:
         return len(self.frame)
 
     def __getitem__(self, index: int) -> dict[str, object]:
-        row = self.frame.iloc[index]
-        cache_index = int(row["cache_index"])
-        return {
-            "tokens": torch.from_numpy(np.array(self.tokens[cache_index], dtype=np.int64, copy=True)),
-            "target": torch.tensor(float(row[self.target_column]), dtype=torch.float32),
-            "assembly_code": torch.tensor(int(self.assembly_codes[index]), dtype=torch.int64),
-            "window_id": str(row["window_id"]),
-            "assembly_id": str(row["assembly_id"]),
-            "cluster_id": str(row["cluster_id"]),
-            "cache_index": cache_index,
+        cache_index = int(self.cache_indices[index])
+        item: dict[str, object] = {
+            # Keep the host-side representation compact and cast once on GPU.
+            "tokens": torch.from_numpy(np.array(self.tokens[cache_index], dtype=np.uint8, copy=True)),
+            "target": torch.tensor(self.targets[index], dtype=torch.float32),
         }
+        if self.include_metadata:
+            row = self.frame.iloc[index]
+            item.update(
+                {
+                    "assembly_code": torch.tensor(int(self.assembly_codes[index]), dtype=torch.int64),
+                    "window_id": str(row["window_id"]),
+                    "assembly_id": str(row["assembly_id"]),
+                    "cluster_id": str(row["cluster_id"]),
+                    "cache_index": cache_index,
+                }
+            )
+        return item
 
 
 class GenomePairBatchSampler(Sampler[list[int]]):
